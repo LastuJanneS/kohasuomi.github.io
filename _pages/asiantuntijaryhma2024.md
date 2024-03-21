@@ -57,7 +57,7 @@ Vaski on yhteydessä Broomworks Oy:hyn, olisiko heillä kiinnostusta tutkia lain
 #### 4.1 Uutiskirjeen vastuutus
 
 1. kirjeen koonti Vaskin vastuulla, deadline 29.3.2024, julkaisu viikolla 14.<br />
-2. kirjeen koonti Lapin vastuulla, deadline 30.5.2024, julkaisu vkolla 19.<br />
+2. kirjeen koonti Lapin vastuulla, deadline 30.5.2024, julkaisu vkolla 23.<br />
 3. kirjeen koonti OUTIn vastuulla, deadline 30.9.2024, julkaisu vkolla 41.<br />
 4. kirjeen koonti Vaaran vastuulla, deadline 6.12.2024, julkaisu vkolla 50.
    
@@ -100,7 +100,7 @@ Syksyn Koha-seminaarissa tuli esille ajatus kaikille Kohaa käyttäville kohdist
 Sovitaan kimppojen järjestys uutiskirjeen kirjoittamiselle.
 
 1. kirjeen koonti Vaskin vastuulla, deadline 29.3.2024, julkaisu viikolla 14.<br />
-2. kirjeen koonti xx vastuulla, deadline 30.5.2024, julkaisu vkolla 19.<br />
+2. kirjeen koonti xx vastuulla, deadline 30.5.2024, julkaisu vkolla 23.<br />
 3. kirjeen koonti xx vastuulla, deadline 30.9.2024, julkaisu vkolla 41.<br />
 4. kirjeen koonti xx vastuulla, deadline 6.12.2024, julkaisu vkolla 50.
 
