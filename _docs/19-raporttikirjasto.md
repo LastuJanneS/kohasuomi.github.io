@@ -1657,7 +1657,7 @@ GROUP BY isbn
 HAVING COUNT(*)>1) as tuplat ON bi.isbn = tuplat.isbn
 ```
 
-#### Tuplatietueet, joilla on sama ISBN, versio 3
+#### Tuplatietueet, joilla on sama ISBN, versio 2
 
 Näyttää myös 000/05-merkkipaikan tiedon (n/c). Jokainen teos omalla rivillään, jolloin jokaisesta näkyy nimeke. Rajattu ulkopuolelle sellaiset isbn:t kuten "sid.", "kierrekansio" yms.
 
