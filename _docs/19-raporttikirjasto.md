@@ -1629,90 +1629,81 @@ HAVING COUNT(CONCAT(title,"/",author))>1
 
 #### Tuplatietueet, joissa sama ISBN
 
-Lisätty: 21.12.2023
-Versio 22.11
+Raportilla voi hakea tietueet, joilla on sama ISBN. Ei ota mukaan tietueita, joissa ISBN on nid, (kansio), (hft.), (inb.), (rengaskirja), sid., yms. Jokainen nimeke tulee omalle rivilleen, jolloin erottaa helpommin samalla ISBN:llä olevat sarjan eri osat.
 
-Huomioi, että tulokset on rajoitettu 500.
-
-```
-SELECT
-GROUP_CONCAT(DISTINCT CONCAT('<a href="/cgi-bin/koha/catalogue/detail.pl?biblionumber=',b. biblionumber, '">', b.biblionumber, ' ', ExtractValue(metadata, '//controlfield[@tag="003"]'), '</a>') ORDER BY b.biblionumber SEPARATOR ', ') AS 'Tietueet',
-isbn,
-title AS 'Nimi',
-author AS 'Tekijä' 
-FROM biblioitems bi
-JOIN biblio b using (biblionumber)
-left join biblio_metadata using (biblionumber)
-GROUP BY CONCAT(bi.isbn)
-HAVING COUNT(CONCAT(bi.isbn))>1
-ORDER BY 1
-limit 500
-```
-
-
-#### Tuplatietueet, joissa sama ISBN, versio 2
-
-Ei ota mukaan tietueita, joissa ISBN on nid, (kansio), (hft.), (inb.), (rengaskirja) tai sid. Huomioi, että tulokset on rajoitettu 2000 riviin.
-
-Lisätty: 21.12.2023
-Versio 22.11
+Lisätty: 21.12.2023 / Päivitetty 21.3.2024
+Versio 22.11, 23.11
 
 ```
 SELECT
-GROUP_CONCAT(DISTINCT CONCAT('<a href="/cgi-bin/koha/catalogue/detail.pl?biblionumber=',biblio.biblionumber, '">', biblio.biblionumber, '</a>') ORDER BY biblio.biblionumber SEPARATOR ', ') AS 'Tietueet',isbn, title AS 'Nimi', author AS 'Tekijä' 
-FROM biblioitems
-JOIN biblio using (biblionumber)
-WHERE isbn is not null
-AND isbn not like '%nid%'
-AND isbn not like '%(kansio)%'
-AND isbn not like '%(hft.)%'
-AND isbn not like '%(inb.)%'
-AND isbn not like '%(rengaskirja)%'
-AND isbn not like '%sid%'
-GROUP BY CONCAT(isbn)
-HAVING COUNT(CONCAT(isbn))>1
-ORDER BY isbn, title
-LIMIT 2000
+b.biblionumber,bi.isbn, CONCAT_WS(' ', b.title, b.subtitle, b.part_number, b.part_name) AS 'Nimeke', author AS 'Tekijä' 
+FROM biblio b
+LEFT JOIN biblioitems bi ON b.biblionumber = bi.biblioitemnumber
+INNER JOIN
+(SELECT isbn
+   FROM biblioitems bi
+   WHERE isbn is not null
+   AND isbn not like '%nid%'
+   AND isbn not like '%(kansio)%'
+   AND isbn not like '%(hft.)%'
+   AND isbn not like '%(inb.)%'
+   AND isbn not like '%(rengaskirja)%'
+   AND isbn not like '%sid%'
+   AND isbn not like '%moniste%'
+   AND isbn not like '%kierre%'
+   AND isbn not like '%koko%'
+   AND isbn not like '%rengas%'
+GROUP BY isbn
+HAVING COUNT(*)>1) as tuplat ON bi.isbn = tuplat.isbn
 ```
 
 #### Tuplatietueet, joilla on sama ISBN, versio 3
 
-Näyttää 000/05-merkkipaikan tiedon (n/c). Tulokset rajoitettu 200 riviin.
+Näyttää myös 000/05-merkkipaikan tiedon (n/c). Jokainen teos omalla rivillään, jolloin jokaisesta näkyy nimeke. Rajattu ulkopuolelle sellaiset isbn:t kuten "sid.", "kierrekansio" yms.
+
+Päivitetty: 21.3.2024
+Versio: 22.11, 23.11
 
 ```
-SELECT
-GROUP_CONCAT(DISTINCT CONCAT('<a href="/cgi-bin/koha/catalogue/detail.pl?biblionumber=',b. biblionumber, '">', b.biblionumber, ' ', '</a>') ORDER BY b.biblionumber SEPARATOR ', ') AS 'Tietueet',
-GROUP_CONCAT(DISTINCT ExtractValue(metadata, '//controlfield[@tag="001"]') ORDER BY b.biblionumber SEPARATOR ', ') AS '001',
-GROUP_CONCAT(DISTINCT ExtractValue(metadata, '//controlfield[@tag="003"]') ORDER BY b.biblionumber SEPARATOR ', ') AS '003',
-GROUP_CONCAT(SUBSTR(ExtractValue(metadata,'//leader'),6,1) ORDER BY b.biblionumber SEPARATOR ', ') AS '000/05',
-isbn,
-title AS 'Nimi',
-author AS 'Tekijä' 
-FROM biblioitems bi
-JOIN biblio b using (biblionumber)
-left join biblio_metadata using (biblionumber)
-GROUP BY CONCAT(bi.isbn)
-HAVING COUNT(CONCAT(bi.isbn))>1
-ORDER BY 1
-limit 200
+SELECT b.biblionumber, ExtractValue(bm.metadata, '//controlfield[@tag="001"]') AS '001',
+ExtractValue(bm.metadata, '//controlfield[@tag="003"]') AS '003',
+SUBSTR(ExtractValue(bm.metadata,'//leader'),6,1) AS '000/05', bi.isbn, CONCAT_WS(' ', b.title, b.subtitle, b.part_number, b.part_name) AS 'Nimeke', b.author AS 'Tekijä'
+FROM biblio b LEFT JOIN biblioitems bi ON b.biblionumber = bi.biblionumber
+INNER JOIN  
+(SELECT isbn
+   FROM biblioitems bi
+   WHERE isbn not like '%nid%'
+   AND isbn not like '%(kansio)%'
+   AND isbn not like '%(hft.)%'
+   AND isbn not like '%(inb.)%'
+   AND isbn not like '%(rengaskirja)%'
+   AND isbn not like '%sid%'
+   AND isbn not like '%moniste%'
+   AND isbn not like '%kierre%'
+   AND isbn not like '%koko%'
+   AND isbn not like '%rengas%'
+  GROUP BY isbn
+ HAVING COUNT(*)>1) AS tuplat ON bi.isbn = tuplat.isbn
+ LEFT JOIN biblio_metadata bm ON b.biblionumber = bm.biblionumber
 ```
 
 #### Tuplatietueet, joilla sama EAN-tunnus
 
-Lisätty: 21.12.2023
-Versio 22.11
+Raportti hakee tietueet, joilla on sama EAN-tunnus. Jokainen nimeke tulee omalle rivilleen, jolloin on helpompi huomata sarjan eri osat, joilla on sama EAN-koodi.
+
+Lisätty: 21.12.2023 / Päivitetty 21.3.2024
+Versio 22.11, 23.11
 
 ```
 SELECT
-GROUP_CONCAT(DISTINCT CONCAT('<a href="/cgi-bin/koha/catalogue/detail.pl?biblionumber=',b. biblionumber, '">', b.biblionumber, '</a>') ORDER BY b.biblionumber SEPARATOR ', ') AS 'Tietueet',
-ean,
-title AS 'Nimi',
-author AS 'Tekijä' 
-FROM biblioitems bi
-JOIN biblio b using (biblionumber)
-GROUP BY CONCAT(bi.ean)
-HAVING COUNT(CONCAT(bi.ean))>1
-ORDER BY 1
+b.biblionumber,bi.ean, CONCAT_WS(' ', b.title, b.subtitle, b.part_number, b.part_name) AS 'Nimeke', author AS 'Tekijä' 
+FROM biblio b
+LEFT JOIN biblioitems bi ON b.biblionumber = bi.biblioitemnumber
+INNER JOIN
+(SELECT ean
+   FROM biblioitems bi
+   GROUP BY ean
+HAVING COUNT(*)>1) as tuplat ON bi.ean = tuplat.ean
 ```
 
 ### Nimekkeet, joissa on varauksia muttei niteitä
