@@ -1614,7 +1614,7 @@ Tähän on kerätty useammanlaisia raportteja, joilla haetaan eri ehdoilla tupla
 
 #### Tuplatietueet, joilla sama tekijä ja nimeke
 
-Lisätty: 21.12.2023
+Lisätty: 21.12.2023<br/>
 Versio 22.11
 
 ```
@@ -1631,7 +1631,7 @@ HAVING COUNT(CONCAT(title,"/",author))>1
 
 Raportilla voi hakea tietueet, joilla on sama ISBN. Ei ota mukaan tietueita, joissa ISBN on nid, (kansio), (hft.), (inb.), (rengaskirja), sid., yms. Jokainen nimeke tulee omalle rivilleen, jolloin erottaa helpommin samalla ISBN:llä olevat sarjan eri osat.
 
-Lisätty: 21.12.2023 / Päivitetty 21.3.2024
+Lisätty: 21.12.2023 / Päivitetty 21.3.2024<br/>
 Versio 22.11, 23.11
 
 ```
@@ -1661,7 +1661,7 @@ HAVING COUNT(*)>1) as tuplat ON bi.isbn = tuplat.isbn
 
 Näyttää myös 000/05-merkkipaikan tiedon (n/c). Jokainen teos omalla rivillään, jolloin jokaisesta näkyy nimeke. Rajattu ulkopuolelle sellaiset isbn:t kuten "sid.", "kierrekansio" yms.
 
-Päivitetty: 21.3.2024
+Päivitetty: 21.3.2024<br/>
 Versio: 22.11, 23.11
 
 ```
@@ -1691,7 +1691,7 @@ INNER JOIN
 
 Raportti hakee tietueet, joilla on sama EAN-tunnus. Jokainen nimeke tulee omalle rivilleen, jolloin on helpompi huomata sarjan eri osat, joilla on sama EAN-koodi.
 
-Lisätty: 21.12.2023 / Päivitetty 21.3.2024
+Lisätty: 21.12.2023 / Päivitetty 21.3.2024<br/>
 Versio 22.11, 23.11
 
 ```
