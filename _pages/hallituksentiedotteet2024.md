@@ -11,6 +11,26 @@ title: 'Hallituksen tiedotteet 2024'
 
 Tällä sivulla on Koha-Suomen hallituksen tiedotteet vuodelta 2024. Ylimmäisenä on aina uusin tiedote.
 
+## Koha-Suomen hallituksen tiedote 3/2024
+
+22.3.2024
+
+Hei kaikille!
+
+Kokouksen keskeisimmät asiat olivat alkuvuoden talouden toteuma ja toimitusjohtajan raportti. Molempien perusteella vuosi on lähtenyt suunnitellusti käyntiin ja mitään ikäviä yllätyksiä ei ole ollut. Toimitusjohtajan raportin pohjalta kävimme keskustelua yhteisestä PowerBI-kehittämisestä, jota on hyvä vielä vahvistaa. Bugiperjantai-käytäntö vaikuttaa oikein hyvältä ja hienoa, että meidän kehittämisemme saa lisää painoarvoa kansainvälisessä yhteisössä. Lisäksi kävimme läpi asiantuntijaryhmän vuosisuunnitelman, joka kannattaa käydä lukemassa. Kuten myös asiantuntijaryhmän muistiot. Hienoa, että uutiskirjeiden toimitusvastuut on saatu organiseerattua tälle vuodelle. Kiva odotella ensimmäistä kirjettä.
+
+Hyväksyimme tämän vuoden viestintäsuunnitelman, liitteenä.
+
+Hyvää viikonloppua!
+
+T. Rebekka, hallituksen pj
+<br/><br/>
+
+Toimitusjohtajan raportti 3/24: [Toimitusjohtajanraportti3_24.pdf](https://github.com/KohaSuomi/kohasuomi.github.io/files/14719552/Toimitusjohtajanraportti3_24.pdf)
+
+Viestintäsuunnitelma 2024: [Viestintasuunnitelma2024.pdf](https://github.com/KohaSuomi/kohasuomi.github.io/files/14719554/Viestintasuunnitelma2024.pdf)
+
+
 ## Koha-Suomen hallituksen tiedote 2/2024
 
 23.2.2024
