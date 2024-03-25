@@ -1818,7 +1818,45 @@ Toimii versioissa: 22.11 ja 23.11
  		AND bde.primary_language LIKE <<Kielikoodi tai % kaikki (älä jätä tyhjäksi)>> )
  LIMIT 500
 ```
+### Inventaarion tukiraportit
 
+#### Inventaarion apuraportti signumilla
+
+Inventaarion apuraportti, jossa haetaan signumilla, hyllypaikalla ja sijaintikirjastolla. Päivämääräkenttään valitaan inventaarion tekopäivä.
+
+Lisääjä: Anneli Österman<br/>
+Lisäyspvm: 25.3.2024<br/>
+Versio: 22.11, 23.11
+
+```
+SELECT CONCAT_WS(" ", b.title, b.subtitle, b.part_name, b.part_number) AS 'Nimeke', author AS 'Tekijä', itemnumber, barcode AS 'Viivakoodi', itemcallnumber AS 'Signum', datelastseen AS 'Viimeksi nähty'
+FROM items
+LEFT JOIN biblio b USING (biblionumber)
+WHERE holdingbranch = <<Valitse sijaintikirjasto|branches>>
+AND location = <<Valitse hyllypaikka|loc>>
+AND items.cn_sort LIKE <<Signumin luokka ja %>>
+AND date(items.datelastseen) != <<Valitse inventaarion päivämäärä|date>>
+AND onloan IS NULL
+```
+
+#### Inventaarion apuraportti kokoelmalla
+
+Inventaarion apuraportti, jossa haetaan kokoelmalla, hyllypaikalla ja sijaintikirjastolla. Päivämääräkenttään valitaan inventaarion tekopäivä.
+
+Lisääjä: Anneli Österman<br/>
+Lisäyspvm: 25.3.2024<br/>
+Versio: 22.11, 23.11
+
+```
+SELECT CONCAT_WS(" ", b.title, b.subtitle, b.part_name, b.part_number) AS 'Nimeke',author AS 'Tekijä', itemnumber, barcode AS 'Viivakoodi', itemcallnumber AS 'Signum', datelastseen AS 'Viimeksi nähty'
+FROM items
+LEFT JOIN biblio b USING (biblionumber)
+WHERE holdingbranch = <<Valitse sijaintikirjasto|branches>>
+AND location = <<Valitse hyllypaikka|loc>>
+AND ccode = <<Valitse kokoelma|ccode>>
+AND datelastseen != <<Valitse inventaarion päivämäärä|date>>
+AND onloan IS NULL
+```
 
 ## Laskutus
 
