@@ -16,8 +16,9 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 ## Viikko 13
 
 Aika: 25.3.2024 klo 9<br />
-Läsnä: 
+Läsnä: Ari, Lari, Anneli, Kassu, Lasse, Johanna, Emmi, Pasi
 
+* Vk 14 pääkäyttäjille pääsy nexteille testausta varten
 
 ## Viikko 12
 
