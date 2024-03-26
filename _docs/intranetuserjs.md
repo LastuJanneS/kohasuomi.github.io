@@ -989,6 +989,12 @@ $(document).ready(function() {
     $("#searchterms select option[value='location']").val('loc'); /* Muuttaa location-arvon loc-arvoksi "Hakusanat"-valikossa */
 });
 
+$(document).ready(function () {
+  if (window.location.href.indexOf("catalogue/search.pl?advsearch=1&edit_search=1") > -1) {
+      $("#searchterms select option[value='location']").val('loc'); /* Muuttaa location-arvon loc-arvoksi "Hakusanat"-valikossa, kun hakua mennään muokkaamaan*/     
+  }
+});
+
 /// LOPPU ///
 ```
 
