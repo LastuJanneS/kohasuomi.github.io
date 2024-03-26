@@ -10,6 +10,19 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2024'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 13
+
+Aika: 26.3.2024 klo 9.15<br />
+Läsnä:
+
+**Yhteiset**
+* Viikolla 14 voi päästää muitakin kuin pääkäyttäjiä testaamaan nextejä.
+* 
+
+Pohjoisesta etelään
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-13) - [Palaa sivun alkuun](/paakayttajat2024)
+
 ## Viikko 12
 
 Aika: 19.3.2024 klo 9.15<br />
@@ -18,6 +31,8 @@ Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Tuomas Kunttu (Kyyti), An
 **Yhteiset**
 * [Kori-toiminnosta nidetyyppi-sarakkeen piilotus](https://github.com/KohaSuomi/Koha/issues/411#issuecomment-1976349820)
 * [Asiantuntijaryhmän muistio 4/24](https://github.com/KohaSuomi/Koha/discussions/1123)
+
+Etelästä pohjoiseen
 
 **Kyyti**
 * Uuden version ominaisuudesta kysyin, että voiko Varauksen teosta vahvistusviesti (EmailPatronWhenHoldIsPlaced) -toiminnon päälle laittaminen aiheuttaa mitään kuormaongelmaa sähköpostipalvelimella? - Ei kuulemma aiheuta.
@@ -56,6 +71,7 @@ Läsnä: Anneli Österman ja Lari Strand (Koha-Suomi), Tuomas Kunttu (Kyyti), An
 * Kirkes-johtoryhmä harkitsee noutamattomien varausten maksun poistamista lapsiasiakkailta, mutta päätöstä ei ole vielä tehty. Varaudutaan kuitenkin poistoajon käyttöönottoon.
 * Salasananvaihtoviestit laitettaneen päälle jollain aikataululla. 
 
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-12) - [Palaa sivun alkuun](/paakayttajat2024)
 
 ## Viikko 11
 
