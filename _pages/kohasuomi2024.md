@@ -13,6 +13,14 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja päivittäin 15 minuutin pikapalaveriin. Muistio kirjoitetaan vain maanantain pidemmästä palaverista. Uusin muistio on aina ylimmäisenä.
 
+## Viikko 14
+
+Aika: 2.4.2024 klo 13?<br />
+Läsnä:
+
+* Mitkä kaikki [JS-rimpsut](https://github.com/KohaSuomi/Koha-23x/wiki/IntranetUserJS) plugarisoidaan?
+
+
 ## Viikko 13
 
 Aika: 25.3.2024 klo 9<br />
