@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 13
 
 Aika: 26.3.2024 klo 9.15<br />
-Läsnä: Iina Niemi (Vaski), Lotta Juvonen (Helle), Leena Kinnunen ja Pia Kusmin (Lappi), Anneli Österman ja Pasi Kallinen (Koha-Suomi)
+Läsnä: Iina Niemi (Vaski), Lotta Juvonen (Helle), Leena Kinnunen ja Pia Kusmin (Lappi), Anneli Österman ja Pasi Kallinen (Koha-Suomi), Päivi Knuutinen ja Irina Halminen (Vaara)
 
 **Yhteiset**
 * Viikolla 14 voi päästää muitakin kuin pääkäyttäjiä testaamaan nextejä.
@@ -27,6 +27,11 @@ Pohjoisesta etelään
 * Rovaniemen remontin vuoksi kirjasto siirtyy Asemakirjastoon (entinen linja-auto-asema). Varausten siirtoon liittyen on tehty kolme tikettiä : 1132, 1133 ja 1134. Näissä on määräpäivänä 12.4. sekä 30.4. (tiketti 1132). 
 * Omatoimikirjastoissa sallitut asiakaslajit ovat vain henkilö, huollettava (muu kuin lapsi), lapsi ja lapsi omatoimi. Kotipalveluasiakkaiden pääsy pitää lisätä omatoimikirjastoihin. 
 * Käyttäjäryhmä on jonkin verran käynyt jo tutkimassa nextiä, ja pääkäyttäjät ovat hoitaneet asetuksia kuntoon.
+
+**Vaara**
+* Tietuesiirtäjä otettu käyttöön tänä aamuna.
+* Työn alla huoltajalle lähetettävä viesti, kun lapsen tiedoista puuttuu henkilötunnus. (tiketti https://github.com/KohaSuomi/Koha/issues/865)
+* Kuunteluoppilaana aloitti Hanna Hyttinen, josta tulee uusi pääpääkäyttäjä Vaaraan Päivin jälkeen
   
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-13) - [Palaa sivun alkuun](/paakayttajat2024)
