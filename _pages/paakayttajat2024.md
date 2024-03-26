@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 13
 
 Aika: 26.3.2024 klo 9.15<br />
-Läsnä: Iina Niemi (Vaski), Lotta Juvonen (Helle), Leena Kinnunen ja Pia Kusmin (Lappi), Anneli Österman ja Pasi Kallinen (Koha-Suomi), Päivi Knuutinen ja Irina Halminen (Vaara), Kati Sillgren (Helle), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Hanna Ikonen (Lumme)
+Läsnä: Iina Niemi (Vaski), Lotta Juvonen (Helle), Leena Kinnunen ja Pia Kusmin (Lappi), Anneli Österman ja Pasi Kallinen (Koha-Suomi), Päivi Knuutinen ja Irina Halminen (Vaara), Kati Sillgren (Helle), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Hanna Ikonen (Lumme), Tuomas Kunttu (Kyyti)
 
 **Yhteiset**
 * Viikolla 14 voi päästää muitakin kuin pääkäyttäjiä testaamaan nextejä.
@@ -40,7 +40,11 @@ Pohjoisesta etelään
 **Lumme**
 * Normaalia ylläpitoa.
 * Hyllyvarausraportissa värikoodaus on todettu toimivaksi, kun poimitaan varauksia ja varattu nide sijaitsee varauksentekokirjastossa. Nyt toivottiin värikoodausta, kun varaus sijaitsee saman seudun alueella kuljetusten helpottamiseksi. Tästä tehdään kehitysehdotus. 
-  
+
+**Kyyti**
+* Tiedonhaku kokoelmatyössä koulutukseen raportit laitettu Kyytiin.
+* Muutama tulevan version testitiketti testattu toimivaksi.
+* Pyhtään uuden automaatin lainojen uusinta -toiminnossa on jokin ongelma. [Tiketti 1137](https://github.com/KohaSuomi/Koha/issues/1137)
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-13) - [Palaa sivun alkuun](/paakayttajat2024)
 
