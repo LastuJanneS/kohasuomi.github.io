@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 13
 
 Aika: 26.3.2024 klo 9.15<br />
-Läsnä: Iina Niemi (Vaski), Lotta Juvonen (Helle), Leena Kinnunen ja Pia Kusmin (Lappi), Anneli Österman ja Pasi Kallinen (Koha-Suomi), Päivi Knuutinen ja Irina Halminen (Vaara), Kati Sillgren (Helle), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI)
+Läsnä: Iina Niemi (Vaski), Lotta Juvonen (Helle), Leena Kinnunen ja Pia Kusmin (Lappi), Anneli Österman ja Pasi Kallinen (Koha-Suomi), Päivi Knuutinen ja Irina Halminen (Vaara), Kati Sillgren (Helle), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Hanna Ikonen (Lumme)
 
 **Yhteiset**
 * Viikolla 14 voi päästää muitakin kuin pääkäyttäjiä testaamaan nextejä.
@@ -36,6 +36,10 @@ Pohjoisesta etelään
 **OUTI**
 * Muhoksen ja Pyhäjoen kirjastoissa otetaan käyttöön omatoimilaitteistot. Sip-tunnukset tehty ja toimitettu Koha-Suomelle ja laitetoimittajille.
 * Anneli kysyy tieteellisiltä, tuleeko heille lainaustilanteessa sinistä huomautusilmoitusta, jossa tällä hetkellä näkyvät Koha-Suomen kimpoilla asiakkaan yksityisoikeudelliset maksut. Jos asiakkaalla on myös julkisoikeudellisia maksuja, ilmoituksen teksti antaa virheellisen tiedon asiakkaan maksuista. Jos tieteellisille sopii, Koha-Suomessa muutetaan huomautuksen tekstiksi: "Asiakkaalla on maksamattomia maksuja, jotka eivät vaikuta lainauskieltoon: XX,XX €". Tiketti: https://github.com/KohaSuomi/Koha-translations/issues/39
+
+**Lumme**
+* Normaalia ylläpitoa.
+* Hyllyvarausraportissa värikoodaus on todettu toimivaksi, kun poimitaan varauksia ja varattu nide sijaitsee varauksentekokirjastossa. Nyt toivottiin värikoodausta, kun varaus sijaitsee saman seudun alueella kuljetusten helpottamiseksi. Tästä tehdään kehitysehdotus. 
   
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-13) - [Palaa sivun alkuun](/paakayttajat2024)
