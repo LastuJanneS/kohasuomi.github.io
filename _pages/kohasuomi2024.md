@@ -15,11 +15,14 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 
 ## Viikko 14
 
-Aika: 2.4.2024 klo 13?<br />
+Aika: Tiistai 2.4.2024 klo 13?<br />
 Läsnä:
 
 * Mitkä kaikki [JS-rimpsut](https://github.com/KohaSuomi/Koha-23x/wiki/IntranetUserJS) plugarisoidaan?
-
+* Pitäiskö päivittää ke? Tuotantoihin pitäisi viedä:
+  * [Tarkka haku -toimintoon paluu hakutuloksen Muokkaa hakua -linkistä muuttaa tehdyn haun hakutyypin](https://github.com/KohaSuomi/Koha/issues/663#issuecomment-2020248402)
+ * [Vaski: Kutsumanimen piilotus tietyiltä asiakaslajeilta](https://github.com/KohaSuomi/Koha/issues/1127)
+ * Kokoelmatyökoulutusta 4.4. varten [Raportti, joka laskee lainamäärät ja linkki perustiedot-näytölle](https://github.com/KohaSuomi/Koha/issues/1109)
 
 ## Viikko 13
 
