@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 13
 
 Aika: 26.3.2024 klo 9.15<br />
-Läsnä: Iina Niemi (Vaski), Lotta Juvonen (Helle), Leena Kinnunen ja Pia Kusmin (Lappi), Anneli Österman ja Pasi Kallinen (Koha-Suomi), Päivi Knuutinen ja Irina Halminen (Vaara)
+Läsnä: Iina Niemi (Vaski), Lotta Juvonen (Helle), Leena Kinnunen ja Pia Kusmin (Lappi), Anneli Österman ja Pasi Kallinen (Koha-Suomi), Päivi Knuutinen ja Irina Halminen (Vaara), Kati Sillgren (Helle)
 
 **Yhteiset**
 * Viikolla 14 voi päästää muitakin kuin pääkäyttäjiä testaamaan nextejä.
