@@ -9,6 +9,83 @@ title: 'Koha-Suomen kuvailuryhmän muistiot 2024'
 ---
 
 
+## Kuvailuryhmän muistio 3/2024 ##
+
+Aika: 14.3.2024 klo 13.15–14.51
+
+Osallistujat: Mauri Aittaniemi (Lappi), Merja Hakulinen (Lumme), pj. Antti Heikkinen (OUTI), Pasi Hynninen (Helle), Suvi Kauranen (Kirkes), Päivi Knuutinen (Vaara), Marjukka Laapotti (Lastu), Tarja Mäkinen (Kyyti), Johanna Ranta (Kyyti), Marja Soisalo (Vaara), Anna Viitanen (Vaski), Johanna Räisä ja Emmi Takkinen (Koha-Suomi, kohdat 2-3)
+
+Poissa: Anneli Österman (Koha-Suomi)
+
+### Asialista ###
+
+#### 1.	Kokouksen avaus ja sihteerin valinta ####
+
+Sihteerivuorossa oli Johanna Ranta.
+
+#### 2.	RDA-konversioiden eteneminen ja toimintasuunnitelma ####
+<ul>
+  <li>Ruotsinkielisen aineiston konversio: käytetäänkö suomen- vai ruotsinkielistä ohjelmaa? Vanhemmissa tietueissa kuvailun kielenä suomi, ruotsi tullut Kirjastopalvelun kuvailemien tietueiden myötä. Suomen kielellä kuvailluista tietueista tulee sekakielisiä, jos ne konvertoidaan ruotsinkielisellä ohjelmalla. Kaikissa tietokannoissa olisi ehkä hyvä valita sama taktiikka. </li>
+  <li>Suomenkielisen kuvailun lyhenteiden avaaminen ja sanojen kääntäminen ruotsiksi ei ole helppoa. 336–338- ja 300-kenttien käännöksissä on se merkittävä ero, että 33x:n termejä on vain tietty tunnettu määrä ja ne esiintyvät aina samassa muodossa, kun taas 300-kentässä on paljon laajemmin erilaisia termejä ja niiden sanamuotoja. </li>
+  <li>Tarvitaan varmaan vielä kolmaskin testikierros, jotta säännöt toimivat hyvin </li>
+  <li>Konversiosäännöissä on nyt mukana sellaisiakin korjauksia, jotka voisi tehdä valmiille RDA-tietueille (esim. kansityypit ja kielen alkukirjaimen muuttaminen tietyissä kentissä). Nämä kyseiset korjausajot pitäisi tehdä myös niille tietokannoille, jotka ovat jo RDA:ta (Kirkes, Lastu ja Vaski). Vaskissa pitäisi myös konvertoida RDA:ksi sinne virheellisesti valuneet ISBD-tietueet. </li>
+  <li>Jos tehdään konversio vain tietueille, jotka eivät jo ole RDA:ta, niin miten varmasti saadaan kaikki tietueet mukaan? </li>
+  <li>Konversio tehdään Kohan versionvaihdoksen jälkeen. Tietueita voi ajaa öisin välivarastoista </li>
+</ul>
+
+#### 3.	Uusi tietuesiirtäjä ####
+<ul>
+  <li>Uudessa tietuesiirtäjässä on korjattu ongelmat, joita mikropalvelussa oli </li>
+  <li>Tietuesiirtäjä on jo käytössä OUTIssa. Se on toiminut hyvin ja sitä voisi aktivoida muillekin kimpoille </li>
+  <li>Vaski on valmis ottamaan tietuesiirtäjän käyttöön. Vaskin jälkeen on vuorossa Vaara. </li>
+  <li>Kimpat voivat kommentoida tikettiin (<a href="https://github.com/KohaSuomi/Koha/issues/915" target="_blank">Valutuksen siirtäminen broadcast biblios liitännäiselle.</a>), milloin haluavat ottaa käyttöön uuden tietuesiirtäjän. Siihen siirrytään viimeistään versionvaihdoksen yhteydessä. </li>
+</ul>
+
+#### 4.	Kuulumiskierros ####
+
+Onko huomattu muutoksia liittyen Kirjastopalvelun uuteen linjaukseen, jonka mukaan se kuvailee vain sellaisen aineiston, jonka on tilannut vähintään kolme kimppaa?
+<ul>
+  <li><b>Helle:</b> Ei ole huomattu isoja muutoksia Kirjastopalvelun toiminnassa. </li>
+  <li><b>Kirkes:</b> On edistytty viime syksystä kuvailuasioissa, siirtoraportin läpikäymistä mietitty ja Marc-virheiden korjaustaulukkoa alettu käydä läpi. </li>
+  <li><b>Kyyti:</b> Ei ole huomattu suurempaa muutosta Kirjastopalvelun toiminnassa. </li>
+  <li><b>Lappi:</b> Hyllyyn tulee enemmän Kirjastopalvelun kirjoja, joihin ei tule kuvailua. Pääkirjasto on menossa taas remonttiin, kestää vuoden. </li>
+  <li><b>Lastu:</b> Tutustutaan Kohaan, kuvailua ei ole vielä paljon kokeiltu. Kirjastopalvelun toiminnassa ei koeta tapahtuneen suurta muutosta entiseen, tuntuu, että heillä on aiempaa enemmän han. kaluuksia saada kuvailukappaletta. </li>
+  <li><b>Lumme:</b> Ei mitään ihmeellistä ongelmaa Kirjastopalveluun liittyen, omakustanteissa voi kestää kauan ennen kuin kuvailu tulee. Marc-virheraportti lyhentynyt, 1/5 jäljellä alkuperäisestä listasta. </li>
+  <li><b>OUTI:</b>
+    <ul>
+    <li>TäTi/Melinda-kuvailijoiden määrää vähennetty: Kuusamo jää pois, jatkossa primaarikuvailu vain Oulussa ja Raahessa. Oulu kuvailee oman aineistonsa lisäksi muiden OUTI-kirjastojen painetun aineiston ja nuotit, Raahe muiden OUTI-kirjastojen AV-aineiston ja lautapelit oman aineistonsa lisäksi. Kuvailijoita on nyt 7 kpl. </li>
+    <li>Kirjastopalvelun toiminta on ollut jonkin verran epämääräistä. Joissakin tapauksissa ensin ilmoitetaan, ettei kuvailua tule, mutta sitten kuitenkin jossain vaiheessa kuvailustatus muuttuu. Äänitteiden kohdalla ei voi luottaa siihen, jos statuksen kohdalla on viiva. Oulussa on kysytty pariin tällaiseen tapaukseen kuvailua, ja vastaus on ollut, ettei kuulu kuvailupalvelun piiriin. Kuitenkin seuraavalla viikolla levyä on tarjottu viikkolistoilla ja kuvailu onkin tulossa.</li>
+    <li>Ouluun on viime aikoina hankittu paljon vanhempia elokuvia, joiden EAN-koodilla löytyy kyllä valmiita tietueita, mutta niissä on yleensä vain eri jakaja. Tämä on aiheuttanut pohdiskeluja uusien tietueiden tekemisen kannattavuudesta.</li>
+    <li>Valutushässäkkä keskiviikkona 21.2.: TäTissä poistettiin vanhemmista tietueista eräajona 942 $c-kentän aineistolajeja, koska osa niistä oli vanhentuneita. Vanhentuneet aineistotyypit 942 $c-kentissä johtivat siihen, että jos tietue valui uudestaan TäTistä paikalliskantaan, niin 942 $c-kentät eivät päivittyneet vaan niissä näkyi edelleen vanhat arvot (esim. CDM), jolloin aineistotyyppi näkyi tyhjänä paikalliskannan Perustiedot-näytöllä. Eräajojen seurauksena tietueet valuivat kuitenkin uudestaan OUTIin (ja osa myös ainakin Vaskiin), koska valutuksen eston aikaraja ei pitänyt jostakin syystä. OUTIin tehtiin tietueiden valutusraportin pohjalta uusi raportti, jonka mukaan TäTistä valui n. 5000 emotietuetta ja niiden mahdolliset osakohteet. Raportin pohjalta osa tietueista on jo saatu korjattua. Suurin osa valuneista oli OUTIn alun perin TäTiin kuvailemia, joten onneksi kovin suurta vahinkoa ei syntynyt. Joukossa oli kuitenkin tietueita, joita oli myöhemmin muokattu tai korjattu OUTIssa, muttei TäTissä, jolloin nämä muutokset ja korjaukset katosivat. Lisäksi jos TäTissä oli tuplatietueita, niin näistä OUTI-tietueen päälle valui eri tietue kuin OUTIssa alun perin, esim. BTJ:n tietueen päälle TäTi-tupla. Joukossa oli myös täysin virheellisiä valumisia, jos OUTIn tietueella oli väärä aktivoitumisarvo tai jollakin tietueella oli monta ISBN-tunnusta, esim. moniosaiset kirjat ja moniviestimet. Kehittäjiltä on pyydetty raporttia, jolla saisi kätevästi kiinni väärin valuneet tietueet tai joissa muuttui pääkirjaukset, mutta ainakaan Kohan raporteilla ei ole mahdollista tehdä sellaista muutosraporttia, jossa näkyisi 100- ja 245-kenttien vanha ja uusi arvo tai useampi 020/024-kentän toistuma. Johanna Räisä tutkii, voisiko tietuesiirtäjän raporttiin kehittää jonkinlaisen suodatuksen näiden muutosten osalta. Tietuesiirtäjän raportin ansiosta saatiin kuitenkin kiinni ja korjattua ne tietueet, joilla oli jostain syystä ollut OUTIssa väärä määrä osakohteita. (Tietuesiirtäjä ei päästä läpi niitä tietueita, joiden osakohteiden määrä ei täsmää paikalliskannassa ja TäTissä.) Tämän koko tapahtuman opetuksena on, että TäTissä ei pidä mennä tekemään mitään suuria eräajoja niitä ensin testaamatta ja ilmoittamatta kaikille muille kimpoille (jatkossa päätetään näistä Kuvailuryhmän kokouksissa). Lisäksi kun muokkaa tietueita paikalliskannassa, pitää aina muistaa tarkistaa, onko tietue TäTissäkin ja tehdä korjaus ensisijaisesti myös siellä. Myös TäTin tuplatietueet olisi hyvä saada poistettua.</li>
+    <li>TäTistä valuu joka päivä sen verran paljon tietueita ja niiden muokkauksia, että on vaikeaa pysyä enää kartalla siitä, mikä on oikea korjaus ja mikä ei. Uuden aineiston kohdalla, kun on kerran tietueen tarkistanut, ei voi olla varma, pysyykö se kauan virheettömänä. Tehdyt korjaukset eivät myöskään välttämättä pysy tietueissa. Lisäksi edelleen tulee vastaan tapauksia, joissa jokin tietue on tuotu Melindasta TäTiin (joko KP:n tietueen päälle tai omaksi tietueekseen), mutta sitä ei ole korjattu eikä viety takaisin Melindaan. Jos Melinda-tietueen tuo TäTiin, niin se pitää muistaa aina tarkistaa ja korjata tarvittaessa sekä viedä Mikropalvelulla takaisin Melindaan, jotta tietueet pysyvät ajan tasalla eikä kukaan muokkaa vahingossa vanhentunutta tietuetta TäTissä. Ylipäänsä voisi olla hyvä katsoa Melinda-tietue läpi jo ennen sen poimimista TäTiin. Kaikkien pitäisi olla tarkkana sen suhteen mitä tekee TäTissä, koska muutokset valuvat herkästi kaikkialle. Jos tulee vastaan outoja tapauksia, joille ei oikein tiedä mitä tehdä, niin näistä voisi kysyä esim. Koha Teamsin Kuvailukanavalla. Tällöin saataisiin mahdolliset ongelmat muidenkin tietoon, jos jatkossa tulee vastaan samanlaisia tapauksia.</li>
+    </ul>
+  <li><b>Vaara:</b> Kirjastopalvelulla paljon ongelmia kuvailukappaleen saamisessa. Kun kuvailun saapuminen viipyy, joku kyllästyy odottamaan ja poimii TäTiin puutteellisesti luetteloidun Melinda-tietueen, mistä se valuu paikalliskantoihin. Kirjastopalvelulla ollut epäjohdonmukaisuutta julkaisuvuoden merkitsemisessä. Pieniä ja suuria virheitä kuvailuissa paljon, niiden reklamointi vie aikaa. </li>
+  <li><b>Vaski:</b> Kirjastopalvelun kuvailussa ei ole huomattu suurempaa muutosta. Vaskissa on kuvailijavaje yhden kuvailijan lähdettyä Kansalliskirjastoon. Tehtäviä on jäänyt siksi roikkumaan enemmän kuin yleensä. Puppe-työkalu otettu käyttöön. Musiikkitallenteina näkyviä osakohteita ei ole edelleenkään korjattu.</li>
+</ul>
+
+#### 5.	Kuvailuryhmän vuosisuunnitelma 2024 ja tavoitteet ####
+
+Tämän vuoden tavoite: TäTin ”käytössäännöt” selviksi kaikille kuvailijoille.
+
+#### 6.	Tikettejä ####
+<ul>
+  <li>Valutuksen esto -toimintoa on korjattu. Seurataan, toimiiko nyt jatkossa paremmin. <a href="https://github.com/KohaSuomi/Koha/issues/844" target="_blank">Osakenttään 942b merkitty valutuksen esto ei aina toimi</a> </li>
+  <li><a href="https://github.com/KohaSuomi/Koha/issues/1097" target="_blank">Raporttipyyntö: Virheellisesti valuneet tietueet</a> -> Jos tietueella on useampi 020-kenttä, miten estetään väärän tietueen valuminen sen päälle. </li>
+  <li><a href="https://github.com/KohaSuomi/Koha/issues/1096" target="_blank">Voiko saada palauttamaan tietueen ennalleen, kun sen päälle on valunut konvertoimaton ISBD-tietue?</a> -> On mahdollista. Pitää vain ilmoittaa tietuenumero ja se lokin aika, mihin halutaan palauttaa, koska samasta tietueesta voi olla useampia muokkauslokimerkintöjä. </li>
+  <li><a href="https://github.com/KohaSuomi/Koha/issues/373" target="_blank">Finto-liitännäinen Metatietosanastosta</a> -> odotetaan Metatietosanaston mahdollisia uudistuvaan RDA:han liittyviä muutoksia </li>
+</ul>
+
+#### 7.	Muita asioita ####
+<ul>
+  <li>Koha Teamsin Kuvailukanavalla olevaan Tietueiden massakorjausajot -taulukkoon on lisätty uusi välilehti, johon on koottu tällä hetkellä kesken olevat kuvailuasioihin liittyvät tiketit. Näin pystytään paremmin seuraamaan, mitä on kesken ja mitä niistä olisi hyvä priorisoida. Jatkossa voisi ainakin asiantuntijaryhmän kautta pyrkiä vaikuttamaan niiden edistymiseen. </li>
+  <li>Seuraava Koha-Suomi-Melinda-työryhmän kokous 9.4. </li>
+  <li>Kirjastopalvelun asiakasohjausryhmän etäkokous 23.4. </li>
+</ul>
+
+#### 8.	Seuraava kokous keskiviikkona 17.4. klo 13.15 ####
+
+
+---
 ## Kuvailuryhmän muistio 2/2024 ##
 
 Aika: 15.2.2024 klo 13.15–14.40
