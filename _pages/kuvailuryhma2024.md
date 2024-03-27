@@ -52,7 +52,7 @@ Onko huomattu muutoksia liittyen Kirjastopalvelun uuteen linjaukseen, jonka muka
   <li><b>Lappi:</b> Hyllyyn tulee enemmän Kirjastopalvelun kirjoja, joihin ei tule kuvailua. Pääkirjasto on menossa taas remonttiin, kestää vuoden. </li>
   <li><b>Lastu:</b> Tutustutaan Kohaan, kuvailua ei ole vielä paljon kokeiltu. Kirjastopalvelun toiminnassa ei koeta tapahtuneen suurta muutosta entiseen, tuntuu, että heillä on aiempaa enemmän han. kaluuksia saada kuvailukappaletta. </li>
   <li><b>Lumme:</b> Ei mitään ihmeellistä ongelmaa Kirjastopalveluun liittyen, omakustanteissa voi kestää kauan ennen kuin kuvailu tulee. Marc-virheraportti lyhentynyt, 1/5 jäljellä alkuperäisestä listasta. </li>
-  <li><b>OUTI:</b>
+  <li><b>OUTI:</b></li>
     <ul>
     <li>TäTi/Melinda-kuvailijoiden määrää vähennetty: Kuusamo jää pois, jatkossa primaarikuvailu vain Oulussa ja Raahessa. Oulu kuvailee oman aineistonsa lisäksi muiden OUTI-kirjastojen painetun aineiston ja nuotit, Raahe muiden OUTI-kirjastojen AV-aineiston ja lautapelit oman aineistonsa lisäksi. Kuvailijoita on nyt 7 kpl. </li>
     <li>Kirjastopalvelun toiminta on ollut jonkin verran epämääräistä. Joissakin tapauksissa ensin ilmoitetaan, ettei kuvailua tule, mutta sitten kuitenkin jossain vaiheessa kuvailustatus muuttuu. Äänitteiden kohdalla ei voi luottaa siihen, jos statuksen kohdalla on viiva. Oulussa on kysytty pariin tällaiseen tapaukseen kuvailua, ja vastaus on ollut, ettei kuulu kuvailupalvelun piiriin. Kuitenkin seuraavalla viikolla levyä on tarjottu viikkolistoilla ja kuvailu onkin tulossa.</li>
