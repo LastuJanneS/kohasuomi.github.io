@@ -62,7 +62,7 @@ Onko huomattu muutoksia liittyen Kirjastopalvelun uuteen linjaukseen, jonka muka
   <li><b>Vaara:</b> Kirjastopalvelulla paljon ongelmia kuvailukappaleen saamisessa. Kun kuvailun saapuminen viipyy, joku kyllästyy odottamaan ja poimii TäTiin puutteellisesti luetteloidun Melinda-tietueen, mistä se valuu paikalliskantoihin. Kirjastopalvelulla ollut epäjohdonmukaisuutta julkaisuvuoden merkitsemisessä. Pieniä ja suuria virheitä kuvailuissa paljon, niiden reklamointi vie aikaa. </li>
   <li><b>Vaski:</b> Kirjastopalvelun kuvailussa ei ole huomattu suurempaa muutosta. Vaskissa on kuvailijavaje yhden kuvailijan lähdettyä Kansalliskirjastoon. Tehtäviä on jäänyt siksi roikkumaan enemmän kuin yleensä. Puppe-työkalu otettu käyttöön. Musiikkitallenteina näkyviä osakohteita ei ole edelleenkään korjattu.</li>
 </ul>
-
+</ul>
 #### 5.	Kuvailuryhmän vuosisuunnitelma 2024 ja tavoitteet ####
 
 Tämän vuoden tavoite: TäTin ”käytössäännöt” selviksi kaikille kuvailijoille.
