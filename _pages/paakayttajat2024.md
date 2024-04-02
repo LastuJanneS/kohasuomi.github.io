@@ -13,8 +13,8 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 14
 
 Aika: 2.4.2024 klo 9.15<br />
-Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Lotta Juvonen (Helle)
-
+Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Lotta Juvonen (Helle), Leena Kinnunen (Lappi)
+, 
 **Yhteiset**
 * Nextien laajempi testailu alkakoon
 * Ensimmäinen [uutiskirje julkaistu](https://github.com/KohaSuomi/Koha/discussions/1139)
@@ -32,6 +32,9 @@ Etelästä pohjoiseen
 * Githubissa on suljettu tiketti https://github.com/KohaSuomi/Koha/issues/280 eli siinä meillä on ollut ongelmana, kun niteen hankintapäivä on 0000-00-00, asiakkaan varaukset eivät näy Finnassa.  OUTIssa tuli vastaan tapaus, jossa yhden lehtiniteen viimeksi lainattu pvm. oli 0000-00-00, joka esti myös parilla asiakkaalla varausten näkymisen Finnassa. Sovittiin, jos tapauksia tulee vastaan enempi, avataan tiketti uudestaan.
 * OUTIssa mennään kahdella pääkäyttäjällä varmaan ainakin kesään asti.
 
+**Lappi**
+* Rovaniemen pääkirjastossa on alkanut pakkaus väistöön siirtymistä varten.
+* Muuten rauhallista. 
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-14) - [Palaa sivun alkuun](/paakayttajat2024)
 
