@@ -1389,15 +1389,14 @@ ORDER BY 7,5
 
 Lista niteistä, jossa on mm. lainamäärät sekä viimeiset havaintopäivät valitun kirjaston, aineistotyypin, hyllypaikan ja luokan mukaan. Luokka-kohtaan täytyy jälkimmäiseen laatikkoon laittaa haluttua luokkaa seuraava luokka, esim. jos haetaan luokkaa 33, laitetaan jälkimmäiseen 34.
 
-Päivitetty: 19.3.2024 / AÖ
+Päivitetty: 2.4.2024 / AÖ
 
 ```
 SELECT CONCAT( '<a href=\"/cgi-bin/koha/cataloguing/additem.pl?biblionumber=', biblio.biblionumber,'\">', items.barcode, '</a>' ) AS 'Viivakoodi',
        items.cn_sort AS 'Luokka',
        items.ccode AS 'Kokoelma',
        biblio.author AS 'Tekijä',
-       CONCAT(biblio.title, ' ', biblio.subtitle) AS 'Nimeke', 
-       ExtractValue(biblio_metadata.metadata,'//datafield[@tag="362"]/subfield[@code="a"]') AS 'Numero', 
+       CONCAT_WS(' ', biblio.title, biblio.subtitle, part_number, part_name) AS 'Nimeke', 
        biblio.copyrightdate AS 'Vuosi',
        items.dateaccessioned AS 'Hankittu',
        biblioitems.itemtype AS 'Aineistotyyppi', 
