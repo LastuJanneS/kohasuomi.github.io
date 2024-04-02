@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 14
 
 Aika: 2.4.2024 klo 9.15<br />
-Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara)
+Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI)
 
 **Yhteiset**
 * Nextien laajempi testailu alkakoon
@@ -23,6 +23,14 @@ Etelästä pohjoiseen
 
 **Vaara**
 * ei mitään erityistä mainittavaa
+
+**OUTI**
+* Palaverin aikana tuli tieto, ettei Koha-Ceepos-maksurajapinta toimi, tulee virheilmoitus:
+  ![image](https://github.com/KohaSuomi/kohasuomi.github.io/assets/98814860/b05765f2-49a4-4f36-aeb9-fdc1314b4fc7)
+  Ongelmasta laitettu sekä CPU:lle että Koha-Suomen support-sähköpostiin.
+* Meillä on suljettu tiketti https://github.com/KohaSuomi/Koha/issues/280 eli siinä meillä on ollut ongelmana, kun niteen hankintapäivä on 0000-00-00, asiakkaan varaukset eivät näy Finnassa.  OUTIssa tuli vastaan tapaus, jossa yhden lehtiniteen viimeksi lainattu pvm. oli 0000-00-00, joka esti myös parilla asiakkaalla varausten näkymisen Finnassa. Sovittiin, jos tapauksia tulee vastaan enempi, avataan tiketti uudestaan.
+* OUTIssa mennään kahdella pääkäyttäjällä varmaan ainakin kesään asti.
+
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-14) - [Palaa sivun alkuun](/paakayttajat2024)
 
