@@ -10,6 +10,19 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2024'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 14
+
+Aika: 2.4.2024 klo 9.15<br />
+Läsnä:
+
+**Yhteiset**
+* Nextien laajempi testailu alkakoon
+* Ensimmäinen [uutiskirje julkaistu](https://github.com/KohaSuomi/Koha/discussions/1139)
+
+Etelästä pohjoiseen
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-14) - [Palaa sivun alkuun](/paakayttajat2024)
+
 ## Viikko 13
 
 Aika: 26.3.2024 klo 9.15<br />
