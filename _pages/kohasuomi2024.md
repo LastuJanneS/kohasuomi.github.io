@@ -16,14 +16,19 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 ## Viikko 14
 
 Aika: Tiistai 2.4.2024 klo 13<br />
-Läsnä:
+Läsnä: Pasi, Emmi, Lasse, Lari, Kassu, Ari, Anneli
 
 * Mitkä kaikki [JS-rimpsut](https://github.com/KohaSuomi/Koha-23x/wiki/IntranetUserJS) plugarisoidaan? [Tiketti 1121](https://github.com/KohaSuomi/Koha/issues/1121)
+  * Lari käy läpi kaikki rimpsut, missä kaikkialla niitä käytetään ja mitkä kannattaisi plugarisoida.
+  * Ehkä ainakin suositellut plugareiksi, vapaaehtoisista harkitaan tapauskohtaisesti.
+  * Osa plugareista tarvitsee konfiguraation. Jos vaatii sen, niin plugarin kuvaukseen tieto, jolloin pääkäyttäjät tietävät tehdä sen.
 * Pitäiskö päivittää ke? Tuotantoihin pitäisi viedä:
   * [Tarkka haku -toimintoon paluu hakutuloksen Muokkaa hakua -linkistä muuttaa tehdyn haun hakutyypin](https://github.com/KohaSuomi/Koha/issues/663#issuecomment-2020248402)
-   * [Vaski: Kutsumanimen piilotus tietyiltä asiakaslajeilta](https://github.com/KohaSuomi/Koha/issues/1127)
-   * Kokoelmatyökoulutusta 4.4. varten [Raportti, joka laskee lainamäärät ja linkki perustiedot-näytölle](https://github.com/KohaSuomi/Koha/issues/1109)
-* Päivystäjät vko 15 eteenpäin
+    * Tässä pitää siis lisätä Hellelle tämä: https://github.com/KohaSuomi/Koha/issues/663#issuecomment-1878400300
+    * Kaikille tämä korjattu versio: https://koha-suomi.fi/dokumentaatio/intranetuserjs/#indeksointity%C3%B6ryhm%C3%A4n-tekem%C3%A4t-tiedonhaun-mukautukset
+  * [Vaski: Kutsumanimen piilotus tietyiltä asiakaslajeilta](https://github.com/KohaSuomi/Koha/issues/1127)
+  * Kokoelmatyökoulutusta 4.4. varten [Raportti, joka laskee lainamäärät ja linkki perustiedot-näytölle](https://github.com/KohaSuomi/Koha/issues/1109) kaikille kimpoille. Lari laittaa plugarin kaikkiin kimppoihin. Anneli tiedottaa pääkäyttäjiä lisäämään raportin ja käymään aktivoimassa plugarin sen jälkeen ja lisäämässä konfiguraatioon raportin numeron.
+* Päivystäjät vko 16 eteenpäin
 
   
 ## Viikko 13
