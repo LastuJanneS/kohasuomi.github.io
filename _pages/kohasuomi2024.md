@@ -29,6 +29,14 @@ Läsnä: Pasi, Emmi, Lasse, Lari, Kassu, Ari, Anneli
   * [Vaski: Kutsumanimen piilotus tietyiltä asiakaslajeilta](https://github.com/KohaSuomi/Koha/issues/1127)
   * Kokoelmatyökoulutusta 4.4. varten [Raportti, joka laskee lainamäärät ja linkki perustiedot-näytölle](https://github.com/KohaSuomi/Koha/issues/1109) kaikille kimpoille. Lari laittaa plugarin kaikkiin kimppoihin ti-iltana. Anneli tiedottaa pääkäyttäjiä lisäämään raportin ja käymään aktivoimassa plugarin sen jälkeen ja lisäämässä konfiguraatioon raportin numeron.
 * Päivystäjät vko 16 eteenpäin
+* scrumm
+  * Pasi: versionvaihdon tikettejä
+  * Lari: sip-ongelmia tutkinut: nextille vietynä meidän paikalliset muutokset. Omatoimen estot pitää testata tuotannossa. Uusi viesti tilin lukittuessa, helpottanee ongelmia selvitettäessä.
+  * Kodo: ennen lomaa versionvaihdon tikettejä, loppuja tällä viikolla. RopoCapitalilta tullut viestiä.
+  * Lasse: nexteillä vanha versio varaussivusta, kääntymättömiä tekstejä useampi.
+  * Kassu: Kaikkien assiakastietojen haun blokkauksen selvittelyä. Piialle SQL-raporttia. Nextin laitto omalle koneelle.
+  * Anneli: Vaskin aikakatkaisu -ongelman testausta, RedirectGuaranteeEmail-tiketin testausta, uutiskirje eetteriin, css:ine kanssa värkkäämistä.
+  * Emmi: elastic 8:n saanut toimimaan, tietokantatriggereitä outi-nextille, Ceepos-häröilyt Oulussa ja Vaarassa.
 
   
 ## Viikko 13
