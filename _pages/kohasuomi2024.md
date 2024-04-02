@@ -27,7 +27,7 @@ Läsnä: Pasi, Emmi, Lasse, Lari, Kassu, Ari, Anneli
     * Tässä pitää siis lisätä Hellelle tämä: https://github.com/KohaSuomi/Koha/issues/663#issuecomment-1878400300
     * Kaikille tämä korjattu versio: https://koha-suomi.fi/dokumentaatio/intranetuserjs/#indeksointity%C3%B6ryhm%C3%A4n-tekem%C3%A4t-tiedonhaun-mukautukset
   * [Vaski: Kutsumanimen piilotus tietyiltä asiakaslajeilta](https://github.com/KohaSuomi/Koha/issues/1127)
-  * Kokoelmatyökoulutusta 4.4. varten [Raportti, joka laskee lainamäärät ja linkki perustiedot-näytölle](https://github.com/KohaSuomi/Koha/issues/1109) kaikille kimpoille. Lari laittaa plugarin kaikkiin kimppoihin. Anneli tiedottaa pääkäyttäjiä lisäämään raportin ja käymään aktivoimassa plugarin sen jälkeen ja lisäämässä konfiguraatioon raportin numeron.
+  * Kokoelmatyökoulutusta 4.4. varten [Raportti, joka laskee lainamäärät ja linkki perustiedot-näytölle](https://github.com/KohaSuomi/Koha/issues/1109) kaikille kimpoille. Lari laittaa plugarin kaikkiin kimppoihin ti-iltana. Anneli tiedottaa pääkäyttäjiä lisäämään raportin ja käymään aktivoimassa plugarin sen jälkeen ja lisäämässä konfiguraatioon raportin numeron.
 * Päivystäjät vko 16 eteenpäin
 
   
