@@ -27,6 +27,7 @@ Etelästä pohjoiseen
 **OUTI**
 * Palaverin aikana tuli tieto, ettei Koha-Ceepos-maksurajapinta toimi, tulee virheilmoitus:
   ![image](https://github.com/KohaSuomi/kohasuomi.github.io/assets/98814860/b05765f2-49a4-4f36-aeb9-fdc1314b4fc7)
+  
   Ongelmasta laitettu sekä CPU:lle että Koha-Suomen support-sähköpostiin.
 * Meillä on suljettu tiketti https://github.com/KohaSuomi/Koha/issues/280 eli siinä meillä on ollut ongelmana, kun niteen hankintapäivä on 0000-00-00, asiakkaan varaukset eivät näy Finnassa.  OUTIssa tuli vastaan tapaus, jossa yhden lehtiniteen viimeksi lainattu pvm. oli 0000-00-00, joka esti myös parilla asiakkaalla varausten näkymisen Finnassa. Sovittiin, jos tapauksia tulee vastaan enempi, avataan tiketti uudestaan.
 * OUTIssa mennään kahdella pääkäyttäjällä varmaan ainakin kesään asti.
