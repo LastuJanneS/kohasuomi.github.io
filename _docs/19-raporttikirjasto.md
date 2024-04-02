@@ -203,6 +203,44 @@ order by 2,3,1
 LIMIT 2000
 ```
 
+### Optimoitu PowerBI-kysely laajemmilla tiedoilla
+
+Tässä versiossa kyselyssä on mm. mukana laajemmin nimeketietoja, tapahtumapäivä ja -aika on eritelty omiksi sarakkeiksi, luokka erikseen, kielikoodi lisätty.
+
+Lisätty: 2.4.2024
+Tekijä: Katariina Pohto
+Lisääjä: Anneli Österman
+
+```
+SELECT d.type AS 'Tapahtumatyyppi', d.itemnumber AS 'Nidenumero', IFNULL(b.author, db.author) AS 'Tekijä',
+       CONCAT_WS(' ', IFNULL(b.title, db.title), IFNULL(b.subtitle, db.subtitle), IFNULL(b.part_name, db.part_name), IFNULL(b.part_number, db.part_number)) AS 'Nimeke',
+       d.branch AS 'Lainauskirjasto', d.categorycode AS 'Asiakastyyppi', d.zipcode AS 'Postinumero', DATE(d.datetime) AS 'Tapahtumapäivä', TIME(d.datetime) AS 'Tapahtuma-aika',
+       IFNULL(bi.itemtype, dbi.itemtype) AS 'Aineistotyyppi', d.loc AS 'Hyllypaikka',
+       SUBSTRING(d.cn, 1, POSITION(' ' IN d.cn)-1) AS 'Luokka', REPLACE(d.cn, SUBSTRING(d.cn, 1, POSITION(' ' IN d.cn)-1), '') AS 'Pääsana', bde.primary_language AS 'Pääkieli'
+  FROM (SELECT s.datetime, s.type, s.itemnumber, s.branch,
+               IFNULL(bo.zipcode, dbo.zipcode) AS zipcode,
+               IFNULL(bo.categorycode, dbo.categorycode) AS categorycode,
+               IFNULL(i.biblionumber, di.biblionumber) AS biblionumber,
+               IFNULL(i.permanent_location, di.permanent_location) AS loc,
+               IFNULL(i.cn_sort, di.cn_sort) AS cn
+          FROM statistics s
+               LEFT JOIN borrowers bo ON s.borrowernumber = bo.borrowernumber
+               LEFT JOIN deletedborrowers dbo ON s.borrowernumber = dbo.borrowernumber
+               LEFT JOIN items i ON s.itemnumber = i.itemnumber
+               LEFT JOIN deleteditems di ON s.itemnumber = di.itemnumber 
+         WHERE date(s.datetime) BETWEEN <<Aikaväli alkaen|date>> AND <<Päättyen|date>>
+           AND (bo.categorycode IN ("HENKILO", "KOTIPALVEL","LAPSI", "LAOMATOIMI", "MUUHUOL", "YHTEISO","KAUKOLAINA")
+               OR dbo.categorycode IN ("HENKILO", "KOTIPALVEL","LAPSI", "LAOMATOIMI", "MUUHUOL", "YHTEISO","KAUKOLAINA"))
+           AND s.type IN ('issue', 'renew')
+           AND s.branch LIKE <<Kunta- tai kirjastokoodi ja %>>
+	   AND s.branch !='OUBY') as d
+        LEFT JOIN biblioitems bi ON bi.biblionumber = d.biblionumber
+        LEFT JOIN deletedbiblioitems dbi ON dbi.biblionumber = d.biblionumber
+        LEFT JOIN biblio b ON b.biblionumber = d.biblionumber
+        LEFT JOIN deletedbiblio db ON db.biblionumber = d.biblionumber
+        LEFT JOIN koha_plugin_fi_kohasuomi_okmstats_biblio_data_elements bde ON bde.biblionumber = d.biblionumber
+```
+
 ### Optimoitu PowerBI-kysely
 
 Tässä versiossa on tietokantojen kytkökset (joinit) on ns. optimoitu ja kysely hakee varmemmin myös poistettujen niteiden ja tietueiden tiedot raportille. Muistaa muuttaa tarvittaessa asiakastyyppien tunnukset ja kirjastorajaukset toisenlaiseksi.
