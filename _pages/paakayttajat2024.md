@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 14
 
 Aika: 2.4.2024 klo 9.15<br />
-Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Lotta Juvonen (Helle), Leena Kinnunen (Lappi)
+Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Lotta Juvonen (Helle), Kati Sillgren (Helle), Leena Kinnunen (Lappi)
 , 
 **Yhteiset**
 * Nextien laajempi testailu alkakoon
@@ -34,7 +34,10 @@ Etelästä pohjoiseen
 
 **Lappi**
 * Rovaniemen pääkirjastossa on alkanut pakkaus väistöön siirtymistä varten.
-* Muuten rauhallista. 
+* Muuten rauhallista.
+
+**Helle**
+* Uudessa versiossa otetaan käyttöön taattavan sähköpostiviestin lähetys myös takaajalle, jos ominaisuus toimii. Meneekö viesti kaikille taattavan takaajille? Tehty tiketti palaverin jälkeen [#127](https://github.com/KohaSuomi/Koha-23x/issues/127#issuecomment-2031968332)
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-14) - [Palaa sivun alkuun](/paakayttajat2024)
 
