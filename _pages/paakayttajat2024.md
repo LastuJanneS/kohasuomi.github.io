@@ -14,7 +14,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 
 Aika: 2.4.2024 klo 9.15<br />
 Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Lotta Juvonen (Helle), Kati Sillgren (Helle), Leena Kinnunen (Lappi)
-, 
+ 
 **Yhteiset**
 * Nextien laajempi testailu alkakoon
 * Ensimmäinen [uutiskirje julkaistu](https://github.com/KohaSuomi/Koha/discussions/1139)
