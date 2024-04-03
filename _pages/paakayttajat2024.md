@@ -37,7 +37,7 @@ Etelästä pohjoiseen
 * Muuten rauhallista.
 
 **Helle**
-* Uudessa versiossa otetaan käyttöön taattavan sähköpostiviestin lähetys myös takaajalle, jos ominaisuus toimii. Meneekö viesti kaikille taattavan takaajille? Tehty tiketti palaverin jälkeen [#127](https://github.com/KohaSuomi/Koha-23x/issues/127#issuecomment-2031968332)
+* Uudessa versiossa otetaan käyttöön taattavan sähköpostiviestin lähetys myös takaajalle, jos ominaisuus toimii (RedirectGuaranteeEmail-järjestelmäasetus). Meneekö viesti kaikille taattavan takaajille? Tehty tiketti palaverin jälkeen [#127](https://github.com/KohaSuomi/Koha-23x/issues/127#issuecomment-2031968332)
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-14) - [Palaa sivun alkuun](/paakayttajat2024)
 
