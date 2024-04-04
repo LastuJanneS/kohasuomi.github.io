@@ -25,9 +25,9 @@ Läsnä:
 ### 2. Kehitysehdotukset
 
 * [Ylläpito/Auktorisoidut arvot: mahdollisuus lisätä Kuvaus-arvo suomen lisäksi ruotsiksi ja englanniksi #450](https://github.com/KohaSuomi/Koha/issues/450)
-  * Ehdotus: Kuten muissa vastaavissa tiketeissä, toteutus yhteisön kautta auki olevien tikettien kautta.
+  * Ehdotus: Kuten muissa vastaavissa [Ylläpito/Auktorisoidut arvot: mahdollisuus lisätä Kuvaus-arvo suomen lisäksi ruotsiksi ja englanniksi #450](https://github.com/KohaSuomi/Koha/issues/450) -tiketissä, toteutus yhteisön kautta auki olevien tikettien kautta.
 * [Varaustunnus-asiakasmääre näkyville mm. Noudettavissa olevat varaukset -toiminnossa #514](https://github.com/KohaSuomi/Koha/issues/514)
-  * Tiketissä xxx päätetty, että asiakastiedot piilotetaan.
+  * Ehdotus: Tiketissä [Waitingreserves.pl-sivulle mahdollisuus näyttää asiakkaan tiedoista vain varaustunniste #367](https://github.com/KohaSuomi/Koha/issues/367) on päätetty, että asiakastiedot piilotetaan. Noudatetaan sitä päätöstä.
 * [Ilmoitukset-sivun viestit ladattavaksi sivu kerrallaan #691](https://github.com/KohaSuomi/Koha/issues/691)
   * Ehdotus: Ratkaisu yhteisön kautta, toteuttamalla viesteille api-endpoint, jolloin sivu voidaan ladata asynkronisesti.
 * [Laskutustyökalun toiminnot Luo Finvoice/Luo e-lasku mahdollistavat tuplalaskujen syntymisen #734](https://github.com/KohaSuomi/Koha/issues/734)
