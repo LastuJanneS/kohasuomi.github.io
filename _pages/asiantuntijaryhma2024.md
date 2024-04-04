@@ -20,13 +20,28 @@ Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 Aika: 8.4.2024 klo 13<br />
 Läsnä:
 
-### Arin ajankohtaiset
+### 1. Arin ajankohtaiset
 
-### Kehitysehdotukset
+### 2. Kehitysehdotukset
 
-### Muut asiat
+* [Ylläpito/Auktorisoidut arvot: mahdollisuus lisätä Kuvaus-arvo suomen lisäksi ruotsiksi ja englanniksi #450](https://github.com/KohaSuomi/Koha/issues/450)
+  * Ehdotus: Kuten muissa vastaavissa tiketeissä, toteutus yhteisön kautta auki olevien tikettien kautta.
+* [Varaustunnus-asiakasmääre näkyville mm. Noudettavissa olevat varaukset -toiminnossa #514](https://github.com/KohaSuomi/Koha/issues/514)
+  * Tiketissä xxx päätetty, että asiakastiedot piilotetaan.
+* [Ilmoitukset-sivun viestit ladattavaksi sivu kerrallaan #691](https://github.com/KohaSuomi/Koha/issues/691)
+  * Ehdotus: Ratkaisu yhteisön kautta, toteuttamalla viesteille api-endpoint, jolloin sivu voidaan ladata asynkronisesti.
+* [Laskutustyökalun toiminnot Luo Finvoice/Luo e-lasku mahdollistavat tuplalaskujen syntymisen #734](https://github.com/KohaSuomi/Koha/issues/734)
+  * Ehdotus: Toteutettavissa oleva esim. niin että nappulan painamisen jälkeen ei voi klikata uudelleen.
+* [Tekstiviestivalinnan estäminen noutomuistutukselta #861](https://github.com/KohaSuomi/Koha/issues/861)
+  * Ehdotus: Tutkittava, onko mahdollista esim. tiputtamalla sms-message_transport (tjsp.) noutomuistutukselta.
+* [Kohan signumiin vain luokka ja pääsana #923](https://github.com/KohaSuomi/Koha/issues/923)
+  * Ehdotus: Keskustellaan aiheesta, voi olla tiedossa iso remontti.
 
-### Seuraava kokous
+### 3. Muut asiat
+
+JavaScriptien plugarisointi
+
+### 4. Seuraava kokous
 
 ## Asiantuntijaryhmän muistio 4/24
 
