@@ -13,6 +13,15 @@ Koulutusilmoitukset löytyvät [Koha-Suomen GitHubista](https://github.com/KohaS
 
 ## Kaikille kohdistetut koulutukset
 
+### Kokoelmatyön tiedonhaku -koulutus
+
+Kokoelmatyön tiedonhaku -koulutus pidettiin 4.4.2024. Kouluttajana Anneli Österman.
+
+[Koulutuksen tallenne on Koha-Suomen Youtube-kanavalla](https://youtu.be/6BpwbWdr914)
+
+Koulutuksen diasarja: [Kokoelmatyön tiedonhaku.pdf](https://github.com/KohaSuomi/kohasuomi.github.io/files/14864216/Kokoelmatyon.tiedonhaku.pdf)
+
+
 ### Koha-seminaari 28.11.2023
 
 Koha-seminaari pidettiin 28.11.2023 Keravan kirjastolla.
