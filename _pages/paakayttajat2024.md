@@ -25,7 +25,7 @@ Pohjoisesta etelään
 ## Viikko 14
 
 Aika: 2.4.2024 klo 9.15<br />
-Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Lotta Juvonen (Helle), Kati Sillgren (Helle), Leena Kinnunen (Lappi), Tuomas Kunttu (Kyyti)
+Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Lotta Juvonen (Helle), Kati Sillgren (Helle), Leena Kinnunen (Lappi), Tuomas Kunttu (Kyyti), Mikko Liimatainen (Vaski)
  
 **Yhteiset**
 * Nextien laajempi testailu alkakoon
@@ -53,6 +53,9 @@ Etelästä pohjoiseen
 
 **Kyyti**
 * Pyhtään uuden automaatin ongelma [tiketti 1137](https://github.com/KohaSuomi/Koha/issues/1137)
+
+**Vaski**
+* Muutamia remontteja menossa/valmisteilla
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-14) - [Palaa sivun alkuun](/paakayttajat2024)
 
@@ -152,7 +155,7 @@ Etelästä pohjoiseen
 ## Viikko 11
 
 Aika: 11.3.2024 klo 9.15<br />
-Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Annika Helastila (Kirkes), Leena Kinnunen, Pia Kusmin, Maria Joona (Lappi), Reetta Pihlaja (Siilinjärvi), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Hanna Ikonen ja Katja Valjakka (Lumme), Kati Sillgren (Helle)
+Läsnä: Anneli Österman ja Emmi Takkinen (Koha-Suomi), Päivi Knuutinen ja Auli Rantasalo (Vaara), Annika Helastila (Kirkes), Leena Kinnunen, Pia Kusmin, Maria Joona (Lappi), Reetta Pihlaja (Siilinjärvi), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Hanna Ikonen ja Katja Valjakka (Lumme), Kati Sillgren (Helle), Mikko Liimatainen (Vaski)
 
 **Yhteiset**
 * [Viikon 11 päivitys](https://github.com/KohaSuomi/Koha/discussions/1115)
@@ -183,6 +186,9 @@ Pohjoisesta etelään
 
 **Lumme**
 * Normaalia ylläpitoa. Tulevan version järjestelmä- ja IntranetUser-asetusten läpikäyntiä.
+
+**Vaski**
+* Pääkirjaston remontin osalta yllättäviä muutoksia
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-11) - [Palaa sivun alkuun](/paakayttajat2024)
 
