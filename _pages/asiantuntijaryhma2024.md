@@ -28,41 +28,40 @@ Seuraava bugiperjantai 26.4.
 ### 2. Kehitysehdotukset
 
 * [Paperiselle palautuskuitille niteiden tiedot myös silloin kun asiakas on valinnut ettei lainahistoriaa tallenneta #441](https://github.com/KohaSuomi/Koha/issues/441)
+  * Ehdotus uudelleen käsittelyyn tutkinnan jälkeen.
   * Ei ole teknisesti toteutettavissa. Lainatiedot jäävät statisticsiin, mutta niiden pitäisi oikeastaan anonymisoidessa poistua sieltäkin.
   * Tapaukset luultavasti todella harvinaisia ja lienee hoidettavissa selittämällä asiakkaalle, että tieto lainasta katoaa saman tien kun palautus tapahtuu silloin kun lainahistoriaa ei säilytetä.
-  * Päätös: Ei toteuteta. Tutkitaan, saisiko kuitille tulostumaan jotain tyyliin "Ei lainahistoriaa" tai "Lainahistoria anonymisoitu, ei voida tulostaa palautuksia".
+  * Päätös: Ei toteuteta. Tutkitaan, saisiko kuitille tulostumaan Template Toolkitin avulla jotain tyyliin "Ei lainahistoriaa" tai "Lainahistoria anonymisoitu, ei voida tulostaa palautuksia".
   * Pitäisi kirjoittaa myös anonymisointiskripti, joka anonymisoi sähköpostiin lähetetyt palautus/lainakuitit, jos asiakas on valinnut, ettei lainahistoriaa tallenneta.
   * Kodo tekee tiketit kuittipohjasta ja anonymisoinnista.
-* [Ylläpito/Auktorisoidut arvot: mahdollisuus lisätä Kuvaus-arvo suomen lisäksi ruotsiksi ja englanniksi #450](https://github.com/KohaSuomi/Koha/issues/450)
-  * Päätös: Kuten muissa vastaavissa [Ylläpito/Auktorisoidut arvot: mahdollisuus lisätä Kuvaus-arvo suomen lisäksi ruotsiksi ja englanniksi #450](https://github.com/KohaSuomi/Koha/issues/450) -tiketissä, toteutus yhteisön kautta auki olevien tikettien kautta.
 * [Varaustunnus-asiakasmääre näkyville mm. Noudettavissa olevat varaukset -toiminnossa #514](https://github.com/KohaSuomi/Koha/issues/514)
-  * Päätös: Tiketissä [Waitingreserves.pl-sivulle mahdollisuus näyttää asiakkaan tiedoista vain varaustunniste #367](https://github.com/KohaSuomi/Koha/issues/367) on päätetty, että asiakastiedot piilotetaan. Noudatetaan sitä päätöstä.
+  * Päätös: Tiketissä [Waitingreserves.pl-sivulle mahdollisuus näyttää asiakkaan tiedoista vain varaustunniste #367](https://github.com/KohaSuomi/Koha/issues/367) on päätetty, että asiakastiedot piilotetaan. Noudatetaan sitä päätöstä, eikä tuoda varaustunnusta näkyville.
 * [Ilmoitukset-sivun viestit ladattavaksi sivu kerrallaan #691](https://github.com/KohaSuomi/Koha/issues/691)
   * Ehdotus: Ratkaisu yhteisön kautta, toteuttamalla viesteille api-endpoint, jolloin sivu voidaan ladata asynkronisesti.
-  * Päätös: Jatketaan asian pohdintaa seuraavassa kokouksessa tikettiin kirjattujen pohjalta.
+  * Päätös: Jatketaan asian pohdintaa seuraavassa kokouksessa tikettiin kirjattujen tietojen pohjalta.
 * [Laskutustyökalun toiminnot Luo Finvoice/Luo e-lasku mahdollistavat tuplalaskujen syntymisen #734](https://github.com/KohaSuomi/Koha/issues/734)
-  * Ehdotus: Toteutettavissa oleva esim. niin että nappulan painamisen jälkeen ei voi klikata uudelleen.
-  * Päätös: Epäaktivoidaan nappulat.
+  * Ehdotus: Toteutettavissa oleva esim. niin että nappulan painamisen jälkeen ei voi klikata uudelleen. Tai piilottamalla laskutetut näytöltä.
+  * Päätös: Epäaktivoidaan nappulat, koska piilotus voi olla käyttäjän kannalta hämäävää. Tulee helposti tunne, että jotain meni pieleen, jos ruudulta katoaa sisältöä.
 * [Tekstiviestivalinnan estäminen noutomuistutukselta #861](https://github.com/KohaSuomi/Koha/issues/861)
   * Ehdotus: Tutkittava, onko mahdollista esim. tiputtamalla sms-message_transport (tjsp.) noutomuistutukselta.
-  * Päätös: Tutkitaan
+  * Päätös: Tutkitaan, katoavatko tekstiviestivalinnat Finnasta ja Kohasta, jos poistetaan noutomuistutukselta sms-mahdollisuus.
 * [Kohan signumiin vain luokka ja pääsana #923](https://github.com/KohaSuomi/Koha/issues/923)
   * Ehdotus: Keskustellaan aiheesta, voi olla tiedossa iso remontti.
   * Päätös: Selvitetään, olisiko muutos toteutettavissa. Tutkitaan, miten lajittelusäännöt ja tarrapohjat saadaan toimimaan kuten ennenkin tai halutulla tavalla. Perustetaan ryhmä tutkimaan muutosta. Ehdokkaat jäsenistä seuraavaan asiantuntijaryhmän kokoukseen. Mukaan toivotaan myös automaattien lajitteluja ymmärtäviä kirjastolaisia. Yksi jäsen/kimppa.
 
 ### 3. Muut asiat
 
-#### JavaScriptien plugarisointi
+#### 3.1 JavaScriptien muuttaminen liitännäisiksi
 
-Larille annettu tehtäväksi käydä läpi kaikki Koha-Suomen JavaScriptit ja kenellä ne on käytössä. Sen jälkeen pohditaan Koha-Suomen palaverissa, mitkä niistä kannattaisi plugarisoida eli muuttaa liitännäiseksi. Pääkäyttäjät aktivoimaan ja epäaktivoimaan liitännäiset tarpeen mukaan. Osaan tulee myös mahdollisuus tehdä määrittelyjä, esim. jos se koskee vain tiettyjä asiakastyyppejä tai käytetään jotain tiettyä tallennettua raporttia. Sen myötä IntranetUserJS-järjestelmäasetuksen sisältö vähenee ja JavaScriptien ylläpito helpottuu.
+Strandin Larille on annettu tehtäväksi käydä läpi kaikki Koha-Suomen JavaScriptit ja millä kimpoilla ne on käytössä. Sen jälkeen pohditaan Koha-Suomen palaverissa, mitkä niistä kannattaisi muuttaa liitännäiseksi. Pääkäyttäjät pystyvät aktivoimaan ja epäaktivoimaan liitännäiset tarpeen mukaan. Osaan liitännäisistä tulee myös mahdollisuus tehdä määrittelyjä, esim. jos se koskee vain tiettyjä asiakastyyppejä tai käytetään jotain tiettyä tallennettua raporttia. Sen myötä IntranetUserJS-järjestelmäasetuksen sisältö vähenee ja JavaScriptien ylläpito helpottuu. Käsitellään ehdotus liitännäiseksi muutettavista JavaScripteistä myös pääkäyttäjien viikkopalaverissa ennen toteutusta.
 
-#### Onko sertifikaatin jakelusta tarkempi aikataulu?
+#### Asiakasvarmenteidin jakelun aikataulu
 
-Asiakasvarmenteet vanhenevat 31.8.2024. Sertifikaatti voi olla voimassa maksimissaan 390 päivää, jolloin uutta varmennetta ei voi tehdä kovin aikaisin. Uusi varmenne tulee jakoon elokuun alussa viikolla 32.
+Asiakasvarmenteet vanhenevat 31.8.2024. Sertifikaatti voi olla voimassa maksimissaan 390 päivää, jolloin uutta varmennetta ei voi tehdä kovin aikaisin. Uusi varmenne tulee jakoon elokuun alussa viikolla 32, jolloin käyttäjille ja kuntien IT-väelle jää vajaa kuukausi aikaa asentaa uusi varmenne.
 
 #### Sähköinen ilmoittautuminen ei saanut rahoitusta, miten jatketaan?
 
-Tutustutaan pikaisella aikataululla Lastun käyttöprjoketissa heillä käytössä olevan [vahvan tunnistautumisen vaativan e-lomakkeen toimintatapaan](https://heinola.epalvelu.fi/services/heinola/10565/revision/19/). Lomakkeen toteutus tultava jostain muualta kuin Koha-Suomesta, joka toimittaa REST-rajapinnan Kohaan. Palataan asiaan asiantuntijaryhmässä, kun Lastusta on saatu tarkempia tietoja.
+Oulu haki hankerahoitusta sähköoisen ilmoittautumisen suunnitteluun, mutta rahoitusta ei saatu. Pohditaan, miten asiaa voitaisiin edistää itse. Tutustutaan pikaisella aikataululla Lastun käyttöprjoketissa heillä käytössä olevan [vahvan tunnistautumisen vaativan e-lomakkeen toimintatapaan](https://heinola.epalvelu.fi/services/heinola/10565/revision/19/). Lomakkeen toteutus on tultava jostain muualta kuin Koha-Suomesta, joka toimittaa REST-rajapinnan Kohaan. Palataan asiaan asiantuntijaryhmässä, kun Lastusta on saatu tarkempia tietoja.
 
 #### Viestitaulun säilytysaika kuluva vuosi
 
