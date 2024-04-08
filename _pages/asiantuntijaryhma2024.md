@@ -22,6 +22,8 @@ Läsnä:
 
 ### 1. Arin ajankohtaiset
 
+Uuden version esittely 17.4.
+Seuraava bugiperjantai 26.4.
 ### 2. Kehitysehdotukset
 
 
