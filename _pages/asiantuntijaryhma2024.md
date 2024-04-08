@@ -55,15 +55,15 @@ Seuraava bugiperjantai 26.4.
 
 Strandin Larille on annettu tehtäväksi käydä läpi kaikki Koha-Suomen JavaScriptit ja millä kimpoilla ne on käytössä. Sen jälkeen pohditaan Koha-Suomen palaverissa, mitkä niistä kannattaisi muuttaa liitännäiseksi. Pääkäyttäjät pystyvät aktivoimaan ja epäaktivoimaan liitännäiset tarpeen mukaan. Osaan liitännäisistä tulee myös mahdollisuus tehdä määrittelyjä, esim. jos se koskee vain tiettyjä asiakastyyppejä tai käytetään jotain tiettyä tallennettua raporttia. Sen myötä IntranetUserJS-järjestelmäasetuksen sisältö vähenee ja JavaScriptien ylläpito helpottuu. Käsitellään ehdotus liitännäiseksi muutettavista JavaScripteistä myös pääkäyttäjien viikkopalaverissa ennen toteutusta.
 
-#### Asiakasvarmenteidin jakelun aikataulu
+#### 3.2 Asiakasvarmenteiden jakelun aikataulu
 
 Asiakasvarmenteet vanhenevat 31.8.2024. Sertifikaatti voi olla voimassa maksimissaan 390 päivää, jolloin uutta varmennetta ei voi tehdä kovin aikaisin. Uusi varmenne tulee jakoon elokuun alussa viikolla 32, jolloin käyttäjille ja kuntien IT-väelle jää vajaa kuukausi aikaa asentaa uusi varmenne.
 
-#### Sähköinen ilmoittautuminen ei saanut rahoitusta, miten jatketaan?
+#### 3.3 Sähköinen ilmoittautuminen ei saanut rahoitusta, miten jatketaan?
 
 Oulu haki hankerahoitusta sähköoisen ilmoittautumisen suunnitteluun, mutta rahoitusta ei saatu. Pohditaan, miten asiaa voitaisiin edistää itse. Tutustutaan pikaisella aikataululla Lastun käyttöprjoketissa heillä käytössä olevan [vahvan tunnistautumisen vaativan e-lomakkeen toimintatapaan](https://heinola.epalvelu.fi/services/heinola/10565/revision/19/). Lomakkeen toteutus on tultava jostain muualta kuin Koha-Suomesta, joka toimittaa REST-rajapinnan Kohaan. Palataan asiaan asiantuntijaryhmässä, kun Lastusta on saatu tarkempia tietoja.
 
-#### Viestitaulun säilytysaika kuluva vuosi
+#### 3.4 Viestitaulun säilytysaika kuluva vuosi
 
 Viestitaulun säilytysaika on nykyään kuluva vuosi.
 
