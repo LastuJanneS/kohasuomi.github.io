@@ -812,6 +812,18 @@ body#catalog_itemsearch.catalog td:nth-child(13) { display: none; }
 body#catalog_itemsearch.catalog th#item_inventoryno { display: none; }
 ```
 
+#### Lisätty Piilota Nidetyyppi-sarake korissa
+
+Tarpeellisuus: Vapaaehtoinen<br />
+Versio: 22.11, 23.11
+
+```
+/* Piilota Nidetyyppi-sarake korissa */
+#cart_basket th:nth-child(3),
+#cart_basket td:nth-child(3) { display: none; }
+```
+
+
 ---
 
 ## Varaukset
