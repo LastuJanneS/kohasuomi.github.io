@@ -15,40 +15,62 @@ Koha-Suomen asiantuntijaryhmään kuuluvat Leena Kinnunen (Lapin kirjasto), Noor
 
 Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
-## Asiantuntijaryhmän esityslista 5/2024
+## Asiantuntijaryhmän muistio 5/2024
 
 Aika: 8.4.2024 klo 13<br />
-Läsnä:
+Läsnä: Ari, Anneli, Kodo, Leena, Irina, Susanna, Tuomas, Riikka, Katri
 
 ### 1. Arin ajankohtaiset
 
 Uuden version esittely 17.4.
 Seuraava bugiperjantai 26.4.
+
 ### 2. Kehitysehdotukset
-
-
 
 * [Paperiselle palautuskuitille niteiden tiedot myös silloin kun asiakas on valinnut ettei lainahistoriaa tallenneta #441](https://github.com/KohaSuomi/Koha/issues/441)
   * Ei ole teknisesti toteutettavissa. Lainatiedot jäävät statisticsiin, mutta niiden pitäisi oikeastaan anonymisoidessa poistua sieltäkin.
   * Tapaukset luultavasti todella harvinaisia ja lienee hoidettavissa selittämällä asiakkaalle, että tieto lainasta katoaa saman tien kun palautus tapahtuu silloin kun lainahistoriaa ei säilytetä.
+  * Päätös: Ei toteuteta. Tutkitaan, saisiko kuitille tulostumaan jotain tyyliin "Ei lainahistoriaa" tai "Lainahistoria anonymisoitu, ei voida tulostaa palautuksia".
+  * Pitäisi kirjoittaa myös anonymisointiskripti, joka anonymisoi sähköpostiin lähetetyt palautus/lainakuitit, jos asiakas on valinnut, ettei lainahistoriaa tallenneta.
+  * Kodo tekee tiketit kuittipohjasta ja anonymisoinnista.
 * [Ylläpito/Auktorisoidut arvot: mahdollisuus lisätä Kuvaus-arvo suomen lisäksi ruotsiksi ja englanniksi #450](https://github.com/KohaSuomi/Koha/issues/450)
-  * Ehdotus: Kuten muissa vastaavissa [Ylläpito/Auktorisoidut arvot: mahdollisuus lisätä Kuvaus-arvo suomen lisäksi ruotsiksi ja englanniksi #450](https://github.com/KohaSuomi/Koha/issues/450) -tiketissä, toteutus yhteisön kautta auki olevien tikettien kautta.
+  * Päätös: Kuten muissa vastaavissa [Ylläpito/Auktorisoidut arvot: mahdollisuus lisätä Kuvaus-arvo suomen lisäksi ruotsiksi ja englanniksi #450](https://github.com/KohaSuomi/Koha/issues/450) -tiketissä, toteutus yhteisön kautta auki olevien tikettien kautta.
 * [Varaustunnus-asiakasmääre näkyville mm. Noudettavissa olevat varaukset -toiminnossa #514](https://github.com/KohaSuomi/Koha/issues/514)
-  * Ehdotus: Tiketissä [Waitingreserves.pl-sivulle mahdollisuus näyttää asiakkaan tiedoista vain varaustunniste #367](https://github.com/KohaSuomi/Koha/issues/367) on päätetty, että asiakastiedot piilotetaan. Noudatetaan sitä päätöstä.
+  * Päätös: Tiketissä [Waitingreserves.pl-sivulle mahdollisuus näyttää asiakkaan tiedoista vain varaustunniste #367](https://github.com/KohaSuomi/Koha/issues/367) on päätetty, että asiakastiedot piilotetaan. Noudatetaan sitä päätöstä.
 * [Ilmoitukset-sivun viestit ladattavaksi sivu kerrallaan #691](https://github.com/KohaSuomi/Koha/issues/691)
   * Ehdotus: Ratkaisu yhteisön kautta, toteuttamalla viesteille api-endpoint, jolloin sivu voidaan ladata asynkronisesti.
+  * Päätös: Jatketaan asian pohdintaa seuraavassa kokouksessa tikettiin kirjattujen pohjalta.
 * [Laskutustyökalun toiminnot Luo Finvoice/Luo e-lasku mahdollistavat tuplalaskujen syntymisen #734](https://github.com/KohaSuomi/Koha/issues/734)
   * Ehdotus: Toteutettavissa oleva esim. niin että nappulan painamisen jälkeen ei voi klikata uudelleen.
+  * Päätös: Epäaktivoidaan nappulat.
 * [Tekstiviestivalinnan estäminen noutomuistutukselta #861](https://github.com/KohaSuomi/Koha/issues/861)
   * Ehdotus: Tutkittava, onko mahdollista esim. tiputtamalla sms-message_transport (tjsp.) noutomuistutukselta.
+  * Päätös: Tutkitaan
 * [Kohan signumiin vain luokka ja pääsana #923](https://github.com/KohaSuomi/Koha/issues/923)
   * Ehdotus: Keskustellaan aiheesta, voi olla tiedossa iso remontti.
+  * Päätös: Selvitetään, olisiko muutos toteutettavissa. Tutkitaan, miten lajittelusäännöt ja tarrapohjat saadaan toimimaan kuten ennenkin tai halutulla tavalla. Perustetaan ryhmä tutkimaan muutosta. Ehdokkaat jäsenistä seuraavaan asiantuntijaryhmän kokoukseen. Mukaan toivotaan myös automaattien lajitteluja ymmärtäviä kirjastolaisia. Yksi jäsen/kimppa.
 
 ### 3. Muut asiat
 
-JavaScriptien plugarisointi
+#### JavaScriptien plugarisointi
+
+Larille annettu tehtäväksi käydä läpi kaikki Koha-Suomen JavaScriptit ja kenellä ne on käytössä. Sen jälkeen pohditaan Koha-Suomen palaverissa, mitkä niistä kannattaisi plugarisoida eli muuttaa liitännäiseksi. Pääkäyttäjät aktivoimaan ja epäaktivoimaan liitännäiset tarpeen mukaan. Osaan tulee myös mahdollisuus tehdä määrittelyjä, esim. jos se koskee vain tiettyjä asiakastyyppejä tai käytetään jotain tiettyä tallennettua raporttia. Sen myötä IntranetUserJS-järjestelmäasetuksen sisältö vähenee ja JavaScriptien ylläpito helpottuu.
+
+#### Onko sertifikaatin jakelusta tarkempi aikataulu?
+
+Asiakasvarmenteet vanhenevat 31.8.2024. Sertifikaatti voi olla voimassa maksimissaan 390 päivää, jolloin uutta varmennetta ei voi tehdä kovin aikaisin. Uusi varmenne tulee jakoon elokuun alussa viikolla 32.
+
+#### Sähköinen ilmoittautuminen ei saanut rahoitusta, miten jatketaan?
+
+Tutustutaan pikaisella aikataululla Lastun käyttöprjoketissa heillä käytössä olevan [vahvan tunnistautumisen vaativan e-lomakkeen toimintatapaan](https://heinola.epalvelu.fi/services/heinola/10565/revision/19/). Lomakkeen toteutus tultava jostain muualta kuin Koha-Suomesta, joka toimittaa REST-rajapinnan Kohaan. Palataan asiaan asiantuntijaryhmässä, kun Lastusta on saatu tarkempia tietoja.
+
+#### Viestitaulun säilytysaika kuluva vuosi
+
+Viestitaulun säilytysaika on nykyään kuluva vuosi.
 
 ### 4. Seuraava kokous
+
+Ma 29.4.2024 klo 13.
 
 ## Asiantuntijaryhmän muistio 4/24
 
