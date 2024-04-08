@@ -18,7 +18,7 @@ Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 ## Asiantuntijaryhmän muistio 5/2024
 
 Aika: 8.4.2024 klo 13<br />
-Läsnä: Ari, Anneli, Kodo, Leena, Irina, Susanna, Tuomas, Riikka, Katri
+Läsnä: Ari Mäkiranta, Anneli Österman, Kodo Korkalo, Leena Kinnunen, Irina Halminen, Susanna Sandell, Tuomas Kunttu, Riikka Mustajärvi, Kati Sillgren, Hanna Ikonen
 
 ### 1. Arin ajankohtaiset
 
