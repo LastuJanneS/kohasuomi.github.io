@@ -13,6 +13,13 @@ hidden: true
 
 Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja päivittäin 15 minuutin pikapalaveriin. Muistio kirjoitetaan vain maanantain pidemmästä palaverista. Uusin muistio on aina ylimmäisenä.
 
+## Viikko 15
+
+Aika: Maanantai 8.4.2024 klo 9<br />
+Läsnä:
+
+* Onko kaikki laittaneet kesälomansa kalenteriin?
+
 ## Viikko 14
 
 Aika: Tiistai 2.4.2024 klo 13<br />
