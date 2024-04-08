@@ -17,6 +17,8 @@ Läsnä:
 
 **Yhteiset**
 * [Pääkäyttäjän tehtävät](https://github.com/KohaSuomi/Koha/wiki/P%C3%A4%C3%A4k%C3%A4ytt%C3%A4j%C3%A4n-teht%C3%A4v%C3%A4t) -listaus. Puuttuko jotain tai pitäisikö jotain poistaa?
+* [Huoltoikkuna ke 10.4.2024](https://github.com/KohaSuomi/Koha/discussions/1144)
+* [Bugi-perjantai 26.4.2024](https://github.com/KohaSuomi/Koha/discussions/1148)
 
 Pohjoisesta etelään
 
