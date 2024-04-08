@@ -260,9 +260,9 @@ body#pat_moremember #patron-messaging-prefs table tbody tr:last-child { display:
 
 ### Piilota Salli automaattinen uusinta -kohta
 
-Asiakkaan lisäys/muokkausnäytöllä on kohta "Salli automaattinen uusinta", vaikka toiminto ei olisi sallittu laina- ja maksusäännöissä. Kohdan saa piiloon seuraavasti:
+Asiakkaan lisäys/muokkausnäytöllä on kohta "Salli automaattinen uusinta", vaikka toiminto ei olisi sallittu laina- ja maksusäännöissä. Kohdan saa piiloon seuraavasti. Päivitys 8.4.2024: Tätä piilotusta ei enää tarvita, vaan tiedon saa piiloon BorrowerUnwantedField-järjestelmäasetukella valitsemalla autorenew_checkouts-kohdan.
 
-Tarpeellisuus: Suositeltava<br />
+Tarpeellisuus: Ei tarpeellinen<br />
 Versio: 22.11
 
 ```
