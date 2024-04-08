@@ -28,6 +28,7 @@ Läsnä:
 
 * [Paperiselle palautuskuitille niteiden tiedot myös silloin kun asiakas on valinnut ettei lainahistoriaa tallenneta #441](https://github.com/KohaSuomi/Koha/issues/441)
   * Ei ole teknisesti toteutettavissa. Lainatiedot jäävät statisticsiin, mutta niiden pitäisi oikeastaan anonymisoidessa poistua sieltäkin.
+  * Tapaukset luultavasti todella harvinaisia ja lienee hoidettavissa selittämällä asiakkaalle, että tieto lainasta katoaa saman tien kun palautus tapahtuu silloin kun lainahistoriaa ei säilytetä.
 * [Ylläpito/Auktorisoidut arvot: mahdollisuus lisätä Kuvaus-arvo suomen lisäksi ruotsiksi ja englanniksi #450](https://github.com/KohaSuomi/Koha/issues/450)
   * Ehdotus: Kuten muissa vastaavissa [Ylläpito/Auktorisoidut arvot: mahdollisuus lisätä Kuvaus-arvo suomen lisäksi ruotsiksi ja englanniksi #450](https://github.com/KohaSuomi/Koha/issues/450) -tiketissä, toteutus yhteisön kautta auki olevien tikettien kautta.
 * [Varaustunnus-asiakasmääre näkyville mm. Noudettavissa olevat varaukset -toiminnossa #514](https://github.com/KohaSuomi/Koha/issues/514)
