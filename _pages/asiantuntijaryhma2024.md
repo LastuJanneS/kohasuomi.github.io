@@ -24,6 +24,9 @@ Läsnä:
 
 ### 2. Kehitysehdotukset
 
+
+
+* [Paperiselle palautuskuitille niteiden tiedot myös silloin kun asiakas on valinnut ettei lainahistoriaa tallenneta #441](https://github.com/KohaSuomi/Koha/issues/441)
 * [Ylläpito/Auktorisoidut arvot: mahdollisuus lisätä Kuvaus-arvo suomen lisäksi ruotsiksi ja englanniksi #450](https://github.com/KohaSuomi/Koha/issues/450)
   * Ehdotus: Kuten muissa vastaavissa [Ylläpito/Auktorisoidut arvot: mahdollisuus lisätä Kuvaus-arvo suomen lisäksi ruotsiksi ja englanniksi #450](https://github.com/KohaSuomi/Koha/issues/450) -tiketissä, toteutus yhteisön kautta auki olevien tikettien kautta.
 * [Varaustunnus-asiakasmääre näkyville mm. Noudettavissa olevat varaukset -toiminnossa #514](https://github.com/KohaSuomi/Koha/issues/514)
