@@ -29,7 +29,7 @@ Pohjoisesta etelään
 ## Viikko 14
 
 Aika: 2.4.2024 klo 9.15<br />
-Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Lotta Juvonen (Helle), Kati Sillgren (Helle), Leena Kinnunen (Lappi), Tuomas Kunttu (Kyyti), Mikko Liimatainen (Vaski)
+Läsnä: Päivi Knuutinen ja Irina Halminen (Vaara), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Lotta Juvonen (Helle), Kati Sillgren (Helle), Leena Kinnunen (Lappi), Tuomas Kunttu (Kyyti), Mikko Liimatainen (Vaski), Annika Helastila ja Elina Uotila (Kirkes)
  
 **Yhteiset**
 * Nextien laajempi testailu alkakoon
@@ -60,6 +60,9 @@ Etelästä pohjoiseen
 
 **Vaski**
 * Muutamia remontteja menossa/valmisteilla
+
+**Kirkes**
+* Ei mainittavaa
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-14) - [Palaa sivun alkuun](/paakayttajat2024)
 
