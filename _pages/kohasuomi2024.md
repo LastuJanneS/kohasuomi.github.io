@@ -16,7 +16,7 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 ## Viikko 15
 
 Aika: Maanantai 8.4.2024 klo 9<br />
-Läsnä:
+Läsnä: Pasi, Emmi, Lasse, Anneli, Lari, Ari, Kodo, Kassu
 
 * Onko kaikki laittaneet kesälomansa kalenteriin?
 
