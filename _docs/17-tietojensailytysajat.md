@@ -13,7 +13,7 @@ toc: true
 Asiakkaille lähetetyt viestit, jotka näkyvät asiakkaan tiedoissa Ilmoitukset-välilehdellä.
 * Tieteelliset säilyttää 3 vuotta 
 * Ongelmien selvittelyn kannalta hyvä säilyttää vähän pidempi aika
-* **Päätös**: kuluva + 3 vuotta
+* **Päätös**: kuluva vuosi aktiivisessa taulussa, loput vuositauluissa
   * ODUECLAIM eli laskut säilytettävä 10 vuotta
 
 ### Vanhat istunnot
