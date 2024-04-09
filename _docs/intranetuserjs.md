@@ -1425,7 +1425,7 @@ $(document).ready(function() {
 
 ### Lisää käyttöoikeuksia -valikko Aseta virkailijaoikeuksia -sivulle
 
-Vaskin tekemä js, ei käytössä kaikissa kimpoissa.
+Vaskin tekemä js, ei käytössä kaikissa kimpoissa.<br />
 Versio: 22.11
 
 ```
