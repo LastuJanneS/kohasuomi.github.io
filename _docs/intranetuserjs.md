@@ -1423,3 +1423,100 @@ $(document).ready(function() {
 //LOPPU
 ```
 
+### Lisää käyttöoikeuksia -valikko Aseta virkailijaoikeuksia -sivulle
+
+Vaskin tekemä js, ei käytössä kaikissa kimpoissa.
+
+// Lisää käyttäjäoikeudet monivalintanappi sivulla /cgi-bin/koha/members/member-flags.pl? Pudotusvalikkonappi lisätään lomakkeen yläreunaan ennen Tallenna-nappia.
+$(document).ready(function() {
+  if ( "body#pat_member-flags.pat" ){
+	var asiakaspalvelu = [ "flag-4", "flag-2", "circulate_circulate_remaining_permissions", "circulate_force_checkout", "circulate_manage_restrictions", "circulate_override_renewals", "editcatalogue_edit_items", "plugins_tool", "plugins_report", "reports_execute_reports", "reserveforothers_place_holds", "serials_receive_serials", "tools_items_batchdel", "tools_items_batchmod", "tools_label_creator", "updatecharges_manual_invoice", "updatecharges_remaining_permissions", "updatecharges_writeoff" ];
+    var kevyttunnus1 = [ "flag-2", "circulate_circulate_remaining_permissions", "circulate_force_checkout", "circulate_override_renewals", "editcatalogue_edit_items", "plugins_tool", "reserveforothers_place_holds", "tools_label_creator", "borrowers_view_borrower_infos_from_any_libraries" ];
+    var kevyttunnus2 = [ "flag-2", "editcatalogue_edit_items", "plugins_tool", "tools_items_batchdel", "tools_items_batchmod", "tools_label_creator" ];
+    var kuvailu = [ "flag-14", "editcatalogue_advanced_editor", "editcatalogue_edit_catalogue", "tools_records_batchdel", "tools_records_batchmod" ];
+    var hankintaJaKausijulkaisut = [ "editcatalogue_advanced_editor", "acquisition_budget_add_del", "acquisition_budget_manage", "acquisition_budget_modify", "acquisition_contracts_manage", "acquisition_group_manage", "acquisition_order_manage", "acquisition_order_receive", "acquisition_period_manage", "acquisition_planning_manage", "acquisition_vendors_manage", "acquisition_delete_baskets", "acquisition_delete_invoices", "acquisition_edit_invoices", "acquisition_merge_invoices", "acquisition_reopen_closed_invoices", "editcatalogue_edit_catalogue", "serials_check_expiration", "serials_claim_serials", "serials_create_subscription", "serials_delete_subscription", "serials_edit_subscription", "serials_receive_serials", "serials_renew_subscription" ];
+    var erapaivakalenteri = [ "tools_edit_calendar" ];
+	var laskutus = [ "plugins_tool", "flag-10", "borrowers_edit_borrowers", "borrowers_view_borrower_infos_from_any_libraries" ];
+	var automaatti = [ "flag-1" ];
+    var paakayttaja = [ "flag-0" ];
+	
+    var oikeudetNappi = "<div class='btn-group'><button class='btn btn-default dropdown-toggle' data-toggle='dropdown'><i class='fa fa-plus'></i> Lisää käyttöoikeuksia <span class='caret'></span></button><ul class='dropdown-menu'><li><a href=# id='asiakaspalvelu'>Asiakaspalvelu</a></li><li><a href=# id='kevyttunnus1'>Kevyttunnus 1</a></li><li><a href=# id='kevyttunnus2'>Kevyttunnus 2</a></li><li><a href=# id='kuvailu'>Kuvailu</a></li><li><a href=# id='hankintaJaKausijulkaisut'>Hankinta ja kausijulkaisut</a></li><li><a href=# id='erapaivakalenteri'>Eräpäiväkalenteri</a></li><li><a href=# id='laskutus'>Laskutus</a></li><li><a href=# id='automaatti'>Automaatti</a></li><li><a href=# id='paakayttaja'>Pääkäyttäjä</a></li></ul></div>";
+
+    $( "#permissions_toolbar button.btn.btn-primary" ).before( oikeudetNappi );
+    $( "#permissions_toolbar" ).css("width", " ");
+		
+	$('#asiakaspalvelu').click( function(){
+	  for (i=0; i<asiakaspalvelu.length; i++){
+		if ( $('#' +asiakaspalvelu[i]).prop('checked') == false){
+	    $('#' +asiakaspalvelu[i]).click();
+	    }
+	  }
+	});
+	
+	$('#kevyttunnus1').click( function(){
+	  for (i=0; i<kevyttunnus1.length; i++){
+		if ( $('#' +kevyttunnus1[i]).prop('checked') == false){
+	    $('#' +kevyttunnus1[i]).click();
+	    }
+	  }
+	});
+	
+	$('#kevyttunnus2').click( function(){
+	  for (i=0; i<kevyttunnus2.length; i++){
+		if ( $('#' +kevyttunnus2[i]).prop('checked') == false){
+	    $('#' +kevyttunnus2[i]).click();
+	    }
+	  }
+	});
+	
+	$('#kuvailu').click( function(){
+	  for (i=0; i<kuvailu.length; i++){
+		if ( $('#' +kuvailu[i]).prop('checked') == false){
+	    $('#' +kuvailu[i]).click();
+	    }
+	  }
+	});
+	
+	$('#hankintaJaKausijulkaisut').click( function(){
+	  for (i=0; i<hankintaJaKausijulkaisut.length; i++){
+		if ( $('#' +hankintaJaKausijulkaisut[i]).prop('checked') == false){
+	    $('#' +hankintaJaKausijulkaisut[i]).click();
+	    }
+	  }
+	});
+	
+	$('#erapaivakalenteri').click( function(){
+	  for (i=0; i<erapaivakalenteri.length; i++){
+		if ( $('#' +erapaivakalenteri[i]).prop('checked') == false){
+	    $('#' +erapaivakalenteri[i]).click();
+	    }
+	  }
+	});
+	
+	$('#laskutus').click( function(){
+	  for (i=0; i<laskutus.length; i++){
+		if ( $('#' +laskutus[i]).prop('checked') == false){
+	    $('#' +laskutus[i]).click();
+	    }
+	  }
+	});
+	
+	$('#automaatti').click( function(){
+	  for (i=0; i<automaatti.length; i++){
+		if ( $('#' +automaatti[i]).prop('checked') == false){
+	    $('#' +automaatti[i]).click();
+	    }
+	  }
+	});
+	
+	$('#paakayttaja').click( function(){
+	  for (i=0; i<paakayttaja.length; i++){
+		if ( $('#' +paakayttaja[i]).prop('checked') == false){
+	    $('#' +paakayttaja[i]).click();
+	    }
+	  }
+	});
+	
+  }
+});
+//LOPPU
