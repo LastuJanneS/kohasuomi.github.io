@@ -28,7 +28,7 @@ Läsnä: Anneli Österman ja Johanna Räisä (Koha-Suomi), Leena Kinnunen, Pia K
 
 Pohjoisesta etelään
 
-** Lappi **
+**Lappi**
 * IntranetuserJS- ja IntranetuserCSS-asetukset verrattu tuotannosta ja versiopäivityksen ohjeesta. Käydään läpi vielä, lisätäänkö jotain vapaaehtoisia säätöjä. 
 * Käyttäjäryhmä aloittanut nextin testaamisen
 * Pääkäyttäjät Lapin kirjastopäivillä 10.-11.4., hoidetaan vain kiireeliset tehtävät
