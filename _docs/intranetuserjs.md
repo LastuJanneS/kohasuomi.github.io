@@ -851,7 +851,7 @@ $(document).ready(function() {
 
 ### Aseta hakukenttien oletukseksi nimeke, tekijä, ja sanahaku
 
-Tiketti #494. Valikkojen oletus on asiasana, joten kolmannen arvoa ei tarvitse erikseen asettaa.
+Tiketti #494. Valikkojen oletus on sanahaku, joten kolmannen arvoa ei tarvitse erikseen asettaa.
 
 Tarpeellisuus: Vapaaehtoinen<br />
 Versio: 22.11
@@ -868,6 +868,26 @@ $(document).ready(function() {
 });
 
 /// LOPPU ///
+```
+
+Vaihtoehtoinen versio, jossa toimii kenttien pakotus myös, kun palataan Tarkkaan hakuun Muokkaa hakua -napista hakutuloksista.
+
+Lisätty 9.4.2024
+Tekijä: Mikko Liimatainen
+
+```
+// Tarkan haun Sanahaku-oletustermit korvataan Nimeke, Tekijä, Asiasana sivulla /cgi-bin/koha/catalogue/search.pl
+$(document).ready(function() {
+  let params = (new URL(document.location)).searchParams;
+  let edit = params.get("edit_search");
+  if (window.location.pathname == '/cgi-bin/koha/catalogue/search.pl' && !edit) {
+    var elems = $("body#catalog_advsearch select[name='idx']");
+    elems.eq(0).val('ti');
+    elems.eq(1).val('au');
+    elems.eq(2).val('su');
+  }
+});
+//LOPPU
 ```
 
 ### Linkki Finna-näkymään
