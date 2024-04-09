@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 15
 
 Aika: 9.4.2024 klo 9.15<br />
-Läsnä: Anneli Österman ja Johanna Räisä (Koha-Suomi), Leena Kinnunen, Pia Kusmin (Lappi), Anni Rajala (Vaski), Hanna Ikonen (Lumme), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI)
+Läsnä: Anneli Österman ja Johanna Räisä (Koha-Suomi), Leena Kinnunen, Pia Kusmin (Lappi), Anni Rajala (Vaski), Hanna Ikonen (Lumme), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Tuomas Kunttu (Kyyti)
 
 **Yhteiset**
 * [Pääkäyttäjän tehtävät](https://github.com/KohaSuomi/Koha/wiki/P%C3%A4%C3%A4k%C3%A4ytt%C3%A4j%C3%A4n-teht%C3%A4v%C3%A4t) -listaus. Puuttuko jotain tai pitäisikö jotain poistaa?
@@ -50,6 +50,11 @@ Pohjoisesta etelään
 * Käyttäjätunnuksen lukkiutuminen, kun Finnassa liitetyn kortin PIN on vaihdettu. Tarkempi ongelman kuvaus tiketissä: 5 https://github.com/KohaSuomi/koha-plugin-rest-di/issues/5
   * Samaa ongelmaa on havaittu myös muissa kimpoissa.
 * Laskutuksen keskeytys viikolla 11 (versiovaihdosviikko). Laskutuksen pitäisi toimia ihan ok versionvaihdon jälkeen, joten laskutuksen voi aloittaa jo viikolla 12, mutta pienesti.
+
+**Kyyti**
+* Eräällä paljon tarroja tulostavalle on tarratulostustyökalun Itse tulostetut -listaan kertynyt niin paljon niteitä, että selain hyytyi niitä ladatessa. Tiketti [1146](https://github.com/KohaSuomi/Koha/issues/1146). Asiaan on jo tehty korjaus.
+* Asiakkaan valitusta muuttuneesta sijasta varausjonossa selvitellessäni ihmettelin, että nimeketietueen varausjonossa voi muuttaa myös varauksen teko päivämäärää. Varausjonoa tarkastellessa ei siis voi mistään päätellä koska varaus on alunperin tehty, jos päivämäärää ja sijaa jonossa on muutettu. Myöskään suoraan reserves-taulusta ei sitä tietoa löydy. Ilmeisesti nämä muutokset eivät kuitenkaan näy lokeilla, joten varauslokeja tarkastellessa näkee alkuperäisen varauksen tekopäivän ja sijan. Mutta jos varauksia on kymmeniä tai satoja, on sieltä tällaisen muutetun varauksen löytäminen todella työlästä.
+* Pyhtään uuden automaatin lainojen uusinta -ongelmaa on lähdettu ratkomaan automaattitoimittajalta. Toistaiseksi ei ole saatu vastausta. Tiketti [1137](https://github.com/KohaSuomi/Koha/issues/1137)
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-15) - [Palaa sivun alkuun](/paakayttajat2024)
 
