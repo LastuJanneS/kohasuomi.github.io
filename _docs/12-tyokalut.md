@@ -419,9 +419,8 @@ Valitse sivun yläreunasta _Luo uusi_.
 Valitse ja täytä tarvittavat tiedot:
 
 - **Näyttöpaikka**: näytetäänkö uutinen kaikkialla,
-  virkailijatyökalussa, kuiteissa vai verkkokirjastossa
-- **Kirjasto**: näytetäänkö uutinen kaikille kirjastoille vai vain
-  tietylle kirjastolle
+  virkailijatyökalussa, kuiteissa vai Kohan omassa verkkokirjastossa (ei käytössä Koha-Suomen kirjastoissa)
+- **Kirjasto**: näytetäänkö uutinen kaikille kirjastoille vai vain yhdelle valitulle kirjastolle
 - **Julkaisuaika**: voi joko jättää tyhjäksi, jolloin uutinen
   julkaistaan heti tai valita tietty julkaisupäivä.
 - **Vanhentumispvm**: voi joko jättää tyhjäksi, jolloin uutinen ei
@@ -491,14 +490,14 @@ Laskutuksen asetusten ohje on [GitHubissa](https://github.com/KohaSuomi/koha-plu
 
 *Tulosta ilmoituksia* -toimintoa käytetään, kun käytössä ei ole e-kirjepalvelua. Sillä tulostetaan pdf-muotoisia varausten saapumisilmoituksia sekä muistutuskirjeitä (palautuskehotuksia). *Tulosta ilmoituksia* -toiminto ei ole käytössä kaikissa kirjastokimpoissa.
 
-<img src="/assets/files/docs/Tyokalut/tulostailmoituksia.png" title="Näkymä tulosta ilmoituksia -työkalusta: yksi tulostettava noutoilmoitus IIT_PK-kirjastoon" alt="Näkymä tulosta ilmoituksia -työkalusta: yksi tulostettava noutoilmoitus IIT_PK-kirjastoon" style="width:100.0%" />
+<img src="/assets/files/docs/Tyokalut/tulostailmoituksia2.png" title="Näkymä tulosta ilmoituksia -työkalusta: yksi tulostettava noutoilmoitus IIT_PK-kirjastoon" alt="Näkymä tulosta ilmoituksia -työkalusta: yksi tulostettava noutoilmoitus IIT_PK-kirjastoon" style="width:100.0%" />
 
-*Noutoilmoitukset*-näkymässä on listattu lähettämistä odottavat varausten saapumisilmoitukset. *Tulosta*-napista siirrytään esikatseluun ja *Peruuta*-napista viesti poistuu näkymästä ja asiakastietojen Ilmoitukset-näkymässä ilmoituksen tilaksi tulee *epäonnistunut*.
+*Noutoilmoitukset*-näkymässä on listattu lähettämistä odottavat varausten saapumisilmoitukset. *Tulosta*-napista siirrytään esikatseluun ja *Peruuta*-napista viesti poistuu näkymästä ja asiakastietojen Ilmoitukset-näkymässä ilmoituksen tilaksi tulee *epäonnistunut*. *Kirjastopiste* tarkoittaa asiakkaan kotikirjastoa. Ei siis välttämättä varauksen noutokirjastoa.
 
 <img src="/assets/files/docs/Tyokalut/tulostailmoituksia_esikatselu.png" title="Näkymä noutoilmoituksen esikatselusta: Iitin kirjastoon on menossa kirja SQL-ohjelmointi asiakkaalle Esko Esimerkki. Ylhäällä Takaisin- ja Tulosta-painikkeet" alt="Näkymä noutoilmoituksen esikatselusta: Iitin kirjastoon on menossa kirja SQL-ohjelmointi asiakkaalle Esko Esimerkki. Ylhäällä Takaisin- ja Tulosta-painikkeet" style="width:60.0%" />
 
 Esikatselun *Takaisin*-napilla siirrytään takaisin ilmoituslistaan. *Tulosta*-napista ohjelma luo pdf-tiedoston, jonka voi sitten tulostaa. Tällöin asiakkaan ilmoitukset-näkymässä tilaksi tulee *lähetetty*. 
-HUOM. pdf-näkymässä ei kannata painaa *Peruuta*, koska tällöin ilmoitus häviää *Tulosta ilmoituksia* -toiminnosta ja asiakkaan tiedoissa tilana näkyy silti lähetetty. Asian voi korjata menemässä asiakkaan tietoihin ja painamalla *Lähetä uudelleen*, jolloin viesti ilmestyy uudelleen Tulosta ilmoituksia -työkaluun. Tosin ongelmana voi olla ettei tiedä kenelle asiakkaalle viesti oli lähdössä.
+HUOM. pdf-näkymässä ei kannata painaa *Peruuta*, koska tällöin ilmoitus häviää *Tulosta ilmoituksia* -toiminnosta ja asiakkaan tiedoissa tilana näkyy silti lähetetty. Asian voi korjata menemässä asiakkaan tietoihin ja painamalla *Lähetä uudelleen*, jolloin viesti ilmestyy uudelleen *Tulosta ilmoituksia* -työkaluun. Tosin ongelmana voi olla ettei tiedä kenelle asiakkaalle viesti oli lähdössä.
 
 Muistutusten kanssa toimitaan aivan samoin kuin noutoilmoitusten kanssa.
 
