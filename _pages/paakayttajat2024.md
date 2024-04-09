@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 15
 
 Aika: 9.4.2024 klo 9.15<br />
-Läsnä: Anneli Österman ja Johanna Räisä (Koha-Suomi)
+Läsnä: Anneli Österman ja Johanna Räisä (Koha-Suomi), Leena Kinnunen, Pia Kusmin (Lappi)
 
 **Yhteiset**
 * [Pääkäyttäjän tehtävät](https://github.com/KohaSuomi/Koha/wiki/P%C3%A4%C3%A4k%C3%A4ytt%C3%A4j%C3%A4n-teht%C3%A4v%C3%A4t) -listaus. Puuttuko jotain tai pitäisikö jotain poistaa?
@@ -27,6 +27,11 @@ Läsnä: Anneli Österman ja Johanna Räisä (Koha-Suomi)
   * käydään läpi viikon 16 palaverissa, miettikää sitä ennen, tuleeko muita ehdotuksia/tarpeita mieleen ja kirjatkaa ne tikettiin. 
 
 Pohjoisesta etelään
+
+** Lappi **
+* IntranetuserJS- ja IntranetuserCSS-asetukset verrattu tuotannosta ja versiopäivityksen ohjeesta. Käydään läpi vielä, lisätäänkö jotain vapaaehtoisia säätöjä. 
+* Käyttäjäryhmä aloittanut nextin testaamisen
+* Pääkäyttäjät Lapin kirjastopäivillä 10.-11.4., hoidetaan vain kiireeliset tehtävät
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-15) - [Palaa sivun alkuun](/paakayttajat2024)
 
