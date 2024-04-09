@@ -49,7 +49,7 @@ Pohjoisesta etelään
 * 776-kentän (useita ulkoasuja) tiedot näkyvät Kohassa hassusti tietueen perusnäytöllä esim: Useita ulkoasuja: Ei otsikkoa; Ei otsikkoa.. 776i tai 776z- kenttien piilotus ei auttanut. Finnassa kyseinen kohta näkyy siten, että ISBN:n perässä lukee FENNI KEEP. Anneli tutkaili palaverin aikana, että ehkä 776t-kentän täyttäminen auttaisi. OUTIssa jatkamme asian tutkimista Nextillä.
 * Käyttäjätunnuksen lukkiutuminen, kun Finnassa liitetyn kortin PIN on vaihdettu. Tarkempi ongelman kuvaus tiketissä: 5 https://github.com/KohaSuomi/koha-plugin-rest-di/issues/5
   * Samaa ongelmaa on havaittu myös muissa kimpoissa.
-* Laskutuksen keskeytys viikolla 11 (versiovaihdosviikko). Laskutuksen pitäisi toimia ihan ok versionvaihdon jälkeen, joten laskutuksen voi aloittaa jo viikolla 12, mutta pienesti.
+* Laskutuksen keskeytys viikolla 19 (versiovaihdosviikko). Laskutuksen pitäisi toimia ihan ok versionvaihdon jälkeen, joten laskutuksen voi aloittaa jo viikolla 20, mutta pienesti.
 
 **Kyyti**
 * Eräällä paljon tarroja tulostavalle on tarratulostustyökalun Itse tulostetut -listaan kertynyt niin paljon niteitä, että selain hyytyi niitä ladatessa. Tiketti [1146](https://github.com/KohaSuomi/Koha/issues/1146). Asiaan on jo tehty korjaus.
