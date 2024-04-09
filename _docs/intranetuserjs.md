@@ -854,7 +854,7 @@ $(document).ready(function() {
 Tiketti #494. Valikkojen oletus on sanahaku, joten kolmannen arvoa ei tarvitse erikseen asettaa.
 
 Tarpeellisuus: Vapaaehtoinen<br />
-Versio: 22.11
+Versio: 22.11, 23.11
 
 ```
 /// ALKU ///
@@ -874,6 +874,7 @@ Vaihtoehtoinen versio, jossa toimii kenttien pakotus myös, kun palataan Tarkkaa
 
 Lisätty 9.4.2024
 Tekijä: Mikko Liimatainen
+Versio 22.11
 
 ```
 // Tarkan haun Sanahaku-oletustermit korvataan Nimeke, Tekijä, Asiasana sivulla /cgi-bin/koha/catalogue/search.pl
