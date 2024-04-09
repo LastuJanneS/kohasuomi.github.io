@@ -1426,7 +1426,9 @@ $(document).ready(function() {
 ### Lisää käyttöoikeuksia -valikko Aseta virkailijaoikeuksia -sivulle
 
 Vaskin tekemä js, ei käytössä kaikissa kimpoissa.
+Versio: 22.11
 
+```
 // Lisää käyttäjäoikeudet monivalintanappi sivulla /cgi-bin/koha/members/member-flags.pl? Pudotusvalikkonappi lisätään lomakkeen yläreunaan ennen Tallenna-nappia.
 $(document).ready(function() {
   if ( "body#pat_member-flags.pat" ){
@@ -1520,3 +1522,4 @@ $(document).ready(function() {
   }
 });
 //LOPPU
+```
