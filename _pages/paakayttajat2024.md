@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 15
 
 Aika: 9.4.2024 klo 9.15<br />
-Läsnä:
+Läsnä: Anneli Österman ja Johanna Räisä (Koha-Suomi)
 
 **Yhteiset**
 * [Pääkäyttäjän tehtävät](https://github.com/KohaSuomi/Koha/wiki/P%C3%A4%C3%A4k%C3%A4ytt%C3%A4j%C3%A4n-teht%C3%A4v%C3%A4t) -listaus. Puuttuko jotain tai pitäisikö jotain poistaa?
@@ -21,6 +21,10 @@ Läsnä:
 * [Bugi-perjantai 26.4.2024](https://github.com/KohaSuomi/Koha/discussions/1148)
 * Kohan ohje suomeksi -päivitysvastuut, pohjaksi [edellisen versionvaihdon tiketti](https://github.com/KohaSuomi/Koha/issues/549)
   * [Kohan ohje suomeksi -muotoiluohjeistus](https://github.com/KohaSuomi/kohasuomi.github.io/wiki/Kohan-ohje-suomeksi--muotoiluohjeistus)
+  * Päivitysvastuut kirjattu [tikettiin](https://github.com/KohaSuomi/Koha/issues/1150)
+  * tavoitteena saada ohjeet päivitettyä syyskuun loppuun mennessä.
+* [Nextiltä tuotantoon siirrettävät tiedot](https://github.com/KohaSuomi/Koha-23x/issues/121)
+  * käydään läpi viikon 16 palaverissa, miettikää sitä ennen, tuleeko muita ehdotuksia/tarpeita mieleen ja kirjatkaa ne tikettiin. 
 
 Pohjoisesta etelään
 
