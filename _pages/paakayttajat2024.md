@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 15
 
 Aika: 9.4.2024 klo 9.15<br />
-Läsnä: Anneli Österman ja Johanna Räisä (Koha-Suomi), Leena Kinnunen, Pia Kusmin (Lappi), Anni Rajala (Vaski)
+Läsnä: Anneli Österman ja Johanna Räisä (Koha-Suomi), Leena Kinnunen, Pia Kusmin (Lappi), Anni Rajala (Vaski), Hanna Ikonen (Lumme)
 
 **Yhteiset**
 * [Pääkäyttäjän tehtävät](https://github.com/KohaSuomi/Koha/wiki/P%C3%A4%C3%A4k%C3%A4ytt%C3%A4j%C3%A4n-teht%C3%A4v%C3%A4t) -listaus. Puuttuko jotain tai pitäisikö jotain poistaa?
@@ -37,6 +37,11 @@ Pohjoisesta etelään
 * Elokuvien Vaski-tasoisen kellutuksen valmisteluun liittyen on päätetty ottaa käyttöön yhteiset kokoelmakoodit. Tällä hetkellä Vaskissa elokuvien erinäiset tarkemmat sijoittelutiedot on olleet konversion jäljiltä "Yleinen huomautus" -nidekentässä.
 * Jaetaan nextin osoite koko henkilökunnalle, yleensä tosin aika harva innostuu testaamaan.
 * Turun pk:n palautusautomatiikan uusiminen käynnistyy, iso projekti. Pääkäyttäjät menossa tutustumiskäynnille pääkaupunkiseudulle 19.4.
+
+**Lumme**
+* Normaalia ylläpitoa.
+* Finnan kautta oli tullut paljon vääriä kirjautumisyrityksiä huollettaville, vaikka tunnukset ovat oikein. OUTI on tehnyt tästä tiketin.
+* Gmail-osoitteita käyttäville asiakkaille oli mennyt myöhästymismuistutuksia roskapostiin. Henkilökuntaa opastettu tämän asian ohjeistamisessa asiakkaille.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-15) - [Palaa sivun alkuun](/paakayttajat2024)
 
