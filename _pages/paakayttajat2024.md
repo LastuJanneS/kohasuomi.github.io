@@ -22,7 +22,7 @@ Läsnä: Anneli Österman ja Johanna Räisä (Koha-Suomi), Leena Kinnunen, Pia K
 * Kohan ohje suomeksi -päivitysvastuut, pohjaksi [edellisen versionvaihdon tiketti](https://github.com/KohaSuomi/Koha/issues/549)
   * [Kohan ohje suomeksi -muotoiluohjeistus](https://github.com/KohaSuomi/kohasuomi.github.io/wiki/Kohan-ohje-suomeksi--muotoiluohjeistus)
   * Päivitysvastuut kirjattu [tikettiin](https://github.com/KohaSuomi/Koha/issues/1150)
-  * tavoitteena saada ohjeet päivitettyä syyskuun loppuun mennessä.
+  * tavoitteena saada ohjeet päivitettyä syyskuun 2024 loppuun mennessä.
 * [Nextiltä tuotantoon siirrettävät tiedot](https://github.com/KohaSuomi/Koha-23x/issues/121)
   * käydään läpi viikon 16 palaverissa, miettikää sitä ennen, tuleeko muita ehdotuksia/tarpeita mieleen ja kirjatkaa ne tikettiin. 
 
