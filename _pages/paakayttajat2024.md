@@ -46,8 +46,9 @@ Pohjoisesta etelään
 **OUTI**
 * OUTIn Finna-tuella selvityksen alla miten saadaan Finna-nextillä Kooste: -teksti piilotettua. Nykyinen Kooste-kohtien piilotus pakottaa Kooste-kohtiin ruksit, mutta noutoviestien kooste-ominaisuus ei tuohon pakotukseen OUTIssa käy. 
 * Omatoimi-kirjasto otetaan käyttöön kesällä Muhoksella. Muhoksen lapsiasiakkaille on sallittu omatoimikäyttö uusia kortteja tehdessä. Huoltajien viesteihin on tarkoitus lisätä ajona hoksautus, että lapsella on omatoimikäyttö sallittu. Huoltajia on noin 500. Viesti tulisi näkymään myös verkkokirjastossa. 16 vuotta täyttäneiden asiakkaiden huoltajilta, joille tuo viesti on lisätty, otetaan viesti pois. Viestien poistamisen työkaluna käytetään sitä varten tehtyä raporttia.
-* 776-kentän (useita ulkoasuja) tiedot näkyvät Kohassa hassusti tietueen perusnäytöllä esim: Useita ulkoasuja: Ei otsikkoa; Ei otsikkoa.. 776i tai 776z- kenttien piilotus ei auttanut. Finnassa kyseinen kohta näkyy siten, että ISBN:n perässä lukee FENNI<KEEP>. Anneli tutkaili palaverin aikana, että ehkä 776t-kentän täyttäminen auttaisi. OUTIssa jatkamme asian tutkimista Nextillä.
-* Käyttäjätunnuksen lukkiutuminen, kun Finnassa liitetyn kortin PIN on vaihdettu. Tarkempi ongelman kuvaus tiketissä: 5 https://github.com/KohaSuomi/koha-plugin-rest-di/issues/5 Samaa ongelmaa on havaittu myös muissa kimpoissa.
+* 776-kentän (useita ulkoasuja) tiedot näkyvät Kohassa hassusti tietueen perusnäytöllä esim: Useita ulkoasuja: Ei otsikkoa; Ei otsikkoa.. 776i tai 776z- kenttien piilotus ei auttanut. Finnassa kyseinen kohta näkyy siten, että ISBN:n perässä lukee FENNI KEEP. Anneli tutkaili palaverin aikana, että ehkä 776t-kentän täyttäminen auttaisi. OUTIssa jatkamme asian tutkimista Nextillä.
+* Käyttäjätunnuksen lukkiutuminen, kun Finnassa liitetyn kortin PIN on vaihdettu. Tarkempi ongelman kuvaus tiketissä: 5 https://github.com/KohaSuomi/koha-plugin-rest-di/issues/5
+  * Samaa ongelmaa on havaittu myös muissa kimpoissa.
 * Laskutuksen keskeytys viikolla 11 (versiovaihdosviikko). Laskutuksen pitäisi toimia ihan ok versionvaihdon jälkeen, joten laskutuksen voi aloittaa jo viikolla 12, mutta pienesti.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-15) - [Palaa sivun alkuun](/paakayttajat2024)
