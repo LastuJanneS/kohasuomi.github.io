@@ -67,14 +67,12 @@ tietokannasta. Joudut vielä tallentamaan raportin.
 Anna raportille nimi ja tallenna  
 ![](/assets/files/docs/Raportit/raportit12.png)
 
-Voit nyt ajaa juuri tekemäsi raportin _Aja raportti_ -napista
-painamalla.  
+Voit nyt ajaa juuri tekemäsi raportin _Aja raportti_ -napista painamalla. Voit myös muokata SQL-kyselyä ja valita sen jälkeen _Päivitä ja aja SQL_.
 ![](/assets/files/docs/Raportit/raportit13.png)
 
 #### 9.1.2.1 Käytä tallennettua raporttia
 
-Tallennettuista raporteista löytyvät ohjatun raporttien luonnin kautta
-tehdyt ja SQL-kyselyillä tehdyt raportit.
+Tallennettuista raporteista löytyvät ohjatun raporttien luonnin kautta tehdyt ja SQL-kyselyillä tehdyt raportit.
 
 ![](/assets/files/docs/Raportit/raportit14.png)
 
@@ -92,11 +90,9 @@ Käynnistä-napissa on pieni nuoli, jonka alta löytyy muita vaihtoehtoja
 
 - _Näytä_-vaihtoehdolla näet raportin SQL-koodin
 - _Esikatsele SQL_ -vaihtoehdolla näet SQL-koodin erillisessä popupissa.
-- _Muokkaa_-vaihtoehdolla voi muokata raportin SQL-koodia (vaatii erillisen oikeuden)
-- _Kopioi_-vaihtoehdolla voi kopioida raportin SQL-koodin ja muokata
-  sitä uutena raporttina (vaatii erillisen oikeuden)
-- _Ajastus_-vaihtoehdolla voi ajastaa raportin käynnistymään tiettynä
-  ajankohtana. **HUOM!** Ajastus ei toimi.
+- _Muokkaa_-vaihtoehdolla voit muokata raportin SQL-koodia (vaatii erillisen oikeuden)
+- _Kopioi_-vaihtoehdolla voit kopioida raportin SQL-koodin ja muokata sitä uutena raporttina (vaatii erillisen oikeuden)
+- _Ajastus_-vaihtoehdolla voit ajastaa raportin käynnistymään tiettynä ajankohtana. **HUOM!** Ajastus ei toimi.
 - _Poista_ -vaihtoehdolla voit poistaa kyselyn (vaatii erillisen oikeuden)
 
 Ajettavan raportin ominaisuuksista/määrityksistä riippuu, mitä
@@ -130,7 +126,7 @@ Jos raportin tulokset sisältävät sarakkeen, jossa on niteen itemnumber tai ti
 ![](/assets/files/docs/Raportit/raportit181.png)
 - Tietueiden muokkaus eräajona
 - Tietueiden poisto eräajona
-- Lisää listaan
+- Lisää listalle
 
 ![](/assets/files/docs/Raportit/raportit182.png)
 - Niteiden muokkaus eräajona
@@ -166,8 +162,6 @@ aihealueesta.
 - Valitse _Tulostus_-kohdasta, haluatko tulokset näytölle vai
   tiedostoon.
 
-Valinnoistasi riippuen muodostuu tulos taulukoksi.
-
 ![](/assets/files/docs/Raportit/raportit21.png)
 
 #### Asiakastilastot
@@ -179,7 +173,7 @@ Valinnoistasi riippuen muodostuu tulos taulukoksi.
 - Valitse _Tulostus_-kohdasta, haluatko tulokset näytölle vai
   tiedostoon.
 
-Valinnoistasi riippuen tuloksista muodostuu taulukko
+Valinnoistasi riippuen tuloksista muodostuu taulukko.
 
 ![](/assets/files/docs/Raportit/raportit23.png)
 
@@ -194,7 +188,7 @@ Valinnoistasi riippuen tuloksista muodostuu taulukko
 - Valitse _Tulostus_-kohdasta, haluatko tulokset näytölle vai
   tiedostoon.
 
-Valinnoistasi riippuen tuloksista muodostuu taulukko
+Valinnoistasi riippuen tuloksista muodostuu taulukko.
 
 ![](/assets/files/docs/Raportit/raportit25.png)
 
@@ -209,7 +203,7 @@ Valinnoistasi riippuen tuloksista muodostuu taulukko
 - Valitse _Tulostus_-kohdasta, haluatko tulokset näytölle vai
   tiedostoon.
 
-Valinnoistasi riippuen tuloksista muodostuu taulukko
+Valinnoistasi riippuen tuloksista muodostuu taulukko.
 
 ![](/assets/files/docs/Raportit/raportit27.png)
 
@@ -222,7 +216,7 @@ Valinnoistasi riippuen tuloksista muodostuu taulukko
 - Valitse _Tulostus_-kohdasta, haluatko tulokset näytölle vai
   tiedostoon.
 
-Valinnoistasi riippuen tuloksista muodostuu taulukko
+Valinnoistasi riippuen tuloksista muodostuu taulukko.
 
 ![](/assets/files/docs/Raportit/raportit29.png)
 
@@ -234,7 +228,7 @@ Valinnoistasi riippuen tuloksista muodostuu taulukko
 - Valitse _Tulostus_-kohdasta, haluatko tulokset näytölle vai
   tiedostoon.
 
-Valinnoistasi riippuen tuloksista muodostuu taulukko
+Valinnoistasi riippuen tuloksista muodostuu taulukko.
 
 ![](/assets/files/docs/Raportit/raportit31.png)
 
@@ -249,7 +243,7 @@ Valinnoistasi riippuen tuloksista muodostuu taulukko
 - Valitse _Tulostus_-kohdasta, haluatko tulokset näytölle vai
   tiedostoon.
 
-Valinnoistasi riippuen tuloksista muodostuu taulukko
+Valinnoistasi riippuen tuloksista muodostuu taulukko.
 
 ![](/assets/files/docs/Raportit/raportit33.png)
 
@@ -270,7 +264,7 @@ Valinnoistasi riippuen tuloksista muodostuu taulukko
 - Valitse _Tulostus_ -kohdasta haluatko tulokset näytölle vai
   tiedostoon
 
-Valinnoistasi riippuen tuloksista muodostuu taulukko
+Valinnoistasi riippuen tuloksista muodostuu taulukko.
 
 ![](/assets/files/docs/Raportit/raportit35.png)
 
@@ -286,11 +280,13 @@ Valinnoistasi riippuen tuloksista muodostuu taulukko
 - Valitse Tulostus -kohdasta haluatko tulokset näytölle vai
   tiedostoon.
 
-Valinnoistasi riippuen tuloksista muodostuu taulukko
+Valinnoistasi riippuen tuloksista muodostuu taulukko.
 
 ![](/assets/files/docs/Raportit/raportit37.png)
 
 ### 7.1.4 Ei käytössä
+
+Otsikko on hieman harhaanjohtava, mutta tarkoittaa, että aineistoa ei ole käytetty tai asiakkaita, jotka eivät ole lainanneet.
 
 #### Asiakkaat, jotka eivät ole lainanneet
 
@@ -353,14 +349,11 @@ Raportti laskee niteitä.
 
 ![](/assets/files/docs/Raportit/raportit46.png)
 
-- Valitse haluamasi kirjasto tai jätä tyhjäksi, jos haluat nähdä
-  kaikkien kirjastojen tilanteen
+- Valitse haluamasi kirjasto tai jätä tyhjäksi, jos haluat nähdä kaikkien kirjastojen tilanteen
 
 Valinnastasi riippuen tuloksista muodostuu taulukko.
 
 ![](/assets/files/docs/Raportit/raportit47.png)
-
-- Voit säätää näkyvillä olevia sarakkeita ja viedä tiedot Excel- tai CSV-muodossa, kopioida tai tulostaa ne.
 
 #### Keskimääräinen laina-aika
 
@@ -370,6 +363,7 @@ Valinnastasi riippuen tuloksista muodostuu taulukko.
   vaihtoehdot _Rivi_- ja _Sarake_-kohtiin.
 - Valitse _Tulostus_ -kohdasta haluatko tulokset näytölle vai
   tiedostoon.
+- Raportti on hidas.  
 
 Valinnoistasi riippuen tuloksista muodostuu taulukko
 
@@ -392,14 +386,14 @@ Liitännäinen löytyy seuraavasti: Raportit -> Raporttiliitännäiset -> Raport
 
 ![](/assets/files/docs/Raportit/raportit512.png)
 
-### 9.3.1 Järjestelmäasetuksen määritykset
+### 9.3.1 Liitännäisen määritykset
 
 Raporttiliitännäisen ylläpidossa on asetus, johon tehdään tietyt
 määritykset. Loput määritykset tulee suoraan työkalun koodista ja niitä
 määrityksiä on avattu alla.
 
 Asetuksessa määritetään, miten aineistotyypit, asiakaslajit ja
-hyllypaikat jaotellaan OKM-tilastoihin sekä, mitkä niteen tilat ei oteta
+hyllypaikat jaotellaan OKM-tilastoihin sekä, mitä niteen tiloja ei oteta
 mukaan tilastoihin.  
 <img src="/assets/files/docs/Raportit/raportit52.png" title="OKM-järjestelmäasetus" alt="OKM-järjestelmäasetus" style="width:80.0%" />
 
@@ -408,7 +402,7 @@ mukaan tilastoihin.
   - Kirja-aineistoa: _Books_
   - Äänitteitä: _Recordings_
   - Nuotteja: _SheetMusicAndScores_
-    - Jaotellaan automaattisesti MARC-luettelointitietojen mukaan
+    - Jaotellaan automaattisesti MARC-kuvailutietojen mukaan
       Musiikkiäänitteisiin ja Muihin äänitteisiin.
   - Videoita: Videos
   - CD-ROMeja: _CDROMs_
@@ -419,28 +413,17 @@ mukaan tilastoihin.
   - Elektronisia aineistoja: _Electronic_
   - Verkkoaineistoja: _Online_
 
-<!-- -->
-
 - _patronCategories_-otsikon alle merkitään tilastoihin mukaan
   otettavat asiakaslajit. Eli esim. jos käytössä on
   “EITILASTO”-asiakastyyppi, jonka lainoja ei lasketa mukaan, niin
   sitä ei merkitä tähän mukaan.
 
-<!-- -->
+- _notForLoanStatuses_-kohtaan merkitään ne ei-lainattavana-tilat eli notforloan-tilat, joita ei
+  oteta mukaan kokoelmatilastoihin. Esim. tilattu-tilassa olevat niteet.
 
-- _notForLoanStatuses_-kohtaan merkitään ne notforloan-tilat, joita ei
-  oteta mukaan kokoelmatilastoihin. Esim. tilattu-tilassa olevat
-  niteet.
+- _adultShelvingLocations_-kohtaan merkitään hyllypaikat, jotka sisältävät aikuisten aineistoa.
 
-<!-- -->
-
-- _adultShelvingLocations_-kohtaan merkitään hyllypaikat, jotka
-  sisältävät aikuisten aineistoa.
-
-<!-- -->
-
-- _juvenileShelvingLocations_-kohtaan merkitään hyllypaikat, jotka
-  sisältävät lasten aineistoa.
+- _juvenileShelvingLocations_-kohtaan merkitään hyllypaikat, jotka sisältävät lasten aineistoa.
 
 Esimerkkikonfiguraatio:
 
@@ -539,6 +522,8 @@ juvenileShelvingLocations:
 ```
 ### 9.3.2 Kovakoodatut määritykset
 
+Osa säännöistä on ns. kovakoodattuna liitännäiseen, eikä niitä pysty käyttäjä määrittelemään.
+
 #### 9.3.2.1 Kirjastot ja kirjastoryhmät
 
 OKM-tilastoryhmät määritetään ‘Kirjastot ja ryhmät’ -sivulla
@@ -609,13 +594,15 @@ hankintoihin, koska hankintatietoja ei säilytetä.
 
 Poistettujen niteiden lainat lasketaan mukaan lainatilastoihin.
 
+Tätä lukua ei enää ilmoiteta OKM:lle, vaan he laskevat poistot omalla laskukaavalla.
+
 #### 9.3.2.10 Lainanneet asiakkaat
 
-Lainaajat lasketaan aina uniikkeina arvoina. Tällöin, jos asiakas on lainannut vuoden aikana useammasta kirjastosta, tämä lasketaan näiden kirjastojen lainatilastoihin. Mutta koska OKM-tilastoissa kirjastot lasketaan ryhmittäin, lainaaja ei esiinny OKM-tilastoissa kuin kerran, jos kirjastot kuuluvat samaan OKM-ryhmään.
+Lainaajat lasketaan aina uniikkeina arvoina. Tällöin, jos asiakas on lainannut vuoden aikana useammasta kirjastosta, tämä lasketaan näiden kirjastojen lainatilastoihin. Mutta koska vuosittaisissa OKM-tilastoissa kirjastot lasketaan ryhmittäin, lainaaja ei esiinny OKM-tilastoissa kuin kerran, jos kirjastot kuuluvat samaan OKM-ryhmään. Tästä voi syntyä tilanne, jossa kuukausittaiset kirjastokohtaiset tilastot antavat isomman luvun lainanneista asiakkaista kuin vuosittainen tilasto, jossa kirjastot on käsitelty yhdessä.
 
 ### 9.3.3 Raportin käyttöohje
 
-OKM-tilastot -raporttiliitännäinen löytyy seuraavasti: Raportit -> Raporttiliitännäiset -> Raportointityökalu -> Toiminnot -> Aja raportti -> OKM
+OKM-tilastot -raporttiliitännäinen löytyy seuraavasti: Raportit -> Raporttiliitännäiset -> Raportointityökalu -> Toiminnot -> Aja raportti -> OKM-välilehti
 
 OKM-tilastoraportin tiedot jaotellaan OKM:n laatimien ehtojen
 mukaisesti. Sarakkeiden otsikoissa noudatetaan
