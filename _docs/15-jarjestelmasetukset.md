@@ -279,14 +279,18 @@ $(document).ready(function(){
 
 Asetus|Suositus|Lisätietoja
 ---|---|---
-SearchEngine| ElasticSearch|
-PatronAutoComplete | Älä ehdota | Vältetään turhia tietojen katseluja
 AgeRestrictionOverride | Älä salli | Esim. elokuvien ja pelien ikärajat ovat sitovia
+CancelOrdersInClosedBaskets | Salli | Asetuksella määritetään, voiko suljettujen tilauskorien tilauksia perua. Jos tähän laittaa, että voi perua, ei tarvitse ensin avata tilauskoria ensin.
+DefaultPatronSearchMethod | Sisältää | Asetuksella määritetään, käytetäänkö asiakashaussa Alkaa- vai Sisältää-hakua.
 ItemsDeniedRenewal | notforloan: [6] | Estää laskutetun niteen uusimisen
 CalculateFinesOnReturn | Älä laske | Myöhästymismaksut lasketaan yöllä ajastetulla ajolla. Jos tämäkin on päällä, maksut voivat kirjautua asiakkaalle tietyissä tilanteissa uudelleen [maksut maksetaan ja sitten sen jälkeen palautetaan myöhässä olevia niteitä].
 HidePersonalDetailOnCirculation | Piilota | Vältetään turhia tietojen katseluja
 HoldsNeedProcessingSIP | Älä täytä | Omatoimiaikana automaattiin palautetuista varatuista niteistä ei lähde näin noutoilmoituksia
+PatronAutoComplete | Älä ehdota | Vältetään turhia tietojen katseluja
+SearchEngine| ElasticSearch |
 StoreLastBorrower | Säilytä | Säilytetään erillisessä taulussa niteen viimeisin lainaaja, vaikka lainat anonymisoidaan. Auttaa löytämään oikean asiakkaan ongelmatilanteissa.
+StripWhitespaceChars | Poista | Asetuksella voi määrittää poistetaanko kuvailutietueen MARC-kentistä ylimääräiset välilyönnit, sarkaimet ja rivivaihdot. Asetus ei vaikuta kiinteämittaisiin kenttiin. [StripWhitespaceChars](https://koha-community.org/manual/23.05/en/html/catalogingpreferences.html#stripwhitespacechars)
+TrackLastPatronActivityTriggers | Kaikki muut paitsi Artikkelipyyntöä tehdessä | Asetuksella valitaan, mitkä tapahtumat päivittävät asiakkaan lastseen-arvon. Aina kun valitut tapahtuu, päivitetään asiakkaan lastseen-arvo sen hetkisellä päivämäärällä ja kellonajalla.
 TransfersBlockCirc | Estä | Kuljetukseen on reagoitava
 TrapHoldsOnOrder | Ota kiinni | Saapunut/tilattu-tilaiset jäävät palautuksessa varauksiin kiinni
 UpdateNotForLoanStatusOnCheckin | 6 : ONLYMESSAGE | Laskutetusta niteestä tulee ilmoitus palautettaessa
