@@ -14,6 +14,20 @@ Lisäksi koodeissa ei kannata olla myöskään alaviivoja, koska ne voivat aiheu
 
 Koska järjestelmäasetuksia on satoja, ei kaikista ole tällä sivulla tietoja. Järjestelmäasetuksia on käyty läpi pääkäyttäjien kanssa ja läpikäynneistä on tallenteet [Koha-Suomen Youtube-kanavalla](https://www.youtube.com/@koha-suomi/videos).
 
+### ActionLogsTraceDepth
+
+Asetuksella saa tallennettua action_logs-tauluun uuteen trace-sarakkeeseen tarkemmin tiedon, missä päin Kohaa toiminto on tehty.
+
+action_id | timestamp | user | module | action | object | info | interface | script | trace
+-- | -- | -- | -- | -- | -- | -- | -- | -- | -- 
+34 | 2023-08-22 10:01:04 | 51 | CIRCULATION | RETURN | 19 | 193 | intranet |   | [{"line":2476,"package":"C4::Circulation","subroutine":"C4::Log::logaction","filename":"/kohadevbox/koha/C4/Circulation.pm"},{"package":"CGI::Compile::ROOT::kohadevbox_koha_circ_returns_2epl","line":359,"subroutine":"C4::Circulation::AddReturn","filename":"/kohadevbox/koha/circ/returns.pl"},{"filename":"/kohadevbox/koha/circ/returns.pl","subroutine":"(eval)","package":"CGI::Compile::ROOT::kohadevbox_koha_circ_returns_2epl","line":2}]
+35 | 2023-08-22 10:01:44 | 51 | CIRCULATION | ISSUE | 19 | 193 | intranet |   | [{"subroutine":"C4::Log::logaction","filename":"/kohadevbox/koha/C4/Circulation.pm","line":1806,"package":"C4::Circulation"},{"subroutine":"C4::Circulation::AddIssue","filename":"/kohadevbox/koha/circ/circulation.pl","package":"CGI::Compile::ROOT::kohadevbox_koha_circ_circulation_2epl","line":402},{"package":"CGI::Compile::ROOT::kohadevbox_koha_circ_circulation_2epl","line":2,"filename":"/kohadevbox/koha/circ/circulation.pl","subroutine":"(eval)"}]
+
+Asetukseen asetetaan numero sen mukaan, kuinka "syvälle" halutaan seurata. Esimerkissä taso on 3.
+
+**Suositus**: Tuotannossa 0 eli pois päältä. Tarvittaessa ongelmia etsittäessä testikantaan taso 2, mutta sinnekin normaalitilanteessa 0.
+
+
 ### BarcodePrefix
 
 Asetuksella voi määrittää, millä merkkijonolla automaattisesti generoidut viivakoodit alkavat. Tämä vaatii kaveriksi autoBarcode-asetuksen toimiakseen. Asetus on YAMLia eli tieto pitää tallentaa tietyssä muodossa. Ensin kirjoitetaan kirjaston tunnus (minkä kirjaston niteestä kyse) - kaksoispiste - välilyönti - haluttu prefix. Eli siis näin:
