@@ -749,8 +749,7 @@ samannimiseen tilausryhmään”.
 
 ![](/assets/files/docs/Hankinta/hankinta67.png)
 
-- **Huom!** Jos yhdenkään tilauksen hinta on vahvistamaton, tilausta
-  ei voi sulkea.
+- **Huom!** Jos yhdenkin tilauksen hinta on vahvistamaton, tilausta ei voi sulkea.
 - Tilauksen sulun yhteydessä tilauskorin voi viedä saman nimiseen tilausryhmään halutessaan. Laita tällöin rasti ilmoituksessa olevaan ruutuun. Tilausryhmistä tarkemmin alla.
 
 ### 7.4.3. Tilausryhmän tekeminen
@@ -819,26 +818,37 @@ samaa, hidastuu vastaanotto.
   Postikulut:-valikosta. **Huom!** Älä valitse tähän mitään, jos et lisää
   postikuluja.
 
-Kun klikkaat _Seuraava_, saat sivun, jossa listataan kaikki valitun toimittajan tilaukset. Voit nyt etsiä
+Kun klikkaat _Seuraava_, saat sivun, jossa listataan kaikki valitun toimittajan vastaanottamattomat tilaukset. Voit nyt etsiä
 vastaanotettavan teoksen kirjoittamalla/syöttämällä taulukon yläpuolella olevaan Haku-laatikkoon esim. teoksen nimen alun, ISBN-numeron tai tekijän
 nimestä alun. Voit myös käyttää taulukon omia suodatusrivejä kirjoittaa/lukea Yhteenveto-sarakkeen hakukenttään hakemasi tiedon.
 
-Klikkaa vastaanotettavan teoksen rivin oikeassa reunassa olevaa
-_Vastaanota_-linkkiä.
+Voit vastaanottaa joko yksittäisiä rivejä tai useamman tilausrivin kerrallaan laittamalla teosten kohdalle rastin.
+
+![](/assets/files/docs/Hankinta/hankinta74.png)
+
+- Jos otat vastaan vain yhden tilausrivin, klikkaa vastaanotettavan teoksen rivin oikeassa reunassa olevaa _Vastaanota_-linkkiä
+- Jos otat vastaan useamman tilausrivin, klikkaa _Vastaanota valitut_ -nappia.
+
+Avautuu yhteenvetosivu, jossa valitaan yhden rivin kohdalta _Muokkaa_
 
 ![](/assets/files/docs/Hankinta/hankinta75.png)
 
-Valitse vastaanotettava nide klikkaamalla ruutua
-_Vastaanotettu?_-sarakkeessa tai kirjoittamalla vastaanotettava määrä
-oikealla Vastaanotettu-kenttään. Jos kirjoitat oikealle numeron,
-vasemmalle tulee vastaava määrä rasteja. Voit valita myös vain osan
-niteistä, mikäli on saapunut osatoimitus.
+Siitä avautuu popup-ikkuna, jossa voi ottaa vastaan joko yhden tai useamman, mikäli useampi tilaus on aiemmin valittuna.
 
 ![](/assets/files/docs/Hankinta/hankinta76.png)
 
+- Valitse _Vastaanotettu?_-sarakeen ruutu tai kirjoita vastaanotettava määrä oikealla Vastaanotettu-kenttään. Jos kirjoitat oikealle numeron,
+vasemmalle tulee vastaava määrä rasteja. Voit valita myös vain osan niteistä, mikäli on saapunut osatoimitus.
 - Voit myös vaihtaa käytettävän tilin halutessasi.
-- _Muokkaa_-linkistä pääset muokkaamaan yksittäisen niteen tietoja.
-  Muokkausnäyttö avautuu toiseen välilehteen.
+- _Muokkaa_-linkistä pääset muokkaamaan yksittäisen niteen tietoja. Muokkausnäyttö avautuu toiseen välilehteen.
+- Voit siirtyä seuraavaan vastaanotettavaan tilaukseen _Seuraava tilaus_ -napista ja palata edelliseen _Edellinen tilaus_ -napista.
+- _Sulje_-napista sulkeutuu tilaustiedot muutoksia tallentamatta.
+- _Tallenna muutokset_ -nappia kannattaa painaa, kun on käsitellyt viimeisen vastaanotettavan tilauksen tiedot, jolloin tiedot tallennetaan ja palataan yhteenvetosivulle.
+
+![](/assets/files/docs/Hankinta/hankinta761.png)
+
+- _Määrä_-sarakkeeseen on nyt muuttunut tieto, kuinka monta nidettä otetaan vastaan.
+- _Hyväksy_-painike on nyt aktivoitunut ja sitä painamalla hyväksyt tilausten vastaanoton.
 
 Valitse lopuksi vasemmalta alhaalta _Tallenna_.
 
