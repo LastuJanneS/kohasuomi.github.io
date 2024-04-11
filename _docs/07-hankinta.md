@@ -902,9 +902,9 @@ Hae peruttava tilaus teoksen hakutoiminnolla.
 ![](/assets/files/docs/Hankinta/hankinta80.png)
 
 - Klikkaa _Peruuta teoksen tilaus_ -linkkiä, jolloin poistuu
-  tilausriviin liittyvät vastaanottamattomat niteet, mutta luettelointitiedot ja muiden kirjastojen
+  tilausriviin liittyvät vastaanottamattomat niteet, mutta kuvailutiedot ja muiden kirjastojen
   niteet ja asiakkaiden varaukset säilyvät. Myös oman kirjaston jo vastaanotetut niteet säilyvät. (Tämä on korjaantunut aiemmasta versiosta, jossa myös vastaanotetut poistuivat)
-- Jos tilausriviin teokseen ei liity muita tilauksia, niteitä ja
+- Jos tilausrivin teokseen ei liity muita tilauksia, niteitä ja
   varauksia, voi poistaa myös nimekkeen _Peruuta teoksen tilaus ja
   nimeketietue_ -linkistä.
 
@@ -930,9 +930,9 @@ Valitse _Hankinnat_-sivulla vasemmasta reunasta _Myöhässä olevat_
 
 ![](/assets/files/docs/Hankinta/hankinta831.png)
 
-Pääset listauksen, jota voit suodattaa sivun vasemmassa reunassa
+Pääset listaukseen, jota voit suodattaa sivun vasemmassa reunassa
 olevasta valikosta esimerkiksi tilauspäivän tai toimittajan mukaan.
-Suodatus koskee vain suljettuja tilauksia.  
+Suodatus koskee vain suljettuja tilauskoreja.  
 ![](/assets/files/docs/Hankinta/hankinta83.png)
 
 Kun tilauksia on suodatettu toimittajan mukaan, hakutulos näyttää tältä:
