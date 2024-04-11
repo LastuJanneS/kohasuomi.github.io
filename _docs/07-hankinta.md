@@ -191,11 +191,15 @@ Toimittajan lisäyslomake koostuu kolmesta osasta.
   ![](/assets/files/docs/Hankinta/hankinta10.png)
   - Näistä kentistä vain _Nimi_-kenttä on pakollinen, muut tiedot helpottavat laskutuksen ja reklamoinnin
     tekemisessä.
+  - _Aliakset_-kenttään voi lisätä erilaisia nimimuotoja toimittajalle, esim. entisiä nimiä. Aliaksilla voi hakea toimittajaa.
 
 - Toinen osio koostuu yhteyshenkilön/henkilöiden tiedoista.  
   ![](/assets/files/docs/Hankinta/hankinta11.png)
   - Mikään näistä tiedoista ei ole pakollinen.
 
+- Kolmanteen osioon voi lisätä toimittajan verkkopalvelun osoitteen, tunnuksen, salasanan ja tilin sähköpostiosoitteen. Salasana piilotetaan tallennuksen jälkeen, mutta sen saa näkyville klikkaamalla. Ei kannata tallentaa salasanaa tähän.
+  ![](/assets/files/docs/Hankinta/hankinta111.png)
+  ![](/assets/files/docs/Hankinta/hankinta112.png)
 
 - Viimeinen osio sisältää aineiston hintoihin liittyviä tietoja.  
   ![](/assets/files/docs/Hankinta/hankinta12.png)
@@ -214,12 +218,11 @@ Toimittajan lisäyslomake koostuu kolmesta osasta.
   - Jos tiedät normaalin toimitusajan aineistolle, voit antaa
     _toimitusajan_ päivinä. Tästä Koha pystyy arvioimaan, milloin
     tilaus joutuu myöhässä olevien tilausten raporttiin.
-  - _Muuta_-kenttä on sisäiseen käyttöön tuleva huomautus.
+  - _Huomautukset_-kenttä on sisäiseen käyttöön tuleva huomautus.
 
 ### 7.2.2. Näytä/muokkaa toimittajaa
 
-Nähdäksesi toimittajan tiedot, tulee ensin tehdä haku
-_Hankinnat_-etusivulla. Voit hakea myös toimittajan nimen osalla.
+Nähdäksesi toimittajan tiedot, tulee ensin tehdä haku _Hankinnat_-etusivulla. Voit hakea myös toimittajan nimen osalla.
 
 ![](/assets/files/docs/Hankinta/hankinta13.png)  
 ![](/assets/files/docs/Hankinta/hankinta14.png)
@@ -410,7 +413,7 @@ Klikkaa ensin _Uusi_ ja avautuvasta valikosta _Tilauskori_ toimittajan nimen yl�
 **Vinkki:** Voit lisätä nimekkeitä myös olemassa olevaan tilaukseen
 klikkaamalla _Lisää tilauskoriin_ kunkin tilauksen rivin oikeassa
 laidassa. Jos tilaus on jo suljettu, silloin siihen ei voi lisätä
-tilauksia.
+tilauksia. Tilauskori pitää avata uudelleen, jotta tilauksia voi lisätä.
 
 Uutta tilauskoria varten täytyy täyttää muutamia tietoja:
 
