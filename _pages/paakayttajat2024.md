@@ -16,6 +16,7 @@ Aika: 16.4.2024 klo 9.15<br />
 Läsnä:
 
 **Yhteiset**
+* Versionvaihdon tarkempi aikataulu
 * [Tarkka haku -toimintoon paluu hakutuloksen Muokkaa hakua -linkistä muuttaa tehdyn haun hakutyypin](https://github.com/KohaSuomi/Koha/issues/663)
   * Ehdotuksena, että viimeisimmissä kommenteissa mainitut rimpsut laitettaisiin nexteille ja sieltä sitten tuotantoon. 
 
