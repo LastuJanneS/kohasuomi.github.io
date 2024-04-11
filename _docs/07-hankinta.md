@@ -1036,3 +1036,67 @@ näkyviin siihen tiliin tehdyt tilaukset.
 
 - Myös tällä sivulla toimii _Haku_-kenttä.
 - Voit myös järjestää tuloksia esim. nimekkeen mukaan sarakkeen ensimmäisen rivin nuolilla.
+
+## 7.11 Lisäkentät laskuille, tilauksille ja tilauskoreille
+
+Kohan ylläpidossa pystyy lisäämään lisäkenttiä laskuille, tilauksille ja tilauskoreille. Lisäkenttiä pääsee lisäämään joko Ylläpito -> Lisäkentät tai Hankinnat-osiossa olleessa vasemmasta reunasta Ylläpito-osiosta _Laskujen lisäkenttien hallinnointi_, _Hallinnoi tilauskorin kenttiä_ tai _Hallinnoi tilausrivin kenttiä_.
+
+![Hankinnat - Ylläpito - lisäkenttien hallinta](/assets/files/docs/Hankinta/hankinta95.png)
+
+### 7.11.1 Lisäkentät laskuille
+
+Laskulle voi lisätä lisäkenttiä:
+
+![Laskun lisäkentän lisäys](/assets/files/docs/Hankinta/hankinta96.png)
+
+- _Nimi_ on pakollinen tieto.
+- _Auktorisoidun arvon luokka_ -kohdasta voi tarvittaessa valita jonkin auktorisoidun arvon, jota halutaan käyttää lisäkentässä. Jos auktorisoitua arvoa ei valitse, tulee laskuun näkyville vapaatekstikenttä.
+- _Haettavissa_ -valinnalla lisäkentän saa hakukelpoiseksi.
+
+Lisäkenttä näkyy, kun vastaanottaa tilauksia ja luodaan lasku vastaanotolle.
+
+![Lisäkenttä laskua luodessa](/assets/files/docs/Hankinta/hankinta97.png)
+
+Kun lopetetaan tilausten vastaanotto.
+
+![Laskun lisäkenttä vastaanottoa lopettaessa](/assets/files/docs/Hankinta/hankinta98.png)
+
+### 7.11.2 Lisäkentät tilauksille
+
+Tilauksille voi lisätä lisäkenttiä.
+
+![Lisäkentän lisäys tilaukselle](/assets/files/docs/Hankinta/hankinta99.png)
+
+- _Nimi_ on pakollinen.
+- _Auktorisoidun arvon luokka_ -valikosta voi valita tarvittaessa jonkin auktorisoidun arvon, jota halutaan käyttää lisäkentässä. Jos auktorisoitua arvoa ei valitse, tulee laskuun näkyville vapaatekstikenttä.
+- _MARC-kenttä_ -kohtaan voi määrittää MARC-kentän, esim. 049$c
+- _MARC-kentän tila_ -kohdasta voi valita
+  - haetaanko kenttään yllä mainitusta kentästä tieto näkyviin tilaukseen. Tieto ei ole tällöin muokattavissa.
+  - tallennetaanko kenttään lisätty tieto määritettyyn MARC-kenttään tilausta tallennettaessa.
+- Huom! Et voi valita sekä auktorisoidun arvon luokkaa että MARC-kenttää käytettäväksi yhtä aikaa. Virheestä johtuen se kuitenkin onnistuu, jos ensin tallennat lisäkentän ja menet sitten muokkaamaan sitä uudelleen. Jos tässä vaiheessa poistaa valinnan auktorisoitu arvo -kohdasta ja lisää MARC-kentän, tallentuu MARC-kenttätieto, mutta auktorisoitu arvo ei poistu lisäkentältä.
+
+Tilauksen lisäkenttä näkyy tilausta tehdessä alimmaisena Tilitystietojen alapuolella.
+
+![Tilauksen lisäkentät näkyvät Tilitystietojen alapuolella](/assets/files/docs/Hankinta/hankinta100.png)
+
+Jos lisäkenttien tiedot on määritetty tallennettavaksi MARC-kenttään, tallentuvat ne sinne. MARC-esikatselussa kentät menevät viimeiseksi, mutta tietuetta muokatessa ja tallennettaessa kentät järjestyvät oikeaan järjestykseen.
+
+Jos lisäkenttien tietoja ei ole määritetty tallennettavaksi MARC-kenttään, näkyy tieto vain tilausta muokatessa.
+
+### 7.11.3 Lisäkentät tilauskoreille
+
+Tilauskoreille voi lisätä lisäkenttiä.
+
+![Lisäkenttä tilauskorille](/assets/files/docs/Hankinta/hankinta101.png)
+
+- _Nimi_ on pakollinen.
+- _Auktorisoidun arvon luokka_ -valikosta voi valita tarvittaessa jonkin auktorisoidun arvon, jota halutaan käyttää lisäkentässä. Jos auktorisoitua arvoa ei valitse, tulee laskuun näkyville vapaatekstikenttä.
+- _Haettavissa_ -valinnalla lisäkentän saa hakukelpoiseksi.
+
+Lisäkenttä näkyy tilauskoria luotaessa alimmaisena.
+
+![Lisäkenttä näkyy tilauskoria luotaessa alimmaisena](/assets/files/docs/Hankinta/hankinta102.png)
+
+Kun tilauskori on luotu ja sille lisätty tieto lisäkenttään, näkyy se tilauskorin Tietoja-osiossa.
+
+![Lisäkenttä näkyy tietoja-osiossa](/assets/files/docs/Hankinta/hankinta103.png)
