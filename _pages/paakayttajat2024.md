@@ -26,7 +26,7 @@ Etelästä pohjoiseen
 ## Viikko 15
 
 Aika: 9.4.2024 klo 9.15<br />
-Läsnä: Anneli Österman ja Johanna Räisä (Koha-Suomi), Leena Kinnunen, Pia Kusmin (Lappi), Anni Rajala (Vaski), Hanna Ikonen (Lumme), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Tuomas Kunttu (Kyyti), Irina Halminen ja Hanna Hyttinen (Vaara)
+Läsnä: Anneli Österman ja Johanna Räisä (Koha-Suomi), Leena Kinnunen, Pia Kusmin (Lappi), Anni Rajala (Vaski), Hanna Ikonen (Lumme), Piia Semenoff ja Pirkko-Liisa Lauhikari (OUTI), Tuomas Kunttu (Kyyti), Irina Halminen ja Hanna Hyttinen (Vaara), Annika Helastila ja Elina Uotila (Kirkes)
 
 **Yhteiset**
 * [Pääkäyttäjän tehtävät](https://github.com/KohaSuomi/Koha/wiki/P%C3%A4%C3%A4k%C3%A4ytt%C3%A4j%C3%A4n-teht%C3%A4v%C3%A4t) -listaus. Puuttuko jotain tai pitäisikö jotain poistaa?
@@ -72,6 +72,9 @@ Pohjoisesta etelään
 * Eräällä paljon tarroja tulostavalle on tarratulostustyökalun Itse tulostetut -listaan kertynyt niin paljon niteitä, että selain hyytyi niitä ladatessa. Tiketti [1146](https://github.com/KohaSuomi/Koha/issues/1146). Asiaan on jo tehty korjaus.
 * Asiakkaan valitusta muuttuneesta sijasta varausjonossa selvitellessäni ihmettelin, että nimeketietueen varausjonossa voi muuttaa myös varauksen teko päivämäärää. Varausjonoa tarkastellessa ei siis voi mistään päätellä koska varaus on alunperin tehty, jos päivämäärää ja sijaa jonossa on muutettu. Myöskään suoraan reserves-taulusta ei sitä tietoa löydy. Ilmeisesti nämä muutokset eivät kuitenkaan näy lokeilla, joten varauslokeja tarkastellessa näkee alkuperäisen varauksen tekopäivän ja sijan. Mutta jos varauksia on kymmeniä tai satoja, on sieltä tällaisen muutetun varauksen löytäminen todella työlästä.
 * Pyhtään uuden automaatin lainojen uusinta -ongelmaa on lähdettu ratkomaan automaattitoimittajalta. Toistaiseksi ei ole saatu vastausta. Tiketti [1137](https://github.com/KohaSuomi/Koha/issues/1137)
+
+**Kirkes**
+* Kuvailijoilta tullut kyselyjä kiinteämittaisten kenttien ja aineistotyypin vastaamattomuudesta. Tällaista ei pääsääntöisesti pitäisi olla, koska konversiossa aineistotyyppi määritettiin nimenomaan kiinteämittaisten kenttien mukaan. Ilmeisesti ongelma koskee lähinnä moniviestimiä, joissa osassa on toistettu 007-kenttää ja osassa ei.  
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-15) - [Palaa sivun alkuun](/paakayttajat2024)
 
