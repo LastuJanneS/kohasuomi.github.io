@@ -122,7 +122,7 @@ Ota **pois** rasti kohdasta _Aktivoi budjetti_ ja sen jälkeen _Tallenna_.
 Budjettiin pitää lisätä _tilejä_, jotta sitä voi käyttää. Voit jakaa
 määrärahoja esim. kirjastoittain, aineistoittain tai miten on tarve.
 
-[Huomioi EditX-hankinnan vaatimukset](https://tiketti.koha-suomi.fi/projects/koha-suomen-dokumentaatio/wiki/EditX-hankinta).
+[Huomioi EditX-hankinnan vaatimukset](https://koha-suomi.fi/dokumentaatio/editx/).
 **Tilien luonti EDItX-ohjeistuksen mukaan on kriittisen tärkeää.**
 {: .notice--warning}
 
@@ -837,7 +837,7 @@ Siitä avautuu popup-ikkuna, jossa voi ottaa vastaan joko yhden tai useamman, mi
 
 ![](/assets/files/docs/Hankinta/hankinta76.png)
 
-- Valitse _Vastaanotettu?_-sarakeen ruutu tai kirjoita vastaanotettava määrä oikealla Vastaanotettu-kenttään. Jos kirjoitat oikealle numeron,
+- Lisää _Vastaanotettu?_-sarakkeeseen rasti tai kirjoita vastaanotettava määrä oikealla Vastaanotettu-kenttään. Jos kirjoitat oikealle numeron,
 vasemmalle tulee vastaava määrä rasteja. Voit valita myös vain osan niteistä, mikäli on saapunut osatoimitus.
 - Voit myös vaihtaa käytettävän tilin halutessasi.
 - _Muokkaa_-linkistä pääset muokkaamaan yksittäisen niteen tietoja. Muokkausnäyttö avautuu toiseen välilehteen.
@@ -849,8 +849,6 @@ vasemmalle tulee vastaava määrä rasteja. Voit valita myös vain osan niteist�
 
 - _Määrä_-sarakkeeseen on nyt muuttunut tieto, kuinka monta nidettä otetaan vastaan.
 - _Hyväksy_-painike on nyt aktivoitunut ja sitä painamalla hyväksyt tilausten vastaanoton.
-
-Valitse lopuksi vasemmalta alhaalta _Tallenna_.
 
 Vastaanoton tallennuksen jälkeen palaat takaisin tilauskoriin. Vastaanotetut näkyvät vastaanotettavien alapuolella omana taulukkonaan.
 
