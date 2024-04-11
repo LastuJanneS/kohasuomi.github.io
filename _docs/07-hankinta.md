@@ -412,7 +412,7 @@ Klikkaa ensin _Uusi_ ja avautuvasta valikosta _Tilauskori_ toimittajan nimen yl�
 
 **Vinkki:** Voit lisätä nimekkeitä myös olemassa olevaan tilaukseen
 klikkaamalla _Lisää tilauskoriin_ kunkin tilauksen rivin oikeassa
-laidassa. Jos tilaus on jo suljettu, silloin siihen ei voi lisätä
+laidassa. Jos tilauskori on jo suljettu, silloin siihen ei voi lisätä
 tilauksia. Tilauskori pitää avata uudelleen, jotta tilauksia voi lisätä.
 
 Uutta tilauskoria varten täytyy täyttää muutamia tietoja:
@@ -487,13 +487,13 @@ ehdotuksen tekijän nimi.
 Hankintaehdotusten perusteella tehdyistä tilauksista lähtee asiakkaalle
 sähköpostiviesti, jossa kerrotaan tehdystä tilauksesta.
 
-#### 7.4.1.3. Lehtitilauksesta
+#### 7.4.1.3. Kausijulkaisutilauksesta
 
 Kun käytät _Kausijulkaisut_-osiota, voit linkittää lehtitilauksen tiedot
-hankintaan valitsemalla _Lehtitilauksesta_.
+hankintaan valitsemalla _Kausijulkaisutilauksesta_.
 
 - Klikkaamalla tilauslinkkiä pääset hakusivulle, josta voit hakea
-  lehtitilauksen tiedot.
+  kausijulkaisutilauksen tiedot.
   
 ![](/assets/files/docs/Hankinta/hankinta48.png)
 
@@ -501,8 +501,8 @@ Hakemasi lehden tilaustiedot tulevat näytölle ja oikeassa reunassa
 olevassa sarakkeessa on _Tilaus_-nappula. Jos tilaus on jo kiinni toisessa toimittajassa, on rivin kohdalla "Ei voi tilata".  
 ![](/assets/files/docs/Hankinta/hankinta49.png)
 
-Klikkaamalla Tilaus-nappia saat lehtitilauksen tiedot tilauslomakkeelle ilman
-Lisää nide -osiota, koska lehtitilauksessa sitä ei tarvita.  
+Klikkaamalla Tilaus-nappia saat kausijulkaisutilauksen tiedot tilauslomakkeelle ilman
+Lisää nide -osiota, koska kausijulkaisutilauksessa sitä ei tarvita.  
 ![](/assets/files/docs/Hankinta/hankinta50.png)
 
 #### 7.4.1.6. Uudesta (tyhjästä) tietueesta
@@ -529,7 +529,7 @@ Huom! Tyhjästä tietueesta tehdyn tietueen tietoja pitää käydä jälkikätee
 
 #### 7.4.1.4 Olemassa olevista tilauksista (kopio)
 
-Tilauksen voi tehdä jo olemassa olevan tilauksen pohjata kopioimalla sen. Kun valitset _Olemassa olevista tilauksista (kopio)_, niin saat ensin tilausten hakusivun. Hae haluamillasi hakuehdoilla. HUOM! Tämä on hidas, jos tietokannassa on paljon tilauksia eli käytännössä kaikilla.
+Tilauksen voi tehdä jo olemassa olevan tilauksen pohjalta kopioimalla sen. Kun valitset _Olemassa olevista tilauksista (kopio)_, niin saat ensin tilausten hakusivun. Hae haluamillasi hakuehdoilla. HUOM! Tämä on hidas, jos tietokannassa on paljon tilauksia eli käytännössä kaikilla.
 
 ![](/assets/files/docs/Hankinta/hankinta502.png)
 
@@ -659,7 +659,7 @@ Listalle tulee teokset, joilla on eniten varauksia per nide.
 - Varauksia per nide -suhdetta voi säätää vasemmasta reunasta _Varausten suhde (suurempi tai yhtäsuuri kuin)_ -kohdasta. Mitä suurempi luku, sitä epätodennäköisemmin teoksia tulee listalle.
 - Jos haluat, että tilattu-tilaiset niteet otetaan mukaan, laita rasti
   kohtaan _Sisällytä tilatut_ (tämä kannattaa laittaa)
-- Jos haluat, että keskeytety varaukset otetaan mukaan, laita rasti kohtaan _Sisällytä keskeytetyt_ (suositeltavaa).
+- Jos haluat, että keskeytetyt varaukset otetaan mukaan, laita rasti kohtaan _Sisällytä keskeytetyt_ (suositeltavaa).
 - Raportti kertoo, kuinka monta nidettä ja varausta teokseen kohdistuu sekä niiden suhteen.
 - Oikeasta reunasta Tarvitaan lisäniteitä -sarakkeesta klikkaamalla
   pääsee lisäämään teoksen tilauskoriin. Raportti ehdottaa tilattavaa nidemäärää.
@@ -700,11 +700,11 @@ Huom. Tilausta tehdessä numeroiden desimaalierottimena tulee käyttää pistett
 - _Toimittajan hinta_ annetaan ilman alennuksia.
 
 - Jos hinta on **vahvistamaton**, laita valinta ruutuun.
-  - HUOM! Jos tilauksessa on yksikin vahvistamaton hinta, tilausta
+  - HUOM! Jos tilauksessa on yksikin vahvistamaton hinta, tilauskoria
     ei voi sulkea.
 
 - Laita _veroprosentiksi_ 0 %, koska budjetit ovat alvittomia.
-  - Kun olet antanut alennusprosentin, klikkaa tab-näppäintä, niin
+  - Kun olet antanut alennusprosentin, paina tab-näppäintä tai klikkaa hiirellä muuhun kohtaan näytöllä, niin
     Koha täyttää loput hintatiedot.
  
  - _Korvausmaksu_ on alennettu veroton hinta.
@@ -719,7 +719,7 @@ Kun tilaus on tallennettu, saat yhteenvedon tilauksesta.
 
 ![](/assets/files/docs/Hankinta/hankinta641.png)
 
-Ennen tilauksen sulkemista voit vielä muokata tilauskoria ja sen sisältämiä
+Ennen tilauskorin sulkemista voit vielä muokata tilauskoria ja sen sisältämiä
 tilauksia. _Haku_-kentällä voi suodattaa taulukossa näkyviä tietoja.
 
 - Klikkaamalla _Peruuta teoksen tilaus_ poistat tilausrivin ja siihen
