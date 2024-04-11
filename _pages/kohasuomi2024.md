@@ -19,6 +19,7 @@ Aika: Maanantai 15.4.2024 klo 9<br />
 Läsnä:
 
 * Miten toteutetaan [tiketti #467](https://github.com/KohaSuomi/Koha/issues/467) / Kassu
+* Versionvaihdon tarkempi aikataulu päätettävä ja tiedotettava.
 
 ## Viikko 15
 
