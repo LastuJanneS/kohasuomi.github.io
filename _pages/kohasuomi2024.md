@@ -20,6 +20,7 @@ Läsnä:
 
 * Miten toteutetaan [tiketti #467](https://github.com/KohaSuomi/Koha/issues/467) / Kassu
 * Versionvaihdon tarkempi aikataulu päätettävä ja tiedotettava.
+* JS-rimpsujen läpikäynti Larin listan pohjalta
 
 ## Viikko 15
 
