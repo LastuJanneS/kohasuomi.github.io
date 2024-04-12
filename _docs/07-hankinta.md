@@ -167,7 +167,7 @@ Kolme ensimmäistä riviä ovat pakollisia täytettäviä.
 - _Rajoita käyttö:_ valitse valikosta, ketkä saavat käyttää tiliä. Käytön voi rajoittaa Omistajalle, Omistajalle ja käyttäjille tai Omistajalla, käyttäjille ja kirjastolle. **Huom!** Rajoitus ei toimi, jos tilille ei ole määritetty omistajaa.
   Kimpoissa kannattaa rajauksia tehdä, jotta kaikille ei näy kaikkien
   kirjastojen tilit (nopeuttaa manuaalisten tilausten tekemistä).  
-  ![](/assets/files/docs/Hankinta/hankinta6.png)
+  ![Kuvassa Rajoita käyttö -valikon vaihtoehdot Ei mitään, Omistaja, Omistaja käyttäjät, Omistaja, käyttäjät ja kirjasto](/assets/files/docs/Hankinta/hankinta6.png)
 - _Muuta:_ tähän voit kirjoittaa tarvittavan huomautuksen, joka tulee
   näkyviin tiliä käytettäessä.
 - _Tilasto 1:n muoto_ ja _Tilasto 2:n muoto_: näihin voi halutessaan
@@ -184,26 +184,26 @@ toimittaja tallennettuna.
 
 Lisätäksesi toimittajan klikkaa hankintaosion etusivulla _Uusi toimittaja_ -nappia
 _Hankinnat_-sivulla.  
-![](/assets/files/docs/Hankinta/hankinta9.png)
+![Hankinnan etusivulta ympäröitynä keskiosiosta Uusi toimittaja -linkki](/assets/files/docs/Hankinta/hankinta9.png)
 
 Toimittajan lisäyslomake koostuu kolmesta osasta.
 
 - Ensimmäinen osio sisältää toimittajan yhteystiedot.  
-  ![](/assets/files/docs/Hankinta/hankinta10.png)
+  ![Yrityksen tiedot -lomake, jossa kentät Nimi, Postiosoite, Osoite, Puh, Faksi, www-osoite, Tilinumero, Toimittajan tyyppi ja Aliakset](/assets/files/docs/Hankinta/hankinta10.png)
   - Näistä kentistä vain _Nimi_-kenttä on pakollinen, muut tiedot helpottavat laskutuksen ja reklamoinnin
     tekemisessä.
   - _Aliakset_-kenttään voi lisätä erilaisia nimimuotoja toimittajalle, esim. entisiä nimiä. Aliaksilla voi hakea toimittajaa.
 
 - Toinen osio koostuu yhteyshenkilön/henkilöiden tiedoista.  
-  ![](/assets/files/docs/Hankinta/hankinta11.png)
+  ![Yhteystiedot-osio, jossa kentät Yhteystiedot, Asema/Titteli, Puh, Vaihtoehtoinen puhelin, Faksi, Sähköposti, Huomautukset. Kenttien alapuolella kaksi otsikko Hankinta-asetukset ja Kausijulkaisutilausten asetukset, joiden alla rastittavana vasemmalla Ensisijainen hankinnan yhteystieto, Tilausyhteystieto, Myöhässä olevien tilausten yhteystieto sekä oikealla Ensisijainen kausijulkaisutilausten yhteystieto ja Myähässä olevien numeroiden yhteystieto. Näiden alapuolella vielä nappi Lisää uusi yhteystieto, josta saa lisättyä toiset yhteystiedot samalle toimittajalle.](/assets/files/docs/Hankinta/hankinta11.png)
   - Mikään näistä tiedoista ei ole pakollinen.
 
 - Kolmanteen osioon voi lisätä toimittajan verkkopalvelun osoitteen, tunnuksen, salasanan ja tilin sähköpostiosoitteen. Salasana piilotetaan tallennuksen jälkeen, mutta sen saa näkyville klikkaamalla. Ei kannata tallentaa salasanaa tähän.
-  ![](/assets/files/docs/Hankinta/hankinta111.png)
-  ![](/assets/files/docs/Hankinta/hankinta112.png)
+  ![Lisää uusi verkkopalvelu -nappi](/assets/files/docs/Hankinta/hankinta111.png)
+  ![Verkkopalvelu-lomake, jossa kentät Nimi, Tyyppi, URI, Kirjautumistunnus, Salasana, Tilin sähköposti ja Huomautukset. Niiden alla nappi Poista verkkopalvelu. Alimmaisen nappi Lisää uusi verkkopalvelu, jolla voi lisätä toisen verkkopalvelutiedon samalle toimittajalle.](/assets/files/docs/Hankinta/hankinta112.png)
 
 - Viimeinen osio sisältää aineiston hintoihin liittyviä tietoja.  
-  ![](/assets/files/docs/Hankinta/hankinta12.png)
+  ![Tilaustiedot-lomake, jossa on vaihtoehdot Toimittaja (aktiivinen/ei käytössä), Listahinnat ovat (EUR), Laskuhinnat ovat (EUR), Veronumero (Kyllä/Ei), Listahinnat (Verollinen/Veroton), Laskuhinnat (Verollinen/Veroton), Veroprosentti (0% valikossa), Alennus %, Toimitusaika päivää, Huomautukset.](/assets/files/docs/Hankinta/hankinta12.png)
   - Toimittajan tulee olla _Aktiivinen_, jotta tilauksia voi tehdä
   - _Lista- ja laskuhinnat_ näkyvät tietyssä valuutassa, joka
     tallennetaan järjestelmäasetuksissa
@@ -225,19 +225,20 @@ Toimittajan lisäyslomake koostuu kolmesta osasta.
 
 Nähdäksesi toimittajan tiedot, tulee ensin tehdä haku _Hankinnat_-etusivulla. Voit hakea myös toimittajan nimen osalla.
 
-![](/assets/files/docs/Hankinta/hankinta13.png)  
-![](/assets/files/docs/Hankinta/hankinta14.png)
+![Kuvassa Hankinnat-osion etusivu, jossa vasemmasta yläreunasta ympäröitynä punaisella Toimittajahaku-hakukenttä sekä keskiosiosta Toimittaja-hakukenttä.](/assets/files/docs/Hankinta/hankinta13.png)
+
+![Kuvassa Testitoimittaja-toimittajan tiedot ja ympäröitynä Muokkaa toimittajaa -linkki sekä toimittajan nimi.](/assets/files/docs/Hankinta/hankinta14.png)
 
 Kun klikkaat linkkinä olevaa toimittajan nimeä, näet toimittajan tiedot.
 
-![](/assets/files/docs/Hankinta/hankinta15.png)
+![Näkymä, jossa yhteenveto toimittajalle tallennetuista tiedoista viidessä eri osiossa.](/assets/files/docs/Hankinta/hankinta15.png)
 
 Jos haluat tehdä muutoksia toimittajan tietoihin, klikkaa _Muokkaa
 toimittajaa_ -nappia. Jos toimittajalla ei ole yhtään tilausta, silloin
 on näkyvillä myös _Poista toimittaja_ -nappi. Muuten on näkyvillä
 _Vastaanota tilauksia_ -nappi.
 
-![](/assets/files/docs/Hankinta/hankinta16.png)
+![Kuvassa linkit Uusi, Muokkaa toimittajaa ja Vastaanota tilauksia. Näistä on ympäröitynä Muokkaa toimittajaa.](/assets/files/docs/Hankinta/hankinta16.png)
 
 ### 7.2.3 Toimittajan sopimukset
 
@@ -249,21 +250,21 @@ paljon kullekin toimittajalle on maksettu.
 
 Toimittajan tietojen sivun yläreunassa on _Uusi -&gt; Sopimus_. Tai vasemmasta reunasta _Sopimukset -> Uusi -> Sopimus_
 
-![](/assets/files/docs/Hankinta/hankinta17.png)
+![Toimittajan tiedoissa vasemmassa reunassa valikosta ympäröitynä punaisella Sopimukset sekä Uusi-valikko avattuna ja ympäröitynä punaisella Uusi - Sopimukset -alue.](/assets/files/docs/Hankinta/hankinta17.png)
 
 Saat lomakkeen, johon pitää tallentaa perustiedot sopimuksesta.
 
-![](/assets/files/docs/Hankinta/hankinta18.png)
+![Uusi sopimus kohteelle Testitoimittaja -lomake, jossa kentät Nimi (pakollinen), Kuvaus, Alkupvm (pakollinen) sekä Loppumispvm (pakollinen).](/assets/files/docs/Hankinta/hankinta18.png)
 
 **Tärkeää:** Et voi tallentaa sopimusta jälkikäteen. Loppupäivämäärä ei
 saa olla ennen kuluvaa päivää.
 
 Kun sopimus on tallennettu, se näkyy toimittajan tiedoissa alhaalla. Sopimuksen voi _poistaa_ tai sitä voi _muokata_ Toiminnot-sarakkeen painikkeilla.
 
-![](/assets/files/docs/Hankinta/hankinta19.png)
+![Yhteenvetosivu toimittajan tiedoista. Alimmaisen osiona on Sopimukset, jossa näkyy Testisopimus-niminen sopimus. Rivin oikeassa reunassa on Toiminnot-sarakkeessa Muokkaa ja Poista -napit.](/assets/files/docs/Hankinta/hankinta19.png)
 
 Sopimuksen voi valita alasvetovalikosta, kun luot tilauskoria.  
-![](/assets/files/docs/Hankinta/hankinta20.png)
+![Tilauskorin luontilomakkeella kolmanneksi alimmaisena kenttänä on Sopimus. Alasvetovalikossa on valittavana Testisopimus-niminen sopimus.](/assets/files/docs/Hankinta/hankinta20.png)
 
 ## 7.3 Hankintaehdotukset
 
