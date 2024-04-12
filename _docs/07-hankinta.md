@@ -1100,3 +1100,13 @@ Lisäkenttä näkyy tilauskoria luotaessa alimmaisena.
 Kun tilauskori on luotu ja sille lisätty tieto lisäkenttään, näkyy se tilauskorin Tietoja-osiossa.
 
 ![Lisäkenttä näkyy tietoja-osiossa](/assets/files/docs/Hankinta/hankinta103.png)
+
+### 7.11.4 Lisäkentillä haku
+
+Jos laskun lisäkentän määrittää haettavaksi, tulee se näkyville Laskut-osion hakulomakkeelle.
+
+![Laskun lisäkentän haku](/assets/files/docs/Hankinta/hankinta104.png)
+
+Jos tilauskorin lisäkentän määrittää haettavaksi, tulee se näkyville Hankinnan tarkan haun lomakkeelle.
+
+![Tilauskorin lisäkentän haku](/assets/files/docs/Hankinta/hankinta105.png)
