@@ -20,10 +20,11 @@ Pääset hankintaa kahta kautta:
 - _Muita toimintoja -&gt; Hankinnat_
 - Etusivulta _Hankinnat_
 
-![](/assets/files/docs/Hankinta/hankinta1.png)
+![Hankinnat-osioon pääsee joko Muita toimintoja -valikosta tai etusivulta Hankinnat-nappulasta](/assets/files/docs/Hankinta/hankinta1.png)
 
-Hankinnan etusivulla näkyy kaikki tilit.  
-![](/assets/files/docs/Hankinta/hankinta7.png)
+Hankinnan etusivulla näkyvät kaikki tilit.
+
+![Hankinnan etusivulla näkyvät kaikki tilit](/assets/files/docs/Hankinta/hankinta7.png)
 
 - Voit piilottaa näkyviltä käytöstä poistetut budjetit klikkaamalla
 _Piilota käytöstä poistetut budjetit_. Takaisin näkyviin ne saa
@@ -35,7 +36,7 @@ klikkaamalla _Näytä käytöstä poistetut budjetit_.
 
 Jos haluat nähdä, mitä teoksia on tilattu tiettyä tiliä käyttäen,
 klikkaa tilin kohdalla _Tilattu_-sarakkeessa linkkinä olevaa summaa.  
-![](/assets/files/docs/Hankinta/hankinta8.png)
+![Kuvassa näkyy JOE_ENOAIK2023-tilille tilatut teokset ja niiden hankintahinnat](/assets/files/docs/Hankinta/hankinta8.png)
 
 Lue lisää budjetin/tilin käytöstä luvussa _7.10 Budjetointi ja tilien
 seuranta._
@@ -46,16 +47,16 @@ seuranta._
 Budjetin voi lisätä joko ylläpidosta _Hankinnan
 asetusten_ kautta.
 
-![](/assets/files/docs/Hankinta/hankinta02.png) 
+![Kuva Kohan ylläpidosta Hankinnan asetukset -osiosta, jossa on ympäröitynä punaisella Budjetit-sana](/assets/files/docs/Hankinta/hankinta02.png) 
 
 tai _Hankinnan_ etusivun kautta vasemmasta reunasta
 
-![](/assets/files/docs/Hankinta/hankinta2.png)
+![Kuvassa Hankinnat-osion vasemman reunan valikko, josta on ympäröitynä punaisella Budjetit-sana](/assets/files/docs/Hankinta/hankinta2.png)
 
 Klikkaa _Uusi budjetti_.
 
 
-![](/assets/files/docs/Hankinta/hankinta3.png)
+![Lisää budjetti -näkymä](/assets/files/docs/Hankinta/hankinta3.png)
 
 **Täytä seuraavat tiedot:**
 
@@ -81,27 +82,27 @@ Budjetin sulkemisella voidaan **siirtää vastaanottamattomat tilaukset ja käyt
 
 Valitse vasemmasta reunasta _Budjetit_ ja etsi suljettava budjetti.
 
-![](/assets/files/docs/Hankinta/hankinta2.png)
+![Kuvassa Hankinnat-osion vasemman reunan valikko, josta on ympäröitynä punaisella Budjetit-sana](/assets/files/docs/Hankinta/hankinta2.png)
 
 Valitse oikealta _Toiminnot_-napista _Sulje_
 
-![](/assets/files/docs/Hankinta/hankinta302.png)
+![Toiminnot-napista avautuneena valikko, jossa neljäntenä vaihtoehtona on Sulje-sana, joka on punaisella ympyröity](/assets/files/docs/Hankinta/hankinta302.png)
 
 Saat listan budjettiin liittyvistä tileistä ja kuinka monta vastaanottamatonta tilausta kukin tili sisältää. Valitse budjetti, johon tilaukset siirretään sekä haluatko siirtää jäljellä olevat käyttämättömät varat. Valitse _Siirrä vastaanottamattomat tilaukset_.
 
-![](/assets/files/docs/Hankinta/budjetinsulku.png)
+![Näkymä, jossa listataan tilit, joiden vastaanottamattomia tilauksia ollaan siirtämässä](/assets/files/docs/Hankinta/budjetinsulku.png)
 
 Ohjelma vahvistaa, haluatko varmasti siirtää vastaanottamattomat tilaukset tililtä X tilille Y.
 
-![](/assets/files/docs/Hankinta/budjetinsulku2.png)
+![Pop-up, jossa lukee "Olet valinnut kaikkien vastaanottamattomien tilausten siirron tästä 'Hailuoto 2020' tähän 'Hailuoti 2021'. Tätä toimintoa ei voi peruuttaa. Haluatko jatkaa?" Alapuolella on napit OK ja Peruuta.](/assets/files/docs/Hankinta/budjetinsulku2.png)
 
 Jos siirto onnistuu, saat raportin siirretyistä tilauksista.
 
-![](/assets/files/docs/Hankinta/budjetinsulku4.png)
+![Kuvassa taulukko, jossa listataan budjetista toiseen siirretyt tilausrivit](/assets/files/docs/Hankinta/budjetinsulku4.png)
 
 Mikäli valitussa budjetissa ei ole samalla tilikoodilla olevia tilejä, siirto ei onnistu ja saat raportiksi _Tätä tilikoodia ei ole kohdebudjetissa_.
 
-![](/assets/files/docs/Hankinta/budjetinsulku3.png)
+![Kuvassa taulukko, jossa listataan tilausrivit, joille ei löytynyt vastaavaa tilikoodia uudesta budjetista](/assets/files/docs/Hankinta/budjetinsulku3.png)
 
 Voit budjetin sulun eli tilausten siirron jälkeen halutessasi epäaktivoida budjetin, jotta siihen liittyvät tilit katoavat esim. tilausten vastaanotossa tilivalikosta.
 
@@ -111,11 +112,11 @@ Jos haluaa piilottaa budjetin aktiivisista, voi sen tehdä seuraavasti.
 
 Valitse budjetin kohdalla _Toiminnot_ ja sieltä _Muokkaa_.
 
-![](/assets/files/docs/Hankinta/budjetinepaaktivointi.png)
+![Avattuna Toiminnot-valikko, jossa ylimmäisenä vaihtoehtona on Muokkaa](/assets/files/docs/Hankinta/budjetinepaaktivointi.png)
 
 Ota **pois** rasti kohdasta _Aktivoi budjetti_ ja sen jälkeen _Tallenna_.
 
-![](/assets/files/docs/Hankinta/budjetinepaaktivointi2.png)
+![Budjetin tiedot muokkaustilassa ja punaisella ympäröitynä Aktivoi budjetti](/assets/files/docs/Hankinta/budjetinepaaktivointi2.png)
 
 ### 7.1.3 Tilin lisääminen
 
@@ -131,16 +132,16 @@ Tilin voi lisätä kahdella tavalla
 1. Valitse juuri lisäämäsi budjetti klikkaamalla budjetin nimeä,
   jolloin avautuu uusi sivu. Valitse siellä _Uusi_ ja avautuvasta
   valikosta _Uusi tili kohteelle xxx_  
-  ![](/assets/files/docs/Hankinta/hankinta4.png)
+  ![Uusi-napista avautuu valikko, jossa on vaihtoehdot Uusi budjetti ja Uusi tili kohteelle Testibudjetti. Jälkimmäinen on punaisella ympäröity](/assets/files/docs/Hankinta/hankinta4.png)
 
 
 2. Valitse budjetin nimen kohdalla oikeanpuolimmaisesta sarakkeesta
   _Toiminnot_ ja sieltä _Lisää tili_  
-  ![](/assets/files/docs/Hankinta/hankinta04.png)
+  ![Toiminnot-nappulasta avautuu valikko, jossa on alimmaisen vaihtoehtona Lisää tili, joka on punaisella ympäröity](/assets/files/docs/Hankinta/hankinta04.png)
 
 Täytä tilin tiedot
 
-![](/assets/files/docs/Hankinta/hankinta5.png)
+![Kuvassa teksti Lisää tili budjettiin 'Testibudjetti' ja sen alapuolella täytettävät kentät](/assets/files/docs/Hankinta/hankinta5.png)
 
 Kolme ensimmäistä riviä ovat pakollisia täytettäviä.
 
@@ -157,7 +158,7 @@ Kolme ensimmäistä riviä ovat pakollisia täytettäviä.
   Käyttäjäksi voi lisätä käyttäjätunnuksia, joilla on hankinnan
   oikeudet. Hae käyttäjätunnuksella tai nimellä ja klikkaa
   _Lisää_. Ikkuna sulkeutuu automaattisesti.  
-  ![](/assets/files/docs/Hankinta/hankinta05.png)
+  ![Kuvassa on näkymä Hae asiakkaita -ikkunasta, jossa on kentät Haku, Kirjasto ja Tyyppi. Niiden alapuolella nappulat Haku ja Tyhjennä. Kuvassa on haettu asiakkaalla 'teijatestaaja' ja hakukenttien alapuolella on listaus hakutuloksista. Hakutuloksena näkyy teijatestaaja-tunnus. Tulosrivin oikeassa reunassa on Lisää-nappula.](/assets/files/docs/Hankinta/hankinta05.png)
 - _Käyttäjä_ voi omistajan lisäksi käyttää tiliä, mutta ei voi tehdä
   muutoksia sen tietoihin. Käyttäjäksi voi lisätä käyttäjätunnuksia, joilla on hankinnan
   oikeudet. Hae käyttäjätunnuksella tai nimellä ja klikkaa
