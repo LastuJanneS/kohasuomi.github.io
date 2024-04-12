@@ -616,7 +616,7 @@ HUOM! Koha-Suomi ei tue tätä toimintatapaa.
 Tilauksen voi tehdä myös aineistontoimittajan lähettämän tiedoston
 kautta.
 
-![](/assets/files/docs/Hankinta/hankinta55.png)
+![Lista väliaikaistiedostoista](/assets/files/docs/Hankinta/hankinta55.png)
 
 - Valitse haluamasi tiedosto ja klikkaa _Lisää tilauksia_. Voit
   järjestää listoja klikkaamalla sarakeotsikon perässä olevaa nuolta.
@@ -656,7 +656,7 @@ Klikkaa _Tallenna_, kun tilauksesi sisältää kaikki haluamasi nimekkeet.
 
 Listalle tulee teokset, joilla on eniten varauksia per nide.
 
-![](/assets/files/docs/Hankinta/hankinta64.png)
+![Varauksia per nide -raportin näkymä](/assets/files/docs/Hankinta/hankinta64.png)
 
 - Varauksia per nide -suhdetta voi säätää vasemmasta reunasta _Varausten suhde (suurempi tai yhtäsuuri kuin)_ -kohdasta. Mitä suurempi luku, sitä epätodennäköisemmin teoksia tulee listalle.
 - Jos haluat, että tilattu-tilaiset niteet otetaan mukaan, laita rasti
@@ -673,7 +673,7 @@ merkitty punaisella.
 
 **Huomioithan**, että tilastoinnin kannalta on erityisen tärkeää, että hankintapvm on määritetty. Ilman sitä nide ei tule mukaan hankintatilastoihin. **Kenttä täyttyy automaattisesti** tallennuksen yhteydessä, jos sitä ei ole määritetty pakolliseksi ja siihen on kytketty hankintapäivämäärän lisäävä liitännäinen (dateaccessioned.pl).
 
-![](/assets/files/docs/Hankinta/hankinta62.png)
+![Tilauksen nidetiedot, jossa on valittavana mm. kirjasto, hyllypaikka, nidetyyppi yms.](/assets/files/docs/Hankinta/hankinta62.png)
 
 - Jos luot vain yhden niteen, klikkaa _Lisää nide_.
 - Jos haluat luoda useamman niteen, klikkaa _Lisää useita niteitä_,
@@ -682,12 +682,12 @@ merkitty punaisella.
 - _Tyhjennä_-painikkeella saat tyhjennettyä kentät.
 
 Niteet listautuu Nide-osion yläpuolelle.  
-![](/assets/files/docs/Hankinta/hankinta621.png)
+![Lista luoduista niteistä](/assets/files/docs/Hankinta/hankinta621.png)
 
 Kun olet lisännyt tarvittavan määrän niteitä, täytä tilitystiedot.  
 Huom. Tilausta tehdessä numeroiden desimaalierottimena tulee käyttää pistettä.
 
-![](/assets/files/docs/Hankinta/hankinta63.png)
+![Tilitystiedot-osio tilauksessa](/assets/files/docs/Hankinta/hankinta63.png)
 
 - _Määrä_-kohtaan tulee automaattisesti tilaamiesi niteiden määrä yllä olevasta
   nidetaulukosta. 
@@ -718,7 +718,7 @@ huomautuksen.
 
 Kun tilaus on tallennettu, saat yhteenvedon tilauksesta.
 
-![](/assets/files/docs/Hankinta/hankinta641.png)
+![Tilauksen yhteenveto](/assets/files/docs/Hankinta/hankinta641.png)
 
 Ennen tilauskorin sulkemista voit vielä muokata tilauskoria ja sen sisältämiä
 tilauksia. _Haku_-kentällä voi suodattaa taulukossa näkyviä tietoja.
@@ -731,7 +731,7 @@ tilauksia. _Haku_-kentällä voi suodattaa taulukossa näkyviä tietoja.
   - Nimeketietuetta ei voi poistaa, jos siihen kuuluu ennestään
     niteitä, tilauksia tai varauksia.
 
-![](/assets/files/docs/Hankinta/hankinta66.png)
+![Tilauskorin tiedot](/assets/files/docs/Hankinta/hankinta66.png)
 
 - Voit muokata tilauskorin nimeä ja muita tietoja klikkaamalla
   _Muokkaa tilauskoria_ -painiketta.
@@ -754,7 +754,7 @@ Sulkemisen yhteydessä tilauskorin voi halutessaan lisätä samannimiseen
 tilausryhmään laittamalla rastin kohtaan “Lisää tämä tilauskori uuteen,
 samannimiseen tilausryhmään”.
 
-![](/assets/files/docs/Hankinta/hankinta67.png)
+![Vahvistuskysymys, halutaanko varmasti sulkea tilauskori](/assets/files/docs/Hankinta/hankinta67.png)
 
 - **Huom!** Jos yhdenkin tilauksen hinta on vahvistamaton, tilausta ei voi sulkea.
 - Tilauksen sulun yhteydessä tilauskorin voi viedä saman nimiseen tilausryhmään halutessaan. Laita tällöin rasti ilmoituksessa olevaan ruutuun. Tilausryhmistä tarkemmin alla.
@@ -769,12 +769,12 @@ voi olla siis yksi tai useampia tilauksia.
 Kun klikkaat _Sulje tämä tilauskori_, saat varmistuskysymyksen. Voit
 myös valita, lisäätkö tilauksen uuteen, samannimiseen listaryhmään vai
 et.  
-![](/assets/files/docs/Hankinta/hankinta67.png)
+![Vahvistuskysymys, halutaanko varmasti sulkea tilauskori](/assets/files/docs/Hankinta/hankinta67.png)
 
 Uuden tilausryhmän luominen vie tilausryhmien sivulle, jossa voit
 sulkea ja viedä tilauksen PDF:ksi. Jos EDIFACT-määritykset on tehty, voi tilauksen viedä myös EDIFACT-muotoon.
 
-![](/assets/files/docs/Hankinta/hankinta68.png)
+![Tilausryhmän tiedot, jossa Toiminto-sarakkeessa Näytä, Avaa uudelleen, Vie PDF:ksi, Vie CSV-muodossa](/assets/files/docs/Hankinta/hankinta68.png)
 
 Tilauskorin sulun yhteydessä tehdyt tilausryhmät menevät _Suljettu_-välilehdelle. Sieltä tilausryhmän tietoja voi katsoa, avata uudelleen, viedä PDF:ksi tai CSV-muotoon. Jos EDIFACT-määritykset on tehty, voi tilauksen viedä myös EDIFACT-muotoon.
 
@@ -782,7 +782,7 @@ Tilausryhmiin pääsee myös kun hakee Hankinnan etusivulla ensin
 toimittajan nimellä, ja valitsee sitten vasemmasta reunausta
 _Tilausryhmät_.
 
-![](/assets/files/docs/Hankinta/hankinta69.png)
+![Näkymä toimittajan tiedoissa, jossa vasemman reunan valikosta ympäröity Tilausryhmät-linkki](/assets/files/docs/Hankinta/hankinta69.png)
 
 ### 7.4.4 EDItX-tilaaminen
 
@@ -792,10 +792,10 @@ tilauskoreiksi oikean toimittajan alle EDItX-tilaussanoman pohjalta.
 Tilatuista teoksista lisätään minitietueet ja niteitä tilattu määrä.
 Myös kirjaston budjettia/tilejä veloitetaan tilauksen mukaisesti.
 
-![](/assets/files/docs/Hankinta/hankinta70.png)
+![Kuvassa valintaa verkkokaupassa tekevä henkilö, josta nuoli tekstiin 'Toimittaja lähettää tilauksista EDItX-muotoisen tilaussanoman. Siitä nuoli tekstiin 'Hankintarajapinta käsittelee tilaussanomat ja vie tilatut teokset Kohaan'](/assets/files/docs/Hankinta/hankinta70.png)
 
 Verkkokauppatilauksista syntyy Kohaan tilauskorit  
-![](/assets/files/docs/Hankinta/hankinta701.png)
+![Kuvassa EDItX-rajapinnan kautta muodostettuja tilauskoreja](/assets/files/docs/Hankinta/hankinta701.png)
 
 Tilaukset otetaan vastaan Kohan normaalin tilauksen vastaanoton
 prosessin mukaan.
@@ -806,17 +806,17 @@ prosessin mukaan.
 Tilauksia lähdetään vastaanottamaan toimittajan kautta. Hae ensin
 toimittajan tiedot.
 
-![](/assets/files/docs/Hankinta/hankinta71.png)
+![Hankinnan etusivulta kuva, jossa Toimittaja-hakuun kirjoitettu 'Testitoimittaja'](/assets/files/docs/Hankinta/hankinta71.png)
 
 Klikkaa _Vastaanota tilauksia_.
 
-![](/assets/files/docs/Hankinta/hankinta72.png)
+![Toimittajan tiedoissa ympäröity Vastaanota tilauksia -linkki](/assets/files/docs/Hankinta/hankinta72.png)
 
 Aineistoa vastaanotettaessa kysytään toimittajan laskun numeroa (tähän
 voi laittaa esimerkiksi lähetyslistan tunnuksen). Jokaiselle
 toimitukselle kannattaa tehdä oma laskunumeronsa. Jos käyttää aina
 samaa, hidastuu vastaanotto.  
-![](/assets/files/docs/Hankinta/hankinta73.png)
+![Toimittajan laskun luonti](/assets/files/docs/Hankinta/hankinta73.png)
 
 - Lähetyspäivämääräksi tulee automaattisesti kuluva päivä, sen voi
   muuttaa tarvittaessa.
@@ -831,18 +831,18 @@ nimestä alun. Voit myös käyttää taulukon omia suodatusrivejä kirjoittaa/lu
 
 Voit vastaanottaa joko yksittäisiä rivejä tai useamman tilausrivin kerrallaan laittamalla teosten kohdalle rastin.
 
-![](/assets/files/docs/Hankinta/hankinta74.png)
+![Lista vastaanotettavista tilauksista](/assets/files/docs/Hankinta/hankinta74.png)
 
 - Jos otat vastaan vain yhden tilausrivin, klikkaa vastaanotettavan teoksen rivin oikeassa reunassa olevaa _Vastaanota_-linkkiä
 - Jos otat vastaan useamman tilausrivin, klikkaa _Vastaanota valitut_ -nappia.
 
-Avautuu yhteenvetosivu, jossa valitaan yhden rivin kohdalta _Muokkaa_
+Avautuu yhteenvetosivu, jossa valitaan yhden rivin kohdalta _Muokkaa_. Jos otetaan vain yksi tilausrivi vastaan, tämä osio ohitetaan.
 
-![](/assets/files/docs/Hankinta/hankinta75.png)
+![Taulukko vastaanotettavaksi valituista tilauksista. Ympäröitynä ensimmäisen kohdalla Muokkaa-nappi](/assets/files/docs/Hankinta/hankinta75.png)
 
-Siitä avautuu popup-ikkuna, jossa voi ottaa vastaan joko yhden tai useamman, mikäli useampi tilaus on aiemmin valittuna.
+Siitä avautuu popup-ikkuna, jossa voi ottaa vastaan joko yhden tai useamman, mikäli useampi tilaus on aiemmin valittuna. Jos otetaan vastaan vain yksi tilausrivi, siirrytään suoraan tähän näkymään.
 
-![](/assets/files/docs/Hankinta/hankinta76.png)
+![Ikkuna, jossa on kolme osiota: Luettelon tiedot, Niteet ja Tilitystiedot](/assets/files/docs/Hankinta/hankinta76.png)
 
 - Lisää _Vastaanotettu?_-sarakkeeseen rasti tai kirjoita vastaanotettava määrä oikealla Vastaanotettu-kenttään. Jos kirjoitat oikealle numeron,
 vasemmalle tulee vastaava määrä rasteja. Voit valita myös vain osan niteistä, mikäli on saapunut osatoimitus.
@@ -852,10 +852,11 @@ vasemmalle tulee vastaava määrä rasteja. Voit valita myös vain osan niteist�
 - _Sulje_-napista sulkeutuu tilaustiedot muutoksia tallentamatta.
 - _Tallenna muutokset_ -nappia kannattaa painaa, kun on käsitellyt viimeisen vastaanotettavan tilauksen tiedot, jolloin tiedot tallennetaan ja palataan yhteenvetosivulle.
 
-![](/assets/files/docs/Hankinta/hankinta761.png)
+![Yhteenvetosivu vastaanotettavista tilauksista](/assets/files/docs/Hankinta/hankinta761.png)
 
 - _Määrä_-sarakkeeseen on nyt muuttunut tieto, kuinka monta nidettä otetaan vastaan.
 - _Hyväksy_-painike on nyt aktivoitunut ja sitä painamalla hyväksyt tilausten vastaanoton.
+- Jos otetaan vastaan vain yksi tilausrivi, tämä yhteenvetosivu näkyy vain hetken ja tiedot tallennetaan automaattisesti.
 
 Vastaanoton tallennuksen jälkeen palaat takaisin tilauskoriin. Vastaanotetut näkyvät vastaanotettavien alapuolella omana taulukkonaan.
 
@@ -863,11 +864,11 @@ Voit peruuttaa vastaanoton, mikäli valitsit vahingossa väärän
 tietueen, klikkaamalla _Peruuta vastaanotto_, jolloin teos siirtyy takaisin
 vastaanotettaviin.
 
-![](/assets/files/docs/Hankinta/hankinta77.png)
+![Vastaanoton yhteenvetosivu, jossa on ympäröity Peruuta vastaanotto -linkki yhden rivin kohdalla](/assets/files/docs/Hankinta/hankinta77.png)
 
 Kun olet vastaanottanut koko lähetyksen, valitse alareunasta _Lopeta
 vastaanotto_, jolloin ohjaudut laskun tietoihin.
-![](/assets/files/docs/Hankinta/hankinta771.png)
+![Laskun tiedot -sivu](/assets/files/docs/Hankinta/hankinta771.png)
 
 - Laita rasti kohtaan _Suljettu_, jolloin lasku suljetaan, eikä jää
   turhaan avoimeksi.
@@ -879,7 +880,7 @@ Laskun tiedoissa Oikaisut-kohdasta pystyy tekemään tilauksen summaan oikaisuja
 
 Oikaisut voivat olla tarpeellisia esimerkiksi pyöristysten tai tilille lisättyjen creditien vuoksi.
 
-![](/assets/files/docs/Hankinta/hankinta772.png)
+![Oikaisut-osio laskun tiedoissa](/assets/files/docs/Hankinta/hankinta772.png)
 
 - _Summa_: Lisää tähän oikaisun summa. Se voi olla positiivinen tai negatiivinen.
 - _Syy_: Oikaisun syy. Vaatii, että auktorisoituihin arvoihin on määritetty ADJ_REASON-luokkaan syyt.
@@ -895,16 +896,16 @@ Pääset pois sivulta valitsemalla vasemmalta valikosta esim. Hankinnat.
 Hae toimittajan tiedoilla kuten tilausta vastaanotettaessa. Tilauksen
 peruminen lähtee vastaanottonäkymästä.
 
-![](/assets/files/docs/Hankinta/hankinta78.png)
+![Toimittajan tiedoissa ympäröitynä Vastaanota tilauksia -linkki](/assets/files/docs/Hankinta/hankinta78.png)
 
 Tee uusi lasku tai valitse mikä tahansa avoinna olevan laskun numero,
 johon voit vastaanottaa tilauksen.
 
-![](/assets/files/docs/Hankinta/hankinta79.png)
+![Laskun luonti](/assets/files/docs/Hankinta/hankinta79.png)
 
 Hae peruttava tilaus teoksen hakutoiminnolla.
 
-![](/assets/files/docs/Hankinta/hankinta80.png)
+![Tilauksen vastaanotossa ympäröity tekstit Peruuta teoksen tilaus -linkki ja Peruuta tilaus ja nimeketietue -linkki](/assets/files/docs/Hankinta/hankinta80.png)
 
 - Klikkaa _Peruuta teoksen tilaus_ -linkkiä, jolloin poistuu
   tilausriviin liittyvät vastaanottamattomat niteet, mutta kuvailutiedot ja muiden kirjastojen
@@ -916,10 +917,10 @@ Hae peruttava tilaus teoksen hakutoiminnolla.
 Saat varmistuskysymyksen tilauksen poistosta.
 
 Jos poistat myös nimekkeen ilmoitetaan se varmistusviestissä  
-![](/assets/files/docs/Hankinta/hankinta81.png)  
+![Varmistusviesti, halutaanko varmasti poistaa tilaus. Huomautuksena, että myös nimeketietue poistetaan.](/assets/files/docs/Hankinta/hankinta81.png)  
 
 Jos taas et poista nimekettä, sekin kerrotaan varmistusviestissä  
-![](/assets/files/docs/Hankinta/hankinta82.png)
+![Varmistusviesti, halutaanko varmasti poistaa tilaus. Huomautuksena, että nimeketietuetta ei poisteta.](/assets/files/docs/Hankinta/hankinta82.png)
 
 - Voit valita halutessasi valikosta myös syyn peruutukselle.
 
@@ -933,16 +934,16 @@ paljon.
 Valitse _Hankinnat_-sivulla vasemmasta reunasta _Myöhässä olevat_
 -linkkiä
 
-![](/assets/files/docs/Hankinta/hankinta831.png)
+![Hankinnat-osion vasemman reunan valikosta ympäröitynä Myöhässä olevat -linkki](/assets/files/docs/Hankinta/hankinta831.png)
 
 Pääset listaukseen, jota voit suodattaa sivun vasemmassa reunassa
 olevasta valikosta esimerkiksi tilauspäivän tai toimittajan mukaan.
 Suodatus koskee vain suljettuja tilauskoreja.  
-![](/assets/files/docs/Hankinta/hankinta83.png)
+![Haun rajaus tilauspäivämäärän, saapumispäivämäärän, loppumispäivämäärän ja toimittajan mukaan.](/assets/files/docs/Hankinta/hankinta83.png)
 
 Kun tilauksia on suodatettu toimittajan mukaan, hakutulos näyttää tältä:
 
-![](/assets/files/docs/Hankinta/hankinta84.png)
+![Lista myöhässä olevista tilauksista, vasemmalla ympäröity ruudut, joihin voi lisätä valinnan. Teosten alapuolelta ympäröity Vie CSV-muodossa ja Reklamoi tilaus -napit.](/assets/files/docs/Hankinta/hankinta84.png)
 
 - Voit suodattaa taulukon tuloksia Haku-kentällä.
 - Ensimmäisestä sarakkeesta voit valita ne nimekkeet, joita haluat reklamoida.
@@ -951,7 +952,7 @@ Kun tilauksia on suodatettu toimittajan mukaan, hakutulos näyttää tältä:
 - Voit myös tallentaa tiedot CSV-muodossa valitsemalla _Vie CSV-muodossa_.
 
 Kun sähköpostin lähetys onnistuu, tulee seuraava ilmoitus:  
-![](/assets/files/docs/Hankinta/hankinta85.png)
+![Sähköposti on lähetetty -ilmoitus sinertävällä taustalla.](/assets/files/docs/Hankinta/hankinta85.png)
 
 HUOM! Arvioitu saapumispäivä perustuu toimittajan tiedoissa
 tallennettuun _Toimitusaika_-arvoon.
