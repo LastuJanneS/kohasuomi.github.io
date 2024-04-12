@@ -271,18 +271,18 @@ Sopimuksen voi valita alasvetovalikosta, kun luot tilauskoria.
 Kohassa on toiminto, jolla pystyy tekemään ja käsittelemään
 hankintaehdotuksia. Tehdyt hankintaehdotukset näkyvät
 _Hankinnat_-sivulla toimittajahaun oikealla puolella.  
-![](/assets/files/docs/Hankinta/hankinta21.png)
+![Odottavat ehdotukset -otsikon alla Hallinnoi hankintaehdotuksia: Joensuun pääkirjasto: 1](/assets/files/docs/Hankinta/hankinta21.png)
 
 Hankintaehdotus näkyy myös virkailijatyökalun etusivulla (niille, joilla
 on oikeus käsitellä ehdotuksia)  
-![](/assets/files/docs/Hankinta/hankinta22.png)
+![Hyväksymistä odottavat hankintaehdotukset: Joensuun pääkirjasto: 1](/assets/files/docs/Hankinta/hankinta22.png)
 
 Klikkaamalla kirjaston nimeä pääset näkemään ja muokkaamaan
 hankintaehdotuksia. Jos odottavia ehdotuksia ei ole, pääset
 hankintaehdotusten muokkaukseen klikkaamalla
 _Hankintaehdotukset_-linkkiä _Hankinnat_-sivun vasemmassa reunassa.
 
-![](/assets/files/docs/Hankinta/hankinta23.png)
+![Hankinnat-valikko, jossa ympäroitynä Hankintaehdotukset-sana](/assets/files/docs/Hankinta/hankinta23.png)
 
 ### 7.3.1 Hankintaehdotuksen tekeminen
 
@@ -294,25 +294,25 @@ Jos et halua liittää hankintaehdotukseen asiakastietoa, lähde liikkeelle klik
 
 Voit kuitenkin lisätä asiakkaan tiedon myöhemmin, vaikka lähdet liikenteeseen tätä kautta. Asiakastieto lisätään _Valitse asiakas_-kohtaan, kuten alempana kuvassa esitetään.
 
-![](/assets/files/docs/Hankinta/hankinta233.png)
+![Hankintaehdotusten hallinta -sivulla ympäröitynä Uusi hankintaehdotus -linkki](/assets/files/docs/Hankinta/hankinta233.png)
 
 Hankintaehdotuksen voi tehdä myös asiakkaan tiedoista käsin. Hae asiakkaan tiedot esille ja mene Hankintaehdotukset välilehdelle  
 
 
-![](/assets/files/docs/Hankinta/hankinta231.png)
+![Asiakkaan tietojen vasemman reunan valikosta ympäröitynä Hankintaehdotukset -linkki](/assets/files/docs/Hankinta/hankinta231.png)
 
 Täällä näkyvät asiakkaan tekemät hankintaehdotukset sekä nappula _Uusi
 hankintaehdotus_, josta voi tehdä uuden ehdotuksen asiakkaan puolesta.
 
-![](/assets/files/docs/Hankinta/hankinta232.png)
+![Asiakkaan sivulla oleva Hankintaehdotukset-osio, jossa on yksi valmis hankintaehdotus taulukossa ja sen yläpuolella linkki Uusi hankintaehdotus](/assets/files/docs/Hankinta/hankinta232.png)
 
 Täytä vähintään pakolliseksi merkityt tiedot (punaisella).
 
-![](/assets/files/docs/Hankinta/hankinta234.png)
+![Tee hankintaehdotus -lomake, jossa on vaihtoehdot Nimeke (pakollinen), Tekijä, Julkaisuvuosi, ISBN, ISSN tai muut tunnistenumero, Julkaisija, Julkaisupaikka, Kokoelman nimi, Tyyppi (alasvetovalikossa erilaisia aineistotyyppejä kuten kirja), Huomautukset ja Viesti virkailijalle.](/assets/files/docs/Hankinta/hankinta234.png)
 
 Lomakkeen alemmissa osioissa on ehdotuksen hallintaan ja hankintatietoihin liittyviä tietoja:
 
-![](/assets/files/docs/Hankinta/hankinta235.png)
+![Ehdotuksen hallinta -lomake](/assets/files/docs/Hankinta/hankinta235.png)
 
 - _Luoja_-kenttään tulee luontipäivä ja tekijän nimi. Jos ehdotus tehdään asiakkaan puolesta, tulee siihen asiakkaan nimi. Jos
   taas kirjaston puolesta, tulee siihen ehdotuksen tehneen virkailijan nimi. Tässä kohtaa voit lisätä ehdotukseen asiakastiedon klikkaamalla _Valitse asiakas_ ja hakemalla asiakas esim. kirjastokortin numerolla.
@@ -332,7 +332,7 @@ Tallenna hankintaehdotus _Lähetä ehdotuksesi_ -napista. Voit myös peruuttaa h
 
 ### 7.3.2 Hankintaehdotusten ylläpitäminen
 
-![](/assets/files/docs/Hankinta/hankinta24.png)  
+![Hankintaehdotusten hallinta -sivun näkymä](/assets/files/docs/Hankinta/hankinta24.png)  
 
 Hankintaehdotukset lajitellaan oletuksena eri välilehtiin niiden tilan mukaan:
 _Hyväksytty, Odottaa, Tarkistettu, Tilattu ja Hylätty_. Jokaisessa
@@ -354,7 +354,7 @@ Lajittelun voi muuttaa vasemmasta reunasta Järjestä-valikosta myös kirjaston,
 
 Jos kirjastoon tulee paljon hankintaehdotuksia, niitä voi suodattaa
 käyttämällä vasemman reunan valikoita _Aineiston tiedot_, _Ehdotuksen tiedot_ ja _Hankintatiedot_.  
-![](/assets/files/docs/Hankinta/hankinta25.png)  
+![Järjestä-valikko, jossa valittuna vaihtoehto Tila. Alapuolella on OK-nappi. Valikon alapuolella Suodata-osio, jossa vaihtoehdot Aineiston tiedot, Ehdotuksen tiedot sekä Hankintatiedot.](/assets/files/docs/Hankinta/hankinta25.png)  
 
 Klikkaamalla valikon otsikkoa, saat avattua valikon tarkempaan
 suodatukseen ja klikkaamalla _tyhjennä_, kaikki
@@ -369,14 +369,14 @@ kunkin nimekkeen vasemmalla puolella olevaan laatikkoon ja valita näille
 nimekkeille tilan alla olevasta valikosta ja syyn valinnalle. Voit myös
 kokonaan poistaa ehdotuksen _Poista valitut_ -valinnalla.
 
-![](/assets/files/docs/Hankinta/hankinta27.png)
+![Hankintaehdotusten hallinta -sivulla Muuta valittujen hankintaehdotusten tila -osiosta ympäröity Merkitse valitut ja Tästä syystä -osio vasemmalla sekä oikealla Poista valitut -otsikko ja sen alapuolelta Poista-nappi.](/assets/files/docs/Hankinta/hankinta27.png)
 
 Klikkaamalla _Muokkaa_ hankintaehdotusrivin oikeassa reunassa, pääset muokkaamaan
 hankintaehdotusta.  
-![](/assets/files/docs/Hankinta/hankinta29.png)
+![Hankintaehdotusrivistä kuva, jossa Muokkaa-nappula](/assets/files/docs/Hankinta/hankinta29.png)
 
 Muokkaa ehdotusta tarvittavilta osin.
-![](/assets/files/docs/Hankinta/hankinta28.png)
+![Kuvassa teksti Muokkaa hankintaehdotusta #4999 ja sen alapuolella hankintaehdotuksen tiedot -lomake, jota voi muuttaa ja täydentää tarvittavilta osin.](/assets/files/docs/Hankinta/hankinta28.png)
 
 Tällä näytöllä voit antaa ehdotukselle lisäinformaatiota tai korjata
 asiakkaan antamia tietoja. Voit myös muuttaa ehdotuksen tilan eli
@@ -388,13 +388,13 @@ hyväksyä tai hylätä ehdotuksen.
 Voit valita Hyväksymisen tai hylkäämisen syyn alasvetovalikosta. Jos
 valikosta puuttuu jokin paljon käyttämäsi syy, ota yhteyttä kimppasi
 pääkäyttäjään. Hän pystyy lisäämään valikkoon uusia vaihtoehtoja.  
-![](/assets/files/docs/Hankinta/hankinta30.png)
+![Syy-valikko avattuna. Vaihtoehtoina näkyvät Bestseller, Hyllyssä oleva kappale vaurioitunut, Kirjaston nide kateissa, Lisäkappaleita, Saatavana kaukolainaksi sekä Muut...](/assets/files/docs/Hankinta/hankinta30.png)
 
 Jos valitset syyksi _Muut…_ , saat kehotuksen syöttää syyn
 tekstilaatikkoon. Klikkaamalla _Peruuta_ laatikon oikealla puolella saat
 takaisin syyvalikon.
 
-![](/assets/files/docs/Hankinta/hankinta31.png)
+![Syy-valikko on muuttunut vapaasanakentäksi, johon kehotetaan syöttämään syy](/assets/files/docs/Hankinta/hankinta31.png)
 
 Kun olet klikannut _OK_, ehdotus menee sopivalle välilehdelle. Tila
 vaihtuu myös asiakkaan tiedoissa verkkokirjastossa (ei koske Finnaa) ja asiakkaalle lähtee
@@ -403,13 +403,13 @@ sähköpostiviesti ehdotuksen hyväksymisestä/hylkäämisestä.
 ## 7.4 Tilausten teko
 
 Kun teet tilauksen, aloita hakemalla toimittajan tiedot.  
-![](/assets/files/docs/Hankinta/hankinta33.png)
+![Hankinnat-osion etusivulla Tilausten hallinta -otsikon alapuolella Toimittaja-haku](/assets/files/docs/Hankinta/hankinta33.png)
 
 ### 7.4.1 Tilauksen luominen
 
 Klikkaa ensin _Uusi_ ja avautuvasta valikosta _Tilauskori_ toimittajan nimen yläpuolella.
 
-![](/assets/files/docs/Hankinta/hankinta40.png)
+![Toimittajan tiedoissa on ympäröitynä Uusi-valikosta Tilauskori](/assets/files/docs/Hankinta/hankinta40.png)
 
 
 **Vinkki:** Voit lisätä nimekkeitä myös olemassa olevaan tilaukseen
@@ -419,7 +419,7 @@ tilauksia. Tilauskori pitää avata uudelleen, jotta tilauksia voi lisätä.
 
 Uutta tilauskoria varten täytyy täyttää muutamia tietoja:
 
-![](/assets/files/docs/Hankinta/hankinta41.png)
+![Lisää tilauskori toimittajalle Testitoimittaja -otsikon alla lomake, johon täydennetään tilauskorin tiedot.](/assets/files/docs/Hankinta/hankinta41.png)
 
 - Tilauskorille on annettava nimi, jonka avulla se on helpompi
   tunnistaa myöhemmin.
@@ -440,7 +440,7 @@ alasvetovalikosta.
 
 Klikkaa lopuksi _Tallenna_.
 
-![](/assets/files/docs/Hankinta/hankinta42.png)
+![Yhteenvetonäkymä juuri luodusta tilauskorista. Tilauskori Testikori (40491) kirjastolle Testitoimittaja](/assets/files/docs/Hankinta/hankinta42.png)
 
 Kun tilaus on luotu, voit lisätä siihen nimekkeitä, joita tilataan.
 Aloita klikkaamalla _Lisää tilauskoriin_ -nappia.
