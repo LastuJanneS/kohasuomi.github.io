@@ -961,24 +961,24 @@ tallennettuun _Toimitusaika_-arvoon.
 
 Laskuja pääsee hallinnoimaan hankinnnan etusivulta _Laskut_-linkistä.
 
-![](/assets/files/docs/Hankinta/hankinta851.png)
+![Hankinnat-osion vasemman reunan valikosta ympäröitynä Laskut-linkki](/assets/files/docs/Hankinta/hankinta851.png)
 
 Voit rajata hakua esim. laskunumeron, toimittajan, lähetyspäivän tai
 teoksen nimen mukaan.
 
-![](/assets/files/docs/Hankinta/hankinta852.png)
+![Laskujen haku](/assets/files/docs/Hankinta/hankinta852.png)
 
 Saat listan hakuehtoja vastaavista laskuista. Tässä on haettu laskuja
 toimittajan mukaan. Laskut jaotellaan kahteen välilehteen sen mukaan, onko ne avonaisia vai suljettuja.  
-![](/assets/files/docs/Hankinta/hankinta853.png)
+![Laskujen haun tulostaulukko](/assets/files/docs/Hankinta/hankinta853.png)
 
 - Voit **yhdistää** laskuja valitsemalla ne ja painamalla _Yhdistä valitut_ -nappia.
 - Voit **sulkea** laskuja valitsemalla ne ja painamalla _Sulje valitut laskut_ -nappia.
 
 _Toiminnot_-napin alta löytyy lisää vaihtoehtoja
 
-![](/assets/files/docs/Hankinta/hankinta854.png)
-![](/assets/files/docs/Hankinta/hankinta855.png)
+![Tiedot - Sulje](/assets/files/docs/Hankinta/hankinta854.png)
+![Tiedot - Avaa uudelleen](/assets/files/docs/Hankinta/hankinta855.png)
 
 - Tiedot-kohdasta voit avata laskun tiedot tarkemaan katseluun
 - Voit avata laskun uudelleen, jos se on suljettu
@@ -991,17 +991,17 @@ tai tilauksen hakua varten.
 
 ### 7.9.1 Toimittajahaku
 
-![](/assets/files/docs/Hankinta/hankinta86.png)
+![Hankinnat-osion yläreunasta kuva toimittajahausta.](/assets/files/docs/Hankinta/hankinta86.png)
 
 Toimittajahaussa voit hakea millä tahansa sanan osalla.
 
-![](/assets/files/docs/Hankinta/hankinta87.png)
+![Toimittajahakuun kirjoitettu sana testi.](/assets/files/docs/Hankinta/hankinta87.png)
 
 - Huom! Selain ehdottaa aikaisemmin kirjoittamiasi sanoja, jos olet
   sallinut sen selaimen asetuksissa. Koha ei ehdottele
   toimittajatietoja.
 
-![](/assets/files/docs/Hankinta/hankinta88.png)
+![Haun tuloksena avautunut Testitoimittaja-nimisen toimittajan tiedot.](/assets/files/docs/Hankinta/hankinta88.png)
 
 ### 7.9.2 Hankintahaku
 
@@ -1009,9 +1009,9 @@ Hankintahaussa voit hakea tilaamiasi nimekkeitä joko toimittajatietojen
 kanssa tai ilman toimittajan nimeä. Nimekkeestä riittää myös osa, ei
 tarvitse olla kokonaan.
 
-![](/assets/files/docs/Hankinta/hankinta89.png)
+![Hankintahakuun kirjoitettu Nimekehakuun 'kadonnut' ja Toimittajahakuun 'testi'](/assets/files/docs/Hankinta/hankinta89.png)
 
-![](/assets/files/docs/Hankinta/hankinta90.png)
+![Hankintahaun tulokset](/assets/files/docs/Hankinta/hankinta90.png)
 
 - Voit säätää _Sarakkeet_ -napista, mitä sarakkeita taulukossa on näkyvillä.
 - _Vie_ -napista voit viedä tulokset Excel- tai CSV-muotoon, kopioida tiedot tai tulostaa ne.
@@ -1019,19 +1019,19 @@ tarvitse olla kokonaan.
 Klikkaamalla valikko-kuvaketta hankintahaun oikeassa reunassa voit laajentaa
 hakuehtoja.
 
-![](/assets/files/docs/Hankinta/hankinta91.png)
+![Valikko-kuvakkesta avautuu lisävaihtoehtoja: Tilauskori, Laskun numero ja Tarkka haku -linkki (ympäröity)](/assets/files/docs/Hankinta/hankinta91.png)
 
 Saat laajemman hakulomakkeen, kun valitset avautuvasta valikosta
 _Tarkka haku_ -linkin.
 
 Tarkassa haussa pystyt hakemaan mm. ISBN-numerolla  
-![](/assets/files/docs/Hankinta/hankinta921.png)
+![Tarkan haun lomake, jossa on useita eri hakuvaihtoehtoja, kuten nimeke, tilauskorin luoja](/assets/files/docs/Hankinta/hankinta921.png)
 
 ## 7.10 Budjetointi ja tilien seuranta
 
 Hankinnan etusivulla on näkyvillä kaikki aktiiviset tilit.
 
-![](/assets/files/docs/Hankinta/hankinta93.png)
+![Hankinnat-osion etusivun budjettitaulukko](/assets/files/docs/Hankinta/hankinta93.png)
 
 - Voit suodattaa näkymää _Haku_-kentällä tai alasvetovalikosta kirjaston mukaan.
 - Voit viedä tulokset _Vie_-napilla Excel- tai CSV-muotoon, kopioida tiedot tai tulostaa ne.
@@ -1040,7 +1040,7 @@ Hankinnan etusivulla on näkyvillä kaikki aktiiviset tilit.
 Klikkaamalla jotain _Tilattu_- tai _Käytetty_-sarakkeen summaa saat
 näkyviin siihen tiliin tehdyt tilaukset.
 
-![](/assets/files/docs/Hankinta/hankinta94.png)
+![Tili JOE_ENOAIK2021-tilin tilaukset listattuna hintoineen.](/assets/files/docs/Hankinta/hankinta94.png)
 
 - Myös tällä sivulla toimii _Haku_-kenttä.
 - Voit myös järjestää tuloksia esim. nimekkeen mukaan sarakkeen ensimmäisen rivin nuolilla.
