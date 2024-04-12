@@ -666,8 +666,7 @@ Listalle tulee teokset, joilla on eniten varauksia per nide.
 
 #### 7.4.1.9. Tilattavien niteiden tiedot
 
-Kun olet tuonut nimeketiedot tavalla tai toisella, täytyy täyttää
-tilattavien niteiden tiedot (vähintään 1 nide). Pakolliset tiedot on
+Kun olet tuonut nimeketiedot tavalla tai toisella, täytyy täyttää tilattavien niteiden tiedot (vähintään 1 nide). Pakolliset tiedot on
 merkitty punaisella. 
 
 **Huomioithan**, että tilastoinnin kannalta on erityisen tärkeää, että hankintapvm on määritetty. Ilman sitä nide ei tule mukaan hankintatilastoihin. **Kenttä täyttyy automaattisesti** tallennuksen yhteydessä, jos sitä ei ole määritetty pakolliseksi ja siihen on kytketty hankintapäivämäärän lisäävä liitännäinen (dateaccessioned.pl).
@@ -739,6 +738,12 @@ tilauksia. _Haku_-kentällä voi suodattaa taulukossa näkyviä tietoja.
 - _Sulje tilauskori_ -nappulasta tilauskorin voi sulkea. Tilausta ei voi vastaanottaa ennen kuin tilauskori on suljettu.
 - _Vie CSV-muodossa_ -painikkeen kautta voit viedä tilauskorin tiedot CSV-muotoiseksi tiedostoksi.
 - _Sähköpostitilaus_-nappulasta korin sisällön voi lähettää toimittajan sähköpostiosoitteeseen, mikäli sellainen on määritetty toimittajan tietoihin.
+
+#### 7.4.1.10 Tilausmäärän muuttaminen
+
+Jos jo tallennetun tilauksen tilausmäärää pitää jälkikäteen muuttaa, onnistuu se avaamalla tilauskori (jos se on jo suljettu) ja muokkaamalla haluttua tilausriviä. Lisäniteet lisätään samalla tavalla kuin alkuperäisetkin niteet eli lisäämällä ne Nide-osiossa ja tallentamalla sitten tilaus.
+
+![Niteiden lisääminen tilaukseen](/assets/files/docs/Hankinta/hankinta62.png)
 
 ### 7.4.2. Tilauksen sulkeminen
 
