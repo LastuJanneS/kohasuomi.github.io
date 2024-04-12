@@ -447,7 +447,7 @@ Aloita klikkaamalla _Lisää tilauskoriin_ -nappia.
 
 Valitse sitten, miten haluat lisätä nimekkeen:
 
-![](/assets/files/docs/Hankinta/hankinta421.png)
+![Pop-up, jossa eri tapoja lisätä nimeke. Tavat kuvattu tekstissä alapuolella.](/assets/files/docs/Hankinta/hankinta421.png)
 
 Ensin esitellään kaikki eri tavat lisätä tilaus, lopussa kerrotaan Nide-
 ja tilitystietojen lisääminen.
@@ -456,12 +456,12 @@ ja tilitystietojen lisääminen.
 
 Jos tilaat lisäkappaleita olemassa olevaan nimekkeeseen, voit yksinkertaisesti hakea kyseisen tietueen haulla. Kirjoita teoksen nimi (huom. voit käyttää indeksien tunnuksia haussa halutessasi, esim. ti:väylä) ja klikkaa _OK_, jolloin sinut ohjataan tiedonhaun tuloksiin. Valitse oikea tietue klikkaamalla _Lisää tilaus_ sen kohdalla.
 
-![](/assets/files/docs/Hankinta/hankinta43.png)
+![Tiedonhaun hakutuloslistalla teoksen tiedoissa Lisää tilaus -linkki ympäröity](/assets/files/docs/Hankinta/hankinta43.png)
 
 
 Tilauksessa tarvittavat luettelointitiedot näkyvät tilaustiedoissa _Luettelon tiedot_ -kohdassa.
  
-![](/assets/files/docs/Hankinta/hankinta44.png)
+![Luettelon tiedot -kohta tilauksen tiedoissa](/assets/files/docs/Hankinta/hankinta44.png)
 
 
 #### 7.4.1.2. Hankintaehdotuksesta
@@ -473,18 +473,18 @@ Kohaan tulevia hankintaehdotuksia.
 - Asiakkaiden tekemistä hankintaehdotuksista voi tehdä tilauksen.
   Jotta hankintaehdotukset ja tilaukset pysyisivät kiinni toisissaan,
   kannattaa tilaus tehdä hankintaehdotuksen linkin kautta.  
-  ![](/assets/files/docs/Hankinta/hankinta45.png)
+  ![Hankintaehdotusessa viimeisessä sarakkeessa Tilaus-linkki](/assets/files/docs/Hankinta/hankinta45.png)
   - Tuloksista klikkaa _Tilaus_-linkkiä sen nimekkeen kohdalla,
     minkä haluat tilata ja saat lomakkeen, jossa on valmiina
     tilaukseen liittyviä tietoja sekä linkki hankintaehdotukseen.
 
-![](/assets/files/docs/Hankinta/hankinta46.png)
+![Luettelon tiedot -kohta tilauksen tiedoissa sekä Ehdotus-kohta sen alapuolella. Ehdottajan nimi ja ehdotuksen numero näkyvillä.](/assets/files/docs/Hankinta/hankinta46.png)
 
 - Voit tehdä muutoksia tietoihin tarvittaessa.
 
 - Tilauskorissa näkyy nimekkeen kohdalla linkki hankintaehdotukseen ja
 ehdotuksen tekijän nimi.  
-![](/assets/files/docs/Hankinta/hankinta47.png)
+![Ehdottajan nimi ympyröitynä tilausrivissä](/assets/files/docs/Hankinta/hankinta47.png)
 
 Hankintaehdotusten perusteella tehdyistä tilauksista lähtee asiakkaalle
 sähköpostiviesti, jossa kerrotaan tehdystä tilauksesta.
@@ -497,23 +497,23 @@ hankintaan valitsemalla _Kausijulkaisutilauksesta_.
 - Klikkaamalla tilauslinkkiä pääset hakusivulle, josta voit hakea
   kausijulkaisutilauksen tiedot.
   
-![](/assets/files/docs/Hankinta/hankinta48.png)
+![Kausijulkaisujen haku](/assets/files/docs/Hankinta/hankinta48.png)
 
 Hakemasi lehden tilaustiedot tulevat näytölle ja oikeassa reunassa
 olevassa sarakkeessa on _Tilaus_-nappula. Jos tilaus on jo kiinni toisessa toimittajassa, on rivin kohdalla "Ei voi tilata".  
-![](/assets/files/docs/Hankinta/hankinta49.png)
+![Kausijulkaisuhaun tulostaulukko, jossa kaksi riviä näkyvillä](/assets/files/docs/Hankinta/hankinta49.png)
 
 Klikkaamalla Tilaus-nappia saat kausijulkaisutilauksen tiedot tilauslomakkeelle ilman
 Lisää nide -osiota, koska kausijulkaisutilauksessa sitä ei tarvita.  
-![](/assets/files/docs/Hankinta/hankinta50.png)
+![Tilausnäkymä ilman nidetietoja](/assets/files/docs/Hankinta/hankinta50.png)
 
 #### 7.4.1.6. Uudesta (tyhjästä) tietueesta
 
 Jos tilaat sellaisen teoksen, jonka tietoja ei löydy valmiina mistään,
 valitse _Uudesta (tyhjästä) tietueesta_.  
-![](/assets/files/docs/Hankinta/hankinta51.png)
+![Luettelon tiedot -kohdassa kentät Nimeke, Tekijä, Julkaisutiedot, Painos, Julkaisuvuosi, ISBN, Sarja ja Nidetyyppi (valikko)](/assets/files/docs/Hankinta/hankinta51.png)
 
-- Anna tyhjään lomakkeeseen kaikki tarvittavat tiedot tilauksesta.
+Täydennä lomakkeen tiedot tarvittavilta osin. Huomioi, että syötety tiedot menevät MARC-kenttiin osittain tuplana, joten kuvailutietoja pitää käydä jälkikäteen muokkaamassa paremmiksi.
   
 Huom! Tyhjästä tietueesta tehdyn tietueen tietoja pitää käydä jälkikäteen täydentämässä kuvailussa, jotta teos löytyy tiedonhaun kautta:
   - 0-välilehdellä on ensimmäinen rivi kenttä nro 000 eli Nimiö. Rivin
@@ -525,7 +525,7 @@ Huom! Tyhjästä tietueesta tehdyn tietueen tietoja pitää käydä jälkikätee
     korjaamassa.
   - Klikkaa 005-kenttää, jotta saat siihen päivämäärleiman
   - Muokkaa 008-kentän tiedot oikeaksi. 
-  - Välilehdellä 9 pitää käydä valitsemassa lisäksi aineistotyyppi 942c-kenttään.
+  - Välilehdellä 9 pitää käydä valitsemassa lisäksi aineistotyyppi 942c-kenttään. Tähän tulee tilausta tallennettaessa oletuksena nidetyyppi, joka ei ole oikein.
   - Tekijätieto menee kolmeen kohtaan 100a/110a/111a -> poista ylimääräiset.
   - Toimittajatieto menee 028a-kenttään -> siirrä oikeaan
 
@@ -533,35 +533,35 @@ Huom! Tyhjästä tietueesta tehdyn tietueen tietoja pitää käydä jälkikätee
 
 Tilauksen voi tehdä jo olemassa olevan tilauksen pohjalta kopioimalla sen. Kun valitset _Olemassa olevista tilauksista (kopio)_, niin saat ensin tilausten hakusivun. Hae haluamillasi hakuehdoilla. HUOM! Tämä on hidas, jos tietokannassa on paljon tilauksia eli käytännössä kaikilla.
 
-![](/assets/files/docs/Hankinta/hankinta502.png)
+![Tilausten haku](/assets/files/docs/Hankinta/hankinta502.png)
 
 Valitse hakutuloksista sopiva tilausrivi ja klikkaa sitten _Seuraava_-nappia.
 
-![](/assets/files/docs/Hankinta/hankinta503.png)
+![Kopioi olemassa olevat tilaukset -näkymä, jossa yksi rivi valittuna.](/assets/files/docs/Hankinta/hankinta503.png)
 
 Valitse tai lisää haluamasi tilitystiedot tai kopioi alkuperäiset arvot laittamalla rasti rivin edessä olevaan laatikkoon.
 
-![](/assets/files/docs/Hankinta/hankinta504.png)
+![Tilitystiedot-osio](/assets/files/docs/Hankinta/hankinta504.png)
 
 Tilaukset luodaan ja saat yhteenvedon kopioiduista tilauksista. Palaa takaisin tilauskoriin valitsemalla _Palaa tilauskoriin_.
 
-![](/assets/files/docs/Hankinta/hankinta505.png)
+![Yhteenveto kopioiduista tilauksista](/assets/files/docs/Hankinta/hankinta505.png)
 
 #### 7.4.1.5 Ulkoisesta lähteestä
 
 Tilattavan teoksen kuvailutiedot voi noutaa myös ulkoisesta lähteestä, jolloin avautuu Z39.50-haku.
 
-![](/assets/files/docs/Hankinta/hankinta506.png)
+![Z39.50 hakuikkuna, jossa useita eri hakuvaihtoehtoja. Hakukohteista on valittuna Melinda ja Täti](/assets/files/docs/Hankinta/hankinta506.png)
 
 Valitse oikealta hakukohteista, mistä tietokannoista haluat teosta etsiä ja kirjoita vasemmalle hakukenttiin sopiva hakutermi. Klikkaa sitten Hae, jolloin saat hakutuloslistauksen. Toiminnot-sarakkeen nappia painamalla saa valittua "Tilaus"-vaihtoehdon. MARC- ja Kortti-vaihtoehdoilla näkee teoksen luettelointitiedot.
 
-![](/assets/files/docs/Hankinta/hankinta507.png)
+![Toiminnot-sarakkeen nappula avattuna ja ympyröitynä Tilaus-vaihtoehto](/assets/files/docs/Hankinta/hankinta507.png)
 
 Jos tilaamasi nimeke näyttää olevan Kohan mielestä tuplatietue, saat
 varoituksen ja valintavaihtoehtoja, mistä valitset sopivan toiminnon.
 Voit tarkistaa linkistä, mikä tietokannan tietue Kohan mielestä on
 sama.  
-![](/assets/files/docs/Hankinta/hankinta531.png)
+![Kopiovaroitus, jossa alla esitellyt vaihtoehdot](/assets/files/docs/Hankinta/hankinta531.png)
 
 - Jos tietue on sama, valitse _Käytä olemassa olevaa tietuetta_
 - Jos haluat peruuttaa kuvailutiedon tuonnin, valitse _Peruuta ja
@@ -570,7 +570,7 @@ sama.
 
 Tilauslomakkeella ei voi muuttaa kuvailutietoja. Jos haluat
 tässä vaiheessa muokata tietueen tietoja, valitse _Muokkaa tietuetta_.  
-![](/assets/files/docs/Hankinta/hankinta54.png)
+![Teoksen tiedot tilauslomakkeella ja ympäröitynä Muokkaa tietuetta -linkki](/assets/files/docs/Hankinta/hankinta54.png)
 
 #### 7.4.1.6 Uudesta tiedostosta
 
@@ -581,32 +581,32 @@ Tilauksen voi tehdä tuomalla välivarastoon MARC-tietueita tiedostosta.
 
 Valitse välivarastoitava MARC-tietue klikkaamalla Selaa.
 
-![](/assets/files/docs/Hankinta/hankinta508.png)
+![Lataa tiedosto välivarastoon, jossa tiedoston selaus ja Lähetä tiedosto -nappi](/assets/files/docs/Hankinta/hankinta508.png)
 
 Valitse sopivat asetukset tuonnille. Voit käyttää myös MARC-muokkauksen pohjia tuonnissa.
 
-![](/assets/files/docs/Hankinta/hankinta509.png)
+![Profiilin valinta, Asetukset ja käytettävän mallipohjan valinta](/assets/files/docs/Hankinta/hankinta509.png)
 
 
-![](/assets/files/docs/Hankinta/hankinta510.png)
+![Tuplatietuetarkistus ja tuodaanko nidetiedot](/assets/files/docs/Hankinta/hankinta510.png)
 
 Valitse sitten _Vie väliaikaiseen tuontisäiliöön_.
 
 Jos vienti onnistuu, pääset tekemään tilauksen _Lisää välivarastoituja tiedostoja tilauskoriin_.
 
-![](/assets/files/docs/Hankinta/hankinta511.png)
+![Yhteenveto MARC-välivarastoinnin tuloksista ja nappi Lisää välivarastoituja tiedostoja tilauskoriin](/assets/files/docs/Hankinta/hankinta511.png)
 
 Tämän jälkeen tilaus etenee laittamalla tilattavan teoksen kohdalle rastin, jolloin avautuu lisätietoja.
 
-![](/assets/files/docs/Hankinta/hankinta512.png)
+![Lista tiedoston sisältämistä nimekkeistä, joita voi valita](/assets/files/docs/Hankinta/hankinta512.png)
 
 Täydennä tarvittavat tiedot välilehdille ja valitse sitten _Tallenna_
 
-![](/assets/files/docs/Hankinta/hankinta513.png)
+![Tilattavien määrä, hinta, korvaushinta](/assets/files/docs/Hankinta/hankinta513.png)
 
-![](/assets/files/docs/Hankinta/hankinta514.png)
+![Nidetietojen määritys eli esim. kirjasto- ja hyllypaikkatiedot](/assets/files/docs/Hankinta/hankinta514.png)
 
-![](/assets/files/docs/Hankinta/hankinta515.png)
+![Tilitietojen valinta eli mm. rahayksikkö ja käytettävä tili](/assets/files/docs/Hankinta/hankinta515.png)
 
 #### 7.4.1.7. Tilaus väliaikaistiedostosta
 
