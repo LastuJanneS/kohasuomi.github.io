@@ -17,8 +17,12 @@ Läsnä:
 
 **Yhteiset**
 * Versionvaihdon tarkempi aikataulu
+  * palvelut laitetaan kiinni su 5.5.2024 klo 19 ja aloitetaan päivitysskirptien ajo. Ne on toivottavasti saatu ajettua läpi noin klo 22.
+  * ma-aamuna 6.5.2024 jatketaan töitä ja jos kaikki on mennyt hyvin, päästään jo aamusta testaamaan.
+  * Kaikki toiminnot ja palvelut on tarkoitus saada toimimaan ti 7.5.2024 puoleen päivään mennessä.
 * [Tarkka haku -toimintoon paluu hakutuloksen Muokkaa hakua -linkistä muuttaa tehdyn haun hakutyypin](https://github.com/KohaSuomi/Koha/issues/663)
-  * Ehdotuksena, että viimeisimmissä kommenteissa mainitut rimpsut laitettaisiin nexteille ja sieltä sitten tuotantoon. 
+  * Ehdotuksena, että viimeisimmissä kommenteissa mainitut rimpsut laitettaisiin nexteille ja sieltä sitten tuotantoon.
+* IntranetUserJS-rimpsut ja niiden plugarisointi - käydään läpi Larin keräämä listaus.
 
 Etelästä pohjoiseen
 
