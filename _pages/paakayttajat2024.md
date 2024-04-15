@@ -24,7 +24,8 @@ Läsnä:
 * [Nextiltä tuotantoon kopioitavat tiedot](https://github.com/KohaSuomi/Koha-23x/issues/121)
 * [Tarkka haku -toimintoon paluu hakutuloksen Muokkaa hakua -linkistä muuttaa tehdyn haun hakutyypin](https://github.com/KohaSuomi/Koha/issues/663)
   * Ehdotuksena, että viimeisimmissä kommenteissa mainitut rimpsut laitettaisiin nexteille ja sieltä sitten tuotantoon.
-* IntranetUserJS-rimpsut ja niiden plugarisointi - käydään läpi Larin keräämä listaus.
+* IntranetUserJS-rimpsut ja niiden plugarisointi - käydään läpi Larin keräämä listaus [intranetuserjs_22x.ods](https://github.com/KohaSuomi/kohasuomi.github.io/files/14978767/intranetuserjs_22x.ods)
+.
 * [Pääkäyttäjien versionvaihdon muistilistaa](https://github.com/KohaSuomi/Koha-23x/wiki/P%C3%A4%C3%A4k%C3%A4ytt%C3%A4jien-muistilista) voi täydennellä aina, kun hoksaa jotain.
 
 
