@@ -70,4 +70,39 @@ Lisää niteitä odotuslistalle _Lisää odotuslistalle_ -napista.
 
 ![Odotuslista](/assets/files/docs/Kasittelyerat/kasittelyerat3.png)
 
-Avautuu ikkuna, johon voit joko lukea tai kirjoittaa halutut viivakoodit.
+Avautuu ikkuna, johon voit joko lukea tai kirjoittaa halutut viivakoodit. Lisää viivakoodeja yksi per rivi ilman välimerkkejä. Jos viivakoodit lisätään virheellisesti, siirtyy vain alimmainen arvo odotuslistalle.
+
+![Niteiden lisääminen odotuslistalle](/assets/files/docs/Kasittelyerat/kasittelyerat4.png)
+
+Kun olet lisännyt halutut viivakoodit, valitse sitten _Submit_. Näkymä palaa odotuslistan etusivulle.
+
+Sivulle ilmestyy uusi nappi _Lisää viimeiset x nidettä käsittelyerään_, jota painamalla juuri viedyt niteet saa vietyä suoraan jo olemassa olevaan käsittelyerään.
+
+## Käsittelyerät
+
+Käsittelyerät-välilehdellä voit lisätä ja seurata käsittelyeriäsi.
+
+![Käsittelyerät-välilehti](/assets/files/docs/Kasittelyerat/kasittelyerat5.png)
+
+Taulukossa listataan kaikki käsittelyerät. Taulukko pitää sisällään seuraavat tiedot:
+
+* _Nimi_: Käsittelyerän nimi
+* _Luotu_: Käsittelyerän luontipäivä
+* _Suljettu_: Käsittelyerän sulkupäivä
+* _Lähetetty_: Käsittelyerän lähetyspäivä
+* _Vastaanotettu_: Käsittelyerän vastaanottopäivä
+* _Toiminnot_:
+  * _Muokkaa_-napista voit muokata käsittelyerän tietoja
+  * _Poista_-napista voit poistaa käsittelyerän
+  * _Lisää niteitä_ -napista voit lisätä käsittelyerään odotuslistalle olevia niteitä.
+ 
+### Uusi käsittelyerä
+
+_Uusi käsittelyerä_ -nappulasta saat lisättyä käsittelyerän.
+
+![Uusi käsittelyerä](/assets/files/docs/Kasittelyerat/kasittelyerat6.png)
+
+* _Nimi_: Kuvaava nimi käsittelyerälle
+* _Kuvaus_: Lisätietoja käsittelyerästä
+* _Käsittelyerään lisätyn niteen tila_: Tähän tulee automaattisesti asetuksissa määritetty oletusarvo, mutta sen voi vaihtaa toiseksi valikosta.
+* _Oletuskäsittelypohja_: Valitse sopiva käsittelypohja.
