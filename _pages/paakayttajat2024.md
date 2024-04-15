@@ -25,6 +25,8 @@ Läsnä:
 * [Tarkka haku -toimintoon paluu hakutuloksen Muokkaa hakua -linkistä muuttaa tehdyn haun hakutyypin](https://github.com/KohaSuomi/Koha/issues/663)
   * Ehdotuksena, että viimeisimmissä kommenteissa mainitut rimpsut laitettaisiin nexteille ja sieltä sitten tuotantoon.
 * IntranetUserJS-rimpsut ja niiden plugarisointi - käydään läpi Larin keräämä listaus.
+* [Pääkäyttäjien versionvaihdon muistilistaa](https://github.com/KohaSuomi/Koha-23x/wiki/P%C3%A4%C3%A4k%C3%A4ytt%C3%A4jien-muistilista) voi täydennellä aina, kun hoksaa jotain.
+
 
 Etelästä pohjoiseen
 
