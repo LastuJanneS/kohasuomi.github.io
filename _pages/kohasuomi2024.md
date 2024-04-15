@@ -16,10 +16,12 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 ## Viikko 16
 
 Aika: Maanantai 15.4.2024 klo 9<br />
-Läsnä:
+Läsnä: Lasse, Ari, Emmi, Anneli, Johanna, Pasi, Kassu, Lari, Kodo
 
 * Miten toteutetaan [tiketti #467](https://github.com/KohaSuomi/Koha/issues/467) / Kassu
+  * CSS-muutos ja käännös, koetetaan saada yhteisöön
 * Versionvaihdon tarkempi aikataulu päätettävä ja tiedotettava.
+  * Sunnuntai-iltana 5.5. klo 19
 * JS-rimpsujen läpikäynti Larin listan pohjalta
 
 ## Viikko 15
