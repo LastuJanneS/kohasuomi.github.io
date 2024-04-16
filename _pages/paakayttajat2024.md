@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 16
 
 Aika: 16.4.2024 klo 9.15<br />
-Läsnä: Anneli Österman, Kodo Korkalo, Lari Strand (Koha-Suomi), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Leena Kinnunen ja Pia Kusmin (Lappi), Kati Sillgren (Helle)
+Läsnä: Anneli Österman, Kodo Korkalo, Lari Strand (Koha-Suomi), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Leena Kinnunen ja Pia Kusmin (Lappi), Kati Sillgren (Helle), Hanna Ikonen ja Katja Valjakka (Lumme)
 
 **Yhteiset**
 * Versionvaihdon tarkempi aikataulu
@@ -43,6 +43,11 @@ Etelästä pohjoiseen
 **Vaara**
 * Yhteisöasiakkailla ei ollut pääsyä Ellibsiin. Havaittu syyksi se, että heillä ei ole asiakastiedoissa ikätietoa (ajettu pois). Ei ole Vaaran osalta enää suuri ongelma, sillä siirtyminen uuteen e-kirjastoon tapahtuu viikon päästä. Muille Ellibsiä pitempään käyttäville tiedoksi.
 * Noutamaton varaus ja saatavana-tila  aiheuttanut hämminkiä omatoimikirjastossa viikonloppuna (asiakas katsonut Finnasta, että nide on hyllyssä ja löytyikin varaushyllystä). Keskusteltiin, että tiketti [#1100 ](https://github.com/KohaSuomi/Koha/issues/1100) on menossa asiantuntijaryhmään ja mahdollisesti saataisiin korjaus/muutos asiaan.
+
+**Lumme**
+* Perusylläpitoa.
+* Ei-aktiivisten asiakkaiden poistoajo aloitettu ja jatkuu vielä.
+* Törmättiin tilanteeseen, jossa asiakkaan kahden kortin yhdistämisessä toisella kortilla ollut taattava ei siirtynyt korttien yhdistämisessä aktiiviseksi jätetyn kortin alle. Ongelmasta tarkoitus tehdä tiketti yhteisöön.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-16) - [Palaa sivun alkuun](/paakayttajat2024)
 
