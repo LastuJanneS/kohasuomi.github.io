@@ -40,6 +40,10 @@ Etelästä pohjoiseen
 * Uuden version testailua.
 * Lapissa oli 5.4. e-kirjeet jumittaneet ja huomattiin vasta eilen. Korjattiin varaukset ja myöhästymismaksut. Miten Faild-tilalliset saa pois listoilta? Voidaan poistaa kehittäjän toimesta, mutta poistuvat samalla myös asiakkaan viesteistä.
 
+**Vaara**
+* Yhteisöasiakkailla ei ollut pääsyä Ellibsiin. Havaittu syyksi se, että heillä ei ole asiakastiedoissa ikätietoa (ajettu pois). Ei ole Vaaran osalta enää suuri ongelma, sillä siirtyminen uuteen e-kirjastoon tapahtuu viikon päästä. Muille Ellibsiä käyttäville tiedoksi.
+* Noutamaton varaus ja saatavana-tila  aiheuttanut hämminkiä omatoimikirjastossa viikonloppuna (asiakas katsonut Finnasta, että nide on hyllyssä ja löytyikin varaushyllystä). Keskusteltiin, että tiketti [#1100 ](https://github.com/KohaSuomi/Koha/issues/1100) on menossa asiantuntijaryhmään ja mahdollisesti saataisiin korjaus/muutos asiaan.
+
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-16) - [Palaa sivun alkuun](/paakayttajat2024)
 
 ## Viikko 15
