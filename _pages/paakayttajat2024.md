@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 16
 
 Aika: 16.4.2024 klo 9.15<br />
-Läsnä: Anneli Österman, Kodo Korkalo, Lari Strand (Koha-Suomi), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Leena Kinnunen ja Pia Kusmin (Lappi), Kati Sillgren (Helle), Hanna Ikonen ja Katja Valjakka (Lumme)
+Läsnä: Anneli Österman, Kodo Korkalo, Lari Strand (Koha-Suomi), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Leena Kinnunen ja Pia Kusmin (Lappi), Kati Sillgren (Helle), Hanna Ikonen ja Katja Valjakka (Lumme), Annika Helastila ja Elina Uotila (Kirkes)
 
 **Yhteiset**
 * Versionvaihdon tarkempi aikataulu
@@ -48,6 +48,10 @@ Etelästä pohjoiseen
 * Perusylläpitoa.
 * Ei-aktiivisten asiakkaiden poistoajo aloitettu ja jatkuu vielä.
 * Törmättiin tilanteeseen, jossa asiakkaan kahden kortin yhdistämisessä toisella kortilla ollut taattava ei siirtynyt korttien yhdistämisessä aktiiviseksi jätetyn kortin alle. Ongelmasta tarkoitus tehdä tiketti yhteisöön.
+
+**Kirkes**
+* Käyty läpi intranetuserjs- ja intranetusercss-rimpsuja Nextillä ja samalla testattu/räätälöity Vaskin jakamaa "Lisää käyttäjäoikeudet" -rimpsua, joka vaikuttaa oikein toimivalta.
+* Ihmetystä herättänyt tapaus, jossa asiakkaalle on muodostunut maksimimäärä myöhästymismaksua samasta lainasta kahteen kertaan. Tiketti tehty [#1157](https://github.com/KohaSuomi/Koha/issues/1157)
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-16) - [Palaa sivun alkuun](/paakayttajat2024)
 
