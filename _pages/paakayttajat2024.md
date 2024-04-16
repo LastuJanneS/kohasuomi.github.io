@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 16
 
 Aika: 16.4.2024 klo 9.15<br />
-Läsnä: Anneli Österman, Kodo Korkalo, Lari Strand (Koha-Suomi)
+Läsnä: Anneli Österman, Kodo Korkalo, Lari Strand (Koha-Suomi), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI)
 
 **Yhteiset**
 * Versionvaihdon tarkempi aikataulu
@@ -31,6 +31,10 @@ Läsnä: Anneli Österman, Kodo Korkalo, Lari Strand (Koha-Suomi)
 
 
 Etelästä pohjoiseen
+
+**OUTI**
+* Ei mitää erityistä, ollut normaalia tukityötä.
+* Versionvaihdon testausta.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-16) - [Palaa sivun alkuun](/paakayttajat2024)
 
