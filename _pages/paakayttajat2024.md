@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 16
 
 Aika: 16.4.2024 klo 9.15<br />
-Läsnä: Anneli Österman, Kodo Korkalo, Lari Strand (Koha-Suomi), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI)
+Läsnä: Anneli Österman, Kodo Korkalo, Lari Strand (Koha-Suomi), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Leena Kinnunen ja Pia Kusmin (Lappi)
 
 **Yhteiset**
 * Versionvaihdon tarkempi aikataulu
@@ -35,6 +35,10 @@ Etelästä pohjoiseen
 **OUTI**
 * Ei mitää erityistä, ollut normaalia tukityötä.
 * Versionvaihdon testausta.
+
+**Lappi**
+* Uuden version testailua.
+* Lapissa oli 5.4. e-kirjeet jumittaneet ja huomattiin vasta eilen. Korjattiin varaukset ja myöhästymismaksut. Miten Faild-tilalliset saa pois listoilta? Voidaan poistaa kehittäjän toimesta, mutta poistuvat samalla myös asiakkaan viesteistä.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-16) - [Palaa sivun alkuun](/paakayttajat2024)
 
