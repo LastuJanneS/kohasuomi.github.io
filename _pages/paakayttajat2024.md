@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 16
 
 Aika: 16.4.2024 klo 9.15<br />
-Läsnä:
+Läsnä: Anneli Österman, Kodo Korkalo, Lari Strand (Koha-Suomi)
 
 **Yhteiset**
 * Versionvaihdon tarkempi aikataulu
@@ -21,6 +21,7 @@ Läsnä:
   * ma-aamuna 6.5.2024 jatketaan töitä ja jos kaikki on mennyt hyvin, päästään jo aamusta testaamaan.
   * Kaikki toiminnot ja palvelut on tarkoitus saada toimimaan ti 7.5.2024 puoleen päivään mennessä.
   * [Versionvaihdon tiedote 3](https://github.com/KohaSuomi/Koha/discussions/1154)
+  * Pidetään ma 6.5.2024 klo 10 väliaikapalaveri, jossa käydään läpi, missä mennään ja miltä näyttää.
 * [Nextiltä tuotantoon kopioitavat tiedot](https://github.com/KohaSuomi/Koha-23x/issues/121)
 * [Tarkka haku -toimintoon paluu hakutuloksen Muokkaa hakua -linkistä muuttaa tehdyn haun hakutyypin](https://github.com/KohaSuomi/Koha/issues/663)
   * Ehdotuksena, että viimeisimmissä kommenteissa mainitut rimpsut laitettaisiin nexteille ja sieltä sitten tuotantoon.
