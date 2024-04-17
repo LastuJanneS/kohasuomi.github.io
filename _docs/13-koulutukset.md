@@ -13,6 +13,15 @@ Koulutusilmoitukset löytyvät [Koha-Suomen GitHubista](https://github.com/KohaS
 
 ## Kaikille kohdistetut koulutukset
 
+### Koha 23.11 -version esittely
+
+Kohan version 23.11 esittely pidettiin 17.4.2024. Esittelijänä Anneli Österman
+
+[Esittelyn tallenne on Koha-Suomen Youtube-kanavalla](https://youtu.be/XO8YtD_o6Ns)
+
+Esittelyn diasarja: [Uutta versiossa 23.11.pdf](https://github.com/KohaSuomi/kohasuomi.github.io/files/15011001/Uutta.versiossa.23.11.pdf)
+
+
 ### Kokoelmatyön tiedonhaku -koulutus
 
 Kokoelmatyön tiedonhaku -koulutus pidettiin 4.4.2024. Kouluttajana Anneli Österman.
