@@ -22,6 +22,10 @@ Läsnä:
 
 ### Arin ajankohtaiset
 
+### Sähköinen ilmoittautuminen
+
+Lastu-kirjastoista Janne Seppänen kertoo heidän sähköoisen ilmoittautumisen prosessista. 
+
 ### Signum-työryhmän perustaminen
 
 Edellisessä kokouksessa päätettiin perustaa työryhmä, joka miettii ja testaa, voisiko signumeihin tehdä sellaisen muutoksen, että ne sisältäisivät vain luokan ja pääsanan. Mitä kaikkea pitää ottaa huomioon, jos muutos tehdään. Jokaisesta kimpasta pyydettiin etsimään yksi jäsen mukaan ryhmään.
