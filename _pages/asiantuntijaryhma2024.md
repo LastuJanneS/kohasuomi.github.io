@@ -15,6 +15,28 @@ Koha-Suomen asiantuntijaryhmään kuuluvat Leena Kinnunen (Lapin kirjasto), Noor
 
 Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 
+## Asiantuntijaryhmän esityslista 6/24
+
+Aika: 29.4.2024 klo 13<br />
+Läsnä:
+
+### Arin ajankohtaiset
+
+### Signum-työryhmän perustaminen
+
+Edellisessä kokouksessa päätettiin perustaa työryhmä, joka miettii ja testaa, voisiko signumeihin tehdä sellaisen muutoksen, että ne sisältäisivät vain luokan ja pääsanan. Mitä kaikkea pitää ottaa huomioon, jos muutos tehdään. Jokaisesta kimpasta pyydettiin etsimään yksi jäsen mukaan ryhmään.
+
+Jäsenet kimpoista:
+
+OUTI: Anu Seilonen ja Mari Vesala (ouka.fi)
+
+### Kehitysehdotusten läpikäynti
+
+### Muut asiat
+
+### Seuraava kokous
+
+
 ## Asiantuntijaryhmän muistio 5/2024
 
 Aika: 8.4.2024 klo 13<br />
