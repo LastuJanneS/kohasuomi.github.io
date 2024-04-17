@@ -19,6 +19,8 @@ Aika: Maanantai 22.4.2024 klo 9<br />
 Läsnä:
 
 * Versionvaihdon tikettien tilannekatsaus / Anneli
+* Päivitys vko 17
+  * [Laskutus-liitännäinen: Merkitse lähetetyt finvoice-laskut sent-tilaisiksi heti lähetyksen jälkeen #12](https://github.com/KohaSuomi/koha-plugin-overdue-tool/issues/12) 
 
 ## Viikko 16
 
