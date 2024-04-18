@@ -10,6 +10,19 @@ title: 'Koha-Suomen pääkäyttäjäryhmän muistiot 2024'
 
 Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on aina uusin muistio.
 
+## Viikko 17
+
+Aika: 23.4.2024 klo 9.15<br />
+Läsnä:
+
+**Yhteiset**
+* [Palautuskuitille tieto, jos asiakkaan lainahistoria on anonymisoitu](https://github.com/KohaSuomi/Koha/issues/1153) - testattu toimivaksi muutamassa kimpassa. Kuittipohjan voi muuttaa uudenlaiseksi kimpan päätöksen ja aikataulun mukaisesti.
+
+Pohjoisesta etelään
+
+
+[Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-17) - [Palaa sivun alkuun](/paakayttajat2024)
+
 ## Viikko 16
 
 Aika: 16.4.2024 klo 9.15<br />
