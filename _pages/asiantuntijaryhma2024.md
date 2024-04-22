@@ -20,26 +20,38 @@ Asiantuntijaryhmän valitsee kerran vuodessa Koha-Suomen hallitus.
 Aika: 29.4.2024 klo 13<br />
 Läsnä:
 
-### Arin ajankohtaiset
+### 1. Arin ajankohtaiset
 
-### Sähköinen ilmoittautuminen
+### 2. Sähköinen ilmoittautuminen
 
 Lastu-kirjastoista Janne Seppänen kertoo heidän sähköoisen ilmoittautumisen prosessista. 
 
-### Signum-työryhmän perustaminen
+### 3. Signum-työryhmän perustaminen
 
 Edellisessä kokouksessa päätettiin perustaa työryhmä, joka miettii ja testaa, voisiko signumeihin tehdä sellaisen muutoksen, että ne sisältäisivät vain luokan ja pääsanan. Mitä kaikkea pitää ottaa huomioon, jos muutos tehdään. Jokaisesta kimpasta pyydettiin etsimään yksi jäsen mukaan ryhmään.
+
+[Kohan signumiin vain luokka ja pääsana #923](https://github.com/KohaSuomi/Koha/issues/923)
 
 Jäsenet kimpoista:
 
 OUTI: Anu Seilonen ja Mari Vesala (ouka.fi)
 
-### Kehitysehdotusten läpikäynti
+### 4. Kehitysehdotusten läpikäynti
 
-### Muut asiat
+* [Ilmoitukset-sivun viestit ladattavaksi sivu kerrallaan #691](https://github.com/KohaSuomi/Koha/issues/691)
+  * Jatketaan käsittelyä.
+* [Hetun tallennukseen painikkeen siirto tai muistutus tallentamattomasta hetusta #1066](https://github.com/KohaSuomi/Koha/issues/1066)
+  * Ehdotus: Kommenteissa olevan Larin vaihtoehto
+* [Erääntyneille varauksille asetettavaksi erikoistila varauksen vanhenemisen yhteydessä #1100](https://github.com/KohaSuomi/Koha/issues/1100)
+  * Ehdotus: Toteutettavissa. Halutaanko tarjota yhteisöön?
+* [Hyllyvarausraportissa värikoodaus seudun mukaan #1138](https://github.com/KohaSuomi/Koha/issues/1138)
+  * Ehdotus: Toteutus kirjastoryhmien kautta. 
 
-### Seuraava kokous
+### 5. Muut asiat
 
+### 6. Seuraava kokous
+
+Sovitaan seuraavan kokouksen / seuraavien kokousten ajankohta.
 
 ## Asiantuntijaryhmän muistio 5/2024
 
