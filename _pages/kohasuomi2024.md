@@ -16,11 +16,23 @@ Koha-Suomen henkilökunta kokoontuu kerran viikossa pidempään palaveriin ja p�
 ## Viikko 17
 
 Aika: Maanantai 22.4.2024 klo 9<br />
-Läsnä:
+Läsnä: Pasi, Johanna, Lasse, Anneli, Kassu, Lari, Kodo, Emmi
 
 * Versionvaihdon tikettien tilannekatsaus / Anneli
+  * Tiketit käytiin läpi 
 * Päivitys vko 17
-  * [Laskutus-liitännäinen: Merkitse lähetetyt finvoice-laskut sent-tilaisiksi heti lähetyksen jälkeen #12](https://github.com/KohaSuomi/koha-plugin-overdue-tool/issues/12) 
+  * [Laskutus-liitännäinen: Merkitse lähetetyt finvoice-laskut sent-tilaisiksi heti lähetyksen jälkeen #12](https://github.com/KohaSuomi/koha-plugin-overdue-tool/issues/12)
+  * [Raportti, joka laskee tietueen niteiden lainamäärät sekä JavaScriptillä nappi raportin ajoon. #1109](https://github.com/KohaSuomi/Koha/issues/1109)
+    * päivitetään siis koha-plugin-intranetjs-checkout-report-link
+* Scrumm:
+  * Lari: js-rimpsu-plugarien kanssa säätöä
+  * Anneli: yhteisön bugin testausta ja tekemistä, käsittelyerä-toiminnon ihmettelyä
+  * Kassu: randomraija, brancheja nextille
+  * Pasi: XSLT:n kattelua
+  * Kodo: versionvaihdon tikettien testausta
+  * Lasse: varaus-sivun kattelua nexteille
+  * Johanna: Melinda-siirron korjausta
+  * Emmi: käsittelyerä-toiminnon ja backgroundjobs korjaus
 
 ## Viikko 16
 
