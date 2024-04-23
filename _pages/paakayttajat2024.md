@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 17
 
 Aika: 23.4.2024 klo 9.15<br />
-Läsnä: Anneli Österman, Kodo Korkalo ja Pasi Kallinen (Koha-Suomi), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Päivi Knuutinen, Auli Rantasalo ja Hanna Hyttinen (Vaara), Leena Kinnunen ja Pia Kusmin (Lappi)
+Läsnä: Anneli Österman, Kodo Korkalo ja Pasi Kallinen (Koha-Suomi), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Päivi Knuutinen, Auli Rantasalo ja Hanna Hyttinen (Vaara), Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Ikonen (Lumme)
 
 **Yhteiset**
 * [Palautuskuitille tieto, jos asiakkaan lainahistoria on anonymisoitu](https://github.com/KohaSuomi/Koha/issues/1153) - testattu toimivaksi muutamassa kimpassa. Kuittipohjan voi muuttaa uudenlaiseksi kimpan päätöksen ja aikataulun mukaisesti.
@@ -44,6 +44,11 @@ tiketin GitHubiin ja myös kyselyn Finna-toimistoon.
 * Sotuteekin tunnuksia jumissa myös Lapissa. Saatu korjattua.
 * Versionvaihtoon liittyviä töitä.
 * Normaalia ylläpitoa.
+
+**Lumme**
+* Normaalia ylläpitoa.
+* Finna-Nextille vietiin uudet API-avaimet ja saatavuustiedot alkoivat näkymään normaalisti.
+* Laskuttajalta tuli kysymys siitä, että tuleeko Ilmoittaa palauttaneensa -tilassa olevat niteet laskuille. Kohassa kyseiset niteet näkyvät olevatn normaalisti lainassa, mutta niteen tiedoissa näkyy "Ilmoittaa palauttaneensa". Tässä tilassa olevat niteet näyttävät tulevan laskutustyökalun listalle. Tehdään kehitysehdotus, että LOST-tilassa oleva aineisto voitaisiin rajata laskutuksen ulkopuolelle niin halutessa.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-17) - [Palaa sivun alkuun](/paakayttajat2024)
 
