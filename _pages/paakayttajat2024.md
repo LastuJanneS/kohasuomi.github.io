@@ -26,10 +26,10 @@ Pohjoisesta etelään
 
 **OUTI**
 * Testaajat olivat huomanneet nextillä, kun olivat testanneet varauksen noutoaikoja:
-** Jos varaukselle on annettu sen tekovaiheessa joku viimeinen voimassaolopäivä tai jos varauksella on järjestelmän antama oletusvoimassaoloaika, niin järjestelmä antaa ko. päivän myös varauksen viimeiseksi noutopäiväksi, jos varus jää kiinni esim. edellisnä päivänä, kun varauksen voimassaoloaika päättyy.
-** Jos varauksen viimeisen voimassaolopäivän käy vaihtamassa teoksen varausjonossa, varaus saa noutoajaksi normaalin järjestelmäasetuksessa määritellyn ajan, vaikka varaus olisi jäänyt kiinni edellisenä päivänä, kun varauksen voimassaolopäivä päättyy.
-** Toimii näin myös tuotannossa.
-** Tehdään tiketti githubiin.
+*** Jos varaukselle on annettu sen tekovaiheessa joku viimeinen voimassaolopäivä tai jos varauksella on järjestelmän antama oletusvoimassaoloaika, niin järjestelmä antaa ko. päivän myös varauksen viimeiseksi noutopäiväksi, jos varus jää kiinni esim. edellisnä päivänä, kun varauksen voimassaoloaika päättyy.
+*** Jos varauksen viimeisen voimassaolopäivän käy vaihtamassa teoksen varausjonossa, varaus saa noutoajaksi normaalin järjestelmäasetuksessa määritellyn ajan, vaikka varaus olisi jäänyt kiinni edellisenä päivänä, kun varauksen voimassaolopäivä päättyy.
+*** Toimii näin myös tuotannossa.
+*** Tehdään tiketti githubiin.
 * Onko muilla huomioita, että Tietuesiirtäjän valutuksen yhteydessä osakohteisiin ei muodostu aina aineistotyypit 942c-kenttään. Toimintoa on korjattu, mutta vieläkään tämä ei toimi kunnolla. Välillä valutuksen yhteydessä aineistotyypit muodostuvat 942c-kenttään ja välillä ei. Välillä tapahtuu niinkin, että osakohteilla jo olleet aineistotyypit lähtevät pois, kun tietue valuu uudestaan, koska siihen on tullut päivitys. Kommentoidaan tikettiin #915.
 * Jäälin kirjasto menee kiinni 3.6.-6.8.2024. Jäälin monitoimitalossa tehdään korjaustöitä siinä siivessä, jossa kirjasto sijaitsee, joten kirjastoa ei voida pitää auki. Sulkutoimenpiteitä mietitty.
 
