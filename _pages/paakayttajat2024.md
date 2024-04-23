@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 17
 
 Aika: 23.4.2024 klo 9.15<br />
-Läsnä: Anneli Österman, Kodo Korkalo ja Pasi Kallinen (Koha-Suomi)
+Läsnä: Anneli Österman, Kodo Korkalo ja Pasi Kallinen (Koha-Suomi), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI)
 
 **Yhteiset**
 * [Palautuskuitille tieto, jos asiakkaan lainahistoria on anonymisoitu](https://github.com/KohaSuomi/Koha/issues/1153) - testattu toimivaksi muutamassa kimpassa. Kuittipohjan voi muuttaa uudenlaiseksi kimpan päätöksen ja aikataulun mukaisesti.
@@ -24,6 +24,14 @@ Läsnä: Anneli Österman, Kodo Korkalo ja Pasi Kallinen (Koha-Suomi)
 
 Pohjoisesta etelään
 
+**OUTI**
+* Testaajat olivat huomanneet nextillä, kun olivat testanneet varauksen noutoaikoja:
+** Jos varaukselle on annettu sen tekovaiheessa joku viimeinen voimassaolopäivä tai jos varauksella on järjestelmän antama oletusvoimassaoloaika, niin järjestelmä antaa ko. päivän myös varauksen viimeiseksi noutopäiväksi, jos varus jää kiinni esim. edellisnä päivänä, kun varauksen voimassaoloaika päättyy.
+** Jos varauksen viimeisen voimassaolopäivän käy vaihtamassa teoksen varausjonossa, varaus saa noutoajaksi normaalin järjestelmäasetuksessa määritellyn ajan, vaikka varaus olisi jäänyt kiinni edellisenä päivänä, kun varauksen voimassaolopäivä päättyy.
+** Toimii näin myös tuotannossa.
+** Tehdään tiketti githubiin.
+* Onko muilla huomioita, että Tietuesiirtäjän valutuksen yhteydessä osakohteisiin ei muodostu aina aineistotyypit 942c-kenttään. Toimintoa on korjattu, mutta vieläkään tämä ei toimi kunnolla. Välillä valutuksen yhteydessä aineistotyypit muodostuvat 942c-kenttään ja välillä ei. Välillä tapahtuu niinkin, että osakohteilla jo olleet aineistotyypit lähtevät pois, kun tietue valuu uudestaan, koska siihen on tullut päivitys. Kommentoidaan tikettiin #915.
+* Jäälin kirjasto menee kiinni 3.6.-6.8.2024. Jäälin monitoimitalossa tehdään korjaustöitä siinä siivessä, jossa kirjasto sijaitsee, joten kirjastoa ei voida pitää auki. Sulkutoimenpiteitä mietitty.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-17) - [Palaa sivun alkuun](/paakayttajat2024)
 
