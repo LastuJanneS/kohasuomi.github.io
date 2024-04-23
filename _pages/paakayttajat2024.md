@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 17
 
 Aika: 23.4.2024 klo 9.15<br />
-Läsnä: Anneli Österman, Kodo Korkalo ja Pasi Kallinen (Koha-Suomi), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Päivi Knuutinen, Auli Rantasalo ja Hanna Hyttinen (Vaara)
+Läsnä: Anneli Österman, Kodo Korkalo ja Pasi Kallinen (Koha-Suomi), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Päivi Knuutinen, Auli Rantasalo ja Hanna Hyttinen (Vaara), Leena Kinnunen ja Pia Kusmin (Lappi)
 
 **Yhteiset**
 * [Palautuskuitille tieto, jos asiakkaan lainahistoria on anonymisoitu](https://github.com/KohaSuomi/Koha/issues/1153) - testattu toimivaksi muutamassa kimpassa. Kuittipohjan voi muuttaa uudenlaiseksi kimpan päätöksen ja aikataulun mukaisesti.
@@ -38,6 +38,12 @@ Pohjoisesta etelään
 * Asiakkaalta verkkokirjastosähköpostiin tullut anonyymi ehdotus jäädytettyjen varausten erottamisesta normaaleista varauksista. 
 Jäädytetyt varaukset näkyvät voimassa olevien varausten kanssa samassa lukumäärässä. Ongelma myös virkailijatyökalussa. Päivi tekee
 tiketin GitHubiin ja myös kyselyn Finna-toimistoon.
+
+**Lappi**
+* Rovaniemen niteiden muutosajo jumitti kaikki Lapin varaukset. Ei voinut varata eikä lainata varauksia. Ajo keskeytettiin ja suoritettiin uudelleen yöllä, jolloin kaikki meni hyvin.
+* Sotuteekin tunnuksia jumissa myös Lapissa. Saatu korjattua.
+* Versionvaihtoon liittyviä töitä.
+* Normaalia ylläpitoa.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-17) - [Palaa sivun alkuun](/paakayttajat2024)
 
