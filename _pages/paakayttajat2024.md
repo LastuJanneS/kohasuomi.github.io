@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 17
 
 Aika: 23.4.2024 klo 9.15<br />
-Läsnä: Anneli Österman, Kodo Korkalo ja Pasi Kallinen (Koha-Suomi), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Päivi Knuutinen, Auli Rantasalo ja Hanna Hyttinen (Vaara), Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Ikonen (Lumme)
+Läsnä: Anneli Österman, Kodo Korkalo ja Pasi Kallinen (Koha-Suomi), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Päivi Knuutinen, Auli Rantasalo ja Hanna Hyttinen (Vaara), Leena Kinnunen ja Pia Kusmin (Lappi), Hanna Ikonen (Lumme), Tuomas Kunttu (Kyyti)
 
 **Yhteiset**
 * [Palautuskuitille tieto, jos asiakkaan lainahistoria on anonymisoitu](https://github.com/KohaSuomi/Koha/issues/1153) - testattu toimivaksi muutamassa kimpassa. Kuittipohjan voi muuttaa uudenlaiseksi kimpan päätöksen ja aikataulun mukaisesti.
@@ -49,6 +49,11 @@ tiketin GitHubiin ja myös kyselyn Finna-toimistoon.
 * Normaalia ylläpitoa.
 * Finna-Nextille vietiin uudet API-avaimet ja saatavuustiedot alkoivat näkymään normaalisti.
 * Laskuttajalta tuli kysymys siitä, että tuleeko Ilmoittaa palauttaneensa -tilassa olevat niteet laskuille. Kohassa kyseiset niteet näkyvät olevatn normaalisti lainassa, mutta niteen tiedoissa näkyy "Ilmoittaa palauttaneensa". Tässä tilassa olevat niteet näyttävät tulevan laskutustyökalun listalle. Tehdään kehitysehdotus, että LOST-tilassa oleva aineisto voitaisiin rajata laskutuksen ulkopuolelle niin halutessa.
+
+**Kyyti**
+* Kyytiin on tekeillä muutama nidepaketti. Kun nidepakettiasetukset laittaa päälle, tulee Nextillä näkyviin kaikille asiakkaille reklamaatiot-välilehti. Nykyisessä versiossa ei tule. Koska nidepakettien käyttö on hyvin vähäistä, näkyy uusi välilehti turhaan kaikilla asiakkailla. Tehty tiketti, josko saisi välilehden piiloon jollain IntranetUser-rimpsulla.
+* Kyytissä otettu tuotannossa käyttöön anonymisoitujen lainojen palautuskuitti
+* Tietuesiirtäjä otettu tänään käyttöön. Heti tuli kuvailijalta ilmoitus, että pari vanhaa tietuetta on valunut. Lisäksi toivottiin, että tietuesiirtäjän avaa-nappi vaihtaisi väriä painamisen jälkeen, kuten aiemmin.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-17) - [Palaa sivun alkuun](/paakayttajat2024)
 
