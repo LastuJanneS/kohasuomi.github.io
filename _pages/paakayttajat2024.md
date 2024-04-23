@@ -18,6 +18,7 @@ Läsnä:
 **Yhteiset**
 * [Palautuskuitille tieto, jos asiakkaan lainahistoria on anonymisoitu](https://github.com/KohaSuomi/Koha/issues/1153) - testattu toimivaksi muutamassa kimpassa. Kuittipohjan voi muuttaa uudenlaiseksi kimpan päätöksen ja aikataulun mukaisesti.
 * [Salasanan vanhenemistoiminto](https://github.com/KohaSuomi/Koha-23x/issues/98) - Miten toimitaan vanhentuneiden käyttäjätunnusten kirjautumisen estämisessä? Mennäänkö uudella salasanan vanhenemistoiminnolla vai pysytäänkö vanhassa tavassa?
+* [Viikon 17 päivitys](https://github.com/KohaSuomi/Koha/discussions/1164)
 
 Pohjoisesta etelään
 
