@@ -13,7 +13,7 @@ Koha-Suomen pääkäyttäjäryhmä kokoontuu kerran viikossa. Ylimmäisenä on a
 ## Viikko 17
 
 Aika: 23.4.2024 klo 9.15<br />
-Läsnä: Anneli Österman, Kodo Korkalo ja Pasi Kallinen (Koha-Suomi), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI)
+Läsnä: Anneli Österman, Kodo Korkalo ja Pasi Kallinen (Koha-Suomi), Pirkko-Liisa Lauhikari ja Piia Semenoff (OUTI), Päivi Knuutinen, Auli Rantasalo ja Hanna Hyttinen (Vaara)
 
 **Yhteiset**
 * [Palautuskuitille tieto, jos asiakkaan lainahistoria on anonymisoitu](https://github.com/KohaSuomi/Koha/issues/1153) - testattu toimivaksi muutamassa kimpassa. Kuittipohjan voi muuttaa uudenlaiseksi kimpan päätöksen ja aikataulun mukaisesti.
@@ -32,6 +32,12 @@ Pohjoisesta etelään
   * Tehdään tiketti githubiin.
 * Onko muilla huomioita, että Tietuesiirtäjän valutuksen yhteydessä osakohteisiin ei muodostu aina aineistotyypit 942c-kenttään. Toimintoa on korjattu, mutta vieläkään tämä ei toimi kunnolla. Välillä valutuksen yhteydessä aineistotyypit muodostuvat 942c-kenttään ja välillä ei. Välillä tapahtuu niinkin, että osakohteilla jo olleet aineistotyypit lähtevät pois, kun tietue valuu uudestaan, koska siihen on tullut päivitys. Kommentoidaan tikettiin #915.
 * Jäälin kirjasto menee kiinni 3.6.-6.8.2024. Jäälin monitoimitalossa tehdään korjaustöitä siinä siivessä, jossa kirjasto sijaitsee, joten kirjastoa ei voida pitää auki. Sulkutoimenpiteitä mietitty.
+
+**Vaara**
+* Tehty tukipyyntötiketti raportin laatimisesta hankintojen listaamisesta OKM-raporttia vastaavasti.
+* Asiakkaalta verkkokirjastosähköpostiin tullut anonyymi ehdotus jäädytettyjen varausten erottamisesta normaaleista varauksista. 
+Jäädytetyt varaukset näkyvät voimassa olevien varausten kanssa samassa lukumäärässä. Ongelma myös virkailijatyökalussa. Päivi tekee
+tiketin GitHubiin ja myös kyselyn Finna-toimistoon.
 
 [Palaa muistion alkuun](https://koha-suomi.fi/paakayttajat2024#viikko-17) - [Palaa sivun alkuun](/paakayttajat2024)
 
